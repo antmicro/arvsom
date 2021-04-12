@@ -1,0 +1,2622 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1025 1875 1    50   Input ~ 0
+AVDD09_PLL
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60768564
+P 1025 2150
+F 0 "C?" H 1140 2195 60  0000 L CNN
+F 1 "C_1u_0402" H 1025 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1225 2350 60  0001 L CNN
+F 3 "" H 1025 2150 50  0001 C CNN
+F 4 "TDK" H 1225 2550 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 1225 2450 60  0001 L CNN "MPN"
+F 6 "1u" H 1140 2097 50  0000 L CNN "Val"
+	1    1025 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60768951
+P 1350 2150
+F 0 "C?" H 1465 2195 60  0000 L CNN
+F 1 "C_100n_0201" H 1350 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 1550 2350 60  0001 L CNN
+F 3 "" H 1350 2150 50  0001 C CNN
+F 4 "YAGEO" H 1550 2550 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 1550 2450 60  0001 L CNN "MPN"
+F 6 "100n" H 1465 2097 50  0000 L CNN "Val"
+	1    1350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60768C02
+P 1700 2150
+F 0 "C?" H 1815 2195 60  0000 L CNN
+F 1 "C_100n_0201" H 1700 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 1900 2350 60  0001 L CNN
+F 3 "" H 1700 2150 50  0001 C CNN
+F 4 "YAGEO" H 1900 2550 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 1900 2450 60  0001 L CNN "MPN"
+F 6 "100n" H 1815 2097 50  0000 L CNN "Val"
+	1    1700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60768F87
+P 2050 2150
+F 0 "C?" H 2165 2195 60  0000 L CNN
+F 1 "C_100n_0201" H 2050 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2250 2350 60  0001 L CNN
+F 3 "" H 2050 2150 50  0001 C CNN
+F 4 "YAGEO" H 2250 2550 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2250 2450 60  0001 L CNN "MPN"
+F 6 "100n" H 2165 2097 50  0000 L CNN "Val"
+	1    2050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 1875 1025 1950
+Wire Wire Line
+	1025 1950 1350 1950
+Wire Wire Line
+	2050 1950 2050 2000
+Wire Wire Line
+	1700 2000 1700 1950
+Connection ~ 1700 1950
+Wire Wire Line
+	1700 1950 2050 1950
+Wire Wire Line
+	1350 2000 1350 1950
+Connection ~ 1350 1950
+Wire Wire Line
+	1350 1950 1700 1950
+Wire Wire Line
+	1025 2000 1025 1950
+Connection ~ 1025 1950
+Wire Wire Line
+	1025 2300 1025 2350
+Wire Wire Line
+	2050 2300 2050 2350
+Wire Wire Line
+	2050 2350 1700 2350
+Connection ~ 1025 2350
+Wire Wire Line
+	1025 2350 1025 2400
+Wire Wire Line
+	1350 2300 1350 2350
+Connection ~ 1350 2350
+Wire Wire Line
+	1350 2350 1025 2350
+Wire Wire Line
+	1700 2300 1700 2350
+Connection ~ 1700 2350
+Wire Wire Line
+	1700 2350 1350 2350
+$Comp
+L power:GND #PWR?
+U 1 1 6076A6CC
+P 1025 2400
+F 0 "#PWR?" H 1025 2150 50  0001 C CNN
+F 1 "GND" H 1030 2227 50  0000 C CNN
+F 2 "" H 1025 2400 50  0001 C CNN
+F 3 "" H 1025 2400 50  0001 C CNN
+	1    1025 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1950 2050 1950
+Connection ~ 2050 1950
+Wire Wire Line
+	2600 1950 2850 1950
+Wire Wire Line
+	2850 1950 2850 1750
+Text GLabel 2850 1750 1    50   Input ~ 0
+VCC_0V9
+$Comp
+L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB?
+U 1 1 6076C153
+P 2400 1950
+F 0 "FB?" H 2400 2237 60  0000 C CNN
+F 1 "BLM15PD121SN1D" H 2400 2131 60  0000 C CNN
+F 2 "antmicro-footprints:0402-res" H 2600 2150 60  0001 L CNN
+F 3 "" H 2600 2250 60  0001 L CNN
+F 4 "BLM15PD121SN1D" H 2600 2450 60  0001 L CNN "MPN"
+F 5 "Murata" H 2600 3050 60  0001 L CNN "Manufacturer"
+	1    2400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_22u_0603 C?
+U 1 1 6076D39C
+P 3425 2150
+F 0 "C?" H 3540 2195 60  0000 L CNN
+F 1 "C_22u_0603" H 3425 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3625 2350 60  0001 L CNN
+F 3 "" H 3425 2150 50  0001 C CNN
+F 4 "MURATA" H 3625 2550 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 3625 2450 60  0001 L CNN "MPN"
+F 6 "22u" H 3540 2097 50  0000 L CNN "Val"
+	1    3425 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3425 1875 1    50   Input ~ 0
+VCC_1V8
+Wire Wire Line
+	3425 1875 3425 1950
+Wire Wire Line
+	3425 1950 3750 1950
+Wire Wire Line
+	4100 2000 4100 1950
+Connection ~ 4100 1950
+Wire Wire Line
+	4100 1950 4450 1950
+Wire Wire Line
+	3750 2000 3750 1950
+Connection ~ 3750 1950
+Wire Wire Line
+	3750 1950 4100 1950
+Wire Wire Line
+	3425 2000 3425 1950
+Connection ~ 3425 1950
+Wire Wire Line
+	3425 2300 3425 2350
+Wire Wire Line
+	4450 2300 4450 2350
+Wire Wire Line
+	4450 2350 4100 2350
+Connection ~ 3425 2350
+Wire Wire Line
+	3425 2350 3425 2400
+Wire Wire Line
+	3750 2300 3750 2350
+Connection ~ 3750 2350
+Wire Wire Line
+	3750 2350 3425 2350
+Wire Wire Line
+	4100 2300 4100 2350
+Connection ~ 4100 2350
+Wire Wire Line
+	4100 2350 3750 2350
+$Comp
+L power:GND #PWR?
+U 1 1 60770861
+P 3425 2400
+F 0 "#PWR?" H 3425 2150 50  0001 C CNN
+F 1 "GND" H 3430 2227 50  0000 C CNN
+F 2 "" H 3425 2400 50  0001 C CNN
+F 3 "" H 3425 2400 50  0001 C CNN
+	1    3425 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 60771038
+P 3750 2150
+F 0 "C?" H 3865 2195 60  0000 L CNN
+F 1 "C_10u_0402" H 3750 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3950 2350 60  0001 L CNN
+F 3 "" H 3750 2150 50  0001 C CNN
+F 4 "MURATA" H 3950 2550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 3950 2450 60  0001 L CNN "MPN"
+F 6 "10u" H 3865 2097 50  0000 L CNN "Val"
+	1    3750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60771503
+P 4100 2150
+F 0 "C?" H 4215 2195 60  0000 L CNN
+F 1 "C_1u_0402" H 4100 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4300 2350 60  0001 L CNN
+F 3 "" H 4100 2150 50  0001 C CNN
+F 4 "TDK" H 4300 2550 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 4300 2450 60  0001 L CNN "MPN"
+F 6 "1u" H 4215 2097 50  0000 L CNN "Val"
+	1    4100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607718E0
+P 4450 2150
+F 0 "C?" H 4565 2195 60  0000 L CNN
+F 1 "C_100n_0201" H 4450 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4650 2350 60  0001 L CNN
+F 3 "" H 4450 2150 50  0001 C CNN
+F 4 "YAGEO" H 4650 2550 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4650 2450 60  0001 L CNN "MPN"
+F 6 "100n" H 4565 2097 50  0000 L CNN "Val"
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1950 4450 2000
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60772380
+P 4800 2150
+F 0 "C?" H 4915 2195 60  0000 L CNN
+F 1 "C_100n_0201" H 4800 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5000 2350 60  0001 L CNN
+F 3 "" H 4800 2150 50  0001 C CNN
+F 4 "YAGEO" H 5000 2550 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5000 2450 60  0001 L CNN "MPN"
+F 6 "100n" H 4915 2097 50  0000 L CNN "Val"
+	1    4800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6077265D
+P 5150 2150
+F 0 "C?" H 5265 2195 60  0000 L CNN
+F 1 "C_100n_0201" H 5150 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5350 2350 60  0001 L CNN
+F 3 "" H 5150 2150 50  0001 C CNN
+F 4 "YAGEO" H 5350 2550 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5350 2450 60  0001 L CNN "MPN"
+F 6 "100n" H 5265 2097 50  0000 L CNN "Val"
+	1    5150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6077290A
+P 5500 2150
+F 0 "C?" H 5615 2195 60  0000 L CNN
+F 1 "C_100n_0201" H 5500 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5700 2350 60  0001 L CNN
+F 3 "" H 5500 2150 50  0001 C CNN
+F 4 "YAGEO" H 5700 2550 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5700 2450 60  0001 L CNN "MPN"
+F 6 "100n" H 5615 2097 50  0000 L CNN "Val"
+	1    5500 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1950 4800 1950
+Wire Wire Line
+	5500 1950 5500 2000
+Connection ~ 4450 1950
+Wire Wire Line
+	5150 2000 5150 1950
+Connection ~ 5150 1950
+Wire Wire Line
+	5150 1950 5500 1950
+Wire Wire Line
+	4800 2000 4800 1950
+Connection ~ 4800 1950
+Wire Wire Line
+	4800 1950 5150 1950
+Wire Wire Line
+	4800 2300 4800 2350
+Wire Wire Line
+	4800 2350 4450 2350
+Connection ~ 4450 2350
+Wire Wire Line
+	5500 2300 5500 2350
+Wire Wire Line
+	5500 2350 5150 2350
+Connection ~ 4800 2350
+Wire Wire Line
+	5150 2300 5150 2350
+Connection ~ 5150 2350
+Wire Wire Line
+	5150 2350 4800 2350
+$Comp
+L antmicroCapacitors0402:C_1n_0402 C?
+U 1 1 607761BD
+P 5825 2150
+F 0 "C?" H 5940 2195 60  0000 L CNN
+F 1 "C_1n_0402" H 5825 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6025 2350 60  0001 L CNN
+F 3 "" H 5825 2150 50  0001 C CNN
+F 4 "YAGEO" H 6025 2550 60  0001 L CNN "Manufacturer"
+F 5 "CC0402KRX7R9BB102" H 6025 2450 60  0001 L CNN "MPN"
+F 6 "1n" H 5940 2097 50  0000 L CNN "Val"
+	1    5825 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 2000 5825 1950
+Wire Wire Line
+	5825 1950 5500 1950
+Connection ~ 5500 1950
+Wire Wire Line
+	5500 2350 5825 2350
+Wire Wire Line
+	5825 2350 5825 2300
+Connection ~ 5500 2350
+$Comp
+L antmicroCapacitors0603:C_22u_0603 C?
+U 1 1 6077C039
+P 1025 3300
+F 0 "C?" H 1140 3345 60  0000 L CNN
+F 1 "C_22u_0603" H 1025 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 1225 3500 60  0001 L CNN
+F 3 "" H 1025 3300 50  0001 C CNN
+F 4 "MURATA" H 1225 3700 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 1225 3600 60  0001 L CNN "MPN"
+F 6 "22u" H 1140 3247 50  0000 L CNN "Val"
+	1    1025 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1025 3025 1    50   Input ~ 0
+VCC_1V1
+Wire Wire Line
+	1025 3025 1025 3100
+Wire Wire Line
+	1025 3100 1350 3100
+Wire Wire Line
+	1350 3150 1350 3100
+Wire Wire Line
+	1025 3150 1025 3100
+Connection ~ 1025 3100
+Wire Wire Line
+	1025 3450 1025 3500
+Connection ~ 1025 3500
+Wire Wire Line
+	1025 3500 1025 3550
+Wire Wire Line
+	1350 3450 1350 3500
+Wire Wire Line
+	1350 3500 1025 3500
+$Comp
+L power:GND #PWR?
+U 1 1 6077C055
+P 1025 3550
+F 0 "#PWR?" H 1025 3300 50  0001 C CNN
+F 1 "GND" H 1030 3377 50  0000 C CNN
+F 2 "" H 1025 3550 50  0001 C CNN
+F 3 "" H 1025 3550 50  0001 C CNN
+	1    1025 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 6077C05E
+P 1350 3300
+F 0 "C?" H 1465 3345 60  0000 L CNN
+F 1 "C_10u_0402" H 1350 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1550 3500 60  0001 L CNN
+F 3 "" H 1350 3300 50  0001 C CNN
+F 4 "MURATA" H 1550 3700 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 1550 3600 60  0001 L CNN "MPN"
+F 6 "10u" H 1465 3247 50  0000 L CNN "Val"
+	1    1350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 607826E1
+P 1700 3300
+F 0 "C?" H 1815 3345 60  0000 L CNN
+F 1 "C_10u_0402" H 1700 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1900 3500 60  0001 L CNN
+F 3 "" H 1700 3300 50  0001 C CNN
+F 4 "MURATA" H 1900 3700 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 1900 3600 60  0001 L CNN "MPN"
+F 6 "10u" H 1815 3247 50  0000 L CNN "Val"
+	1    1700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3100 1350 3100
+Connection ~ 1350 3100
+Wire Wire Line
+	1700 3450 1700 3500
+Wire Wire Line
+	1700 3500 1350 3500
+Connection ~ 1350 3500
+Wire Wire Line
+	1700 3150 1700 3100
+Connection ~ 5200 3500
+Wire Wire Line
+	5525 3500 5525 3450
+Wire Wire Line
+	5200 3500 5525 3500
+Connection ~ 5200 3100
+Wire Wire Line
+	5525 3100 5200 3100
+Wire Wire Line
+	5525 3150 5525 3100
+$Comp
+L antmicroCapacitors0402:C_1n_0402 C?
+U 1 1 6077C0A7
+P 5525 3300
+F 0 "C?" H 5640 3345 60  0000 L CNN
+F 1 "C_1n_0402" H 5525 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5725 3500 60  0001 L CNN
+F 3 "" H 5525 3300 50  0001 C CNN
+F 4 "YAGEO" H 5725 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0402KRX7R9BB102" H 5725 3600 60  0001 L CNN "MPN"
+F 6 "1n" H 5640 3247 50  0000 L CNN "Val"
+	1    5525 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3500 4500 3500
+Connection ~ 4850 3500
+Wire Wire Line
+	4850 3450 4850 3500
+Connection ~ 4500 3500
+Wire Wire Line
+	5200 3500 4850 3500
+Wire Wire Line
+	5200 3450 5200 3500
+Connection ~ 4150 3500
+Wire Wire Line
+	4500 3500 4150 3500
+Wire Wire Line
+	4500 3450 4500 3500
+Wire Wire Line
+	4500 3100 4850 3100
+Connection ~ 4500 3100
+Wire Wire Line
+	4500 3150 4500 3100
+Wire Wire Line
+	4850 3100 5200 3100
+Connection ~ 4850 3100
+Wire Wire Line
+	4850 3150 4850 3100
+Connection ~ 4150 3100
+Wire Wire Line
+	5200 3100 5200 3150
+Wire Wire Line
+	4150 3100 4500 3100
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6077C08C
+P 5200 3300
+F 0 "C?" H 5315 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 5200 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5400 3500 60  0001 L CNN
+F 3 "" H 5200 3300 50  0001 C CNN
+F 4 "YAGEO" H 5400 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5400 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 5315 3247 50  0000 L CNN "Val"
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6077C083
+P 4850 3300
+F 0 "C?" H 4965 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 4850 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5050 3500 60  0001 L CNN
+F 3 "" H 4850 3300 50  0001 C CNN
+F 4 "YAGEO" H 5050 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5050 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 4965 3247 50  0000 L CNN "Val"
+	1    4850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6077C07A
+P 4500 3300
+F 0 "C?" H 4615 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 4500 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4700 3500 60  0001 L CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+F 4 "YAGEO" H 4700 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4700 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 4615 3247 50  0000 L CNN "Val"
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3100 4150 3150
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6077C070
+P 4150 3300
+F 0 "C?" H 4265 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 4150 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4350 3500 60  0001 L CNN
+F 3 "" H 4150 3300 50  0001 C CNN
+F 4 "YAGEO" H 4350 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4350 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 4265 3247 50  0000 L CNN "Val"
+	1    4150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 6077C067
+P 2050 3300
+F 0 "C?" H 2165 3345 60  0000 L CNN
+F 1 "C_1u_0402" H 2050 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2250 3500 60  0001 L CNN
+F 3 "" H 2050 3300 50  0001 C CNN
+F 4 "TDK" H 2250 3700 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 2250 3600 60  0001 L CNN "MPN"
+F 6 "1u" H 2165 3247 50  0000 L CNN "Val"
+	1    2050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3500 1700 3500
+Wire Wire Line
+	2050 3450 2050 3500
+Wire Wire Line
+	4150 3500 3800 3500
+Wire Wire Line
+	4150 3450 4150 3500
+Wire Wire Line
+	1700 3100 2050 3100
+Wire Wire Line
+	3800 3100 4150 3100
+Wire Wire Line
+	2050 3150 2050 3100
+Connection ~ 1700 3100
+Connection ~ 1700 3500
+Wire Wire Line
+	3100 3500 2750 3500
+Connection ~ 3100 3500
+Wire Wire Line
+	3100 3450 3100 3500
+Connection ~ 2750 3500
+Wire Wire Line
+	3450 3500 3100 3500
+Connection ~ 2400 3500
+Wire Wire Line
+	2750 3500 2400 3500
+Wire Wire Line
+	2750 3450 2750 3500
+Wire Wire Line
+	2750 3100 3100 3100
+Connection ~ 2750 3100
+Wire Wire Line
+	2750 3150 2750 3100
+Wire Wire Line
+	3100 3100 3450 3100
+Connection ~ 3100 3100
+Wire Wire Line
+	3100 3150 3100 3100
+Connection ~ 2400 3100
+Wire Wire Line
+	2400 3100 2750 3100
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607965B4
+P 3100 3300
+F 0 "C?" H 3215 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 3100 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3300 3500 60  0001 L CNN
+F 3 "" H 3100 3300 50  0001 C CNN
+F 4 "YAGEO" H 3300 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3300 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 3215 3247 50  0000 L CNN "Val"
+	1    3100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607965BD
+P 2750 3300
+F 0 "C?" H 2865 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 2750 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2950 3500 60  0001 L CNN
+F 3 "" H 2750 3300 50  0001 C CNN
+F 4 "YAGEO" H 2950 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2950 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 2865 3247 50  0000 L CNN "Val"
+	1    2750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3100 2400 3150
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607965C7
+P 2400 3300
+F 0 "C?" H 2515 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 2400 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2600 3500 60  0001 L CNN
+F 3 "" H 2400 3300 50  0001 C CNN
+F 4 "YAGEO" H 2600 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2600 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 2515 3247 50  0000 L CNN "Val"
+	1    2400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3500 2050 3500
+Wire Wire Line
+	2400 3450 2400 3500
+Wire Wire Line
+	2050 3100 2400 3100
+Connection ~ 3800 3500
+Connection ~ 3450 3500
+Wire Wire Line
+	3800 3500 3450 3500
+Wire Wire Line
+	3800 3450 3800 3500
+Connection ~ 3800 3100
+Wire Wire Line
+	3800 3150 3800 3100
+Connection ~ 3450 3100
+Wire Wire Line
+	3450 3100 3800 3100
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6079A0EC
+P 3800 3300
+F 0 "C?" H 3915 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 3800 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4000 3500 60  0001 L CNN
+F 3 "" H 3800 3300 50  0001 C CNN
+F 4 "YAGEO" H 4000 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4000 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 3915 3247 50  0000 L CNN "Val"
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3100 3450 3150
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6079A0F6
+P 3450 3300
+F 0 "C?" H 3565 3345 60  0000 L CNN
+F 1 "C_100n_0201" H 3450 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3650 3500 60  0001 L CNN
+F 3 "" H 3450 3300 50  0001 C CNN
+F 4 "YAGEO" H 3650 3700 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3650 3600 60  0001 L CNN "MPN"
+F 6 "100n" H 3565 3247 50  0000 L CNN "Val"
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3450 3450 3500
+$Comp
+L antmicroCapacitors0603:C_22u_0603 C?
+U 1 1 607A674C
+P 1025 4475
+F 0 "C?" H 1140 4520 60  0000 L CNN
+F 1 "C_22u_0603" H 1025 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 1225 4675 60  0001 L CNN
+F 3 "" H 1025 4475 50  0001 C CNN
+F 4 "MURATA" H 1225 4875 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 1225 4775 60  0001 L CNN "MPN"
+F 6 "22u" H 1140 4422 50  0000 L CNN "Val"
+	1    1025 4475
+	1    0    0    -1  
+$EndComp
+Text GLabel 1025 4200 1    50   Input ~ 0
+VCC_1V1
+Wire Wire Line
+	1025 4200 1025 4275
+Wire Wire Line
+	1025 4275 1350 4275
+Wire Wire Line
+	1350 4325 1350 4275
+Wire Wire Line
+	1025 4325 1025 4275
+Connection ~ 1025 4275
+Wire Wire Line
+	1025 4625 1025 4675
+Connection ~ 1025 4675
+Wire Wire Line
+	1025 4675 1025 4725
+Wire Wire Line
+	1350 4625 1350 4675
+Wire Wire Line
+	1350 4675 1025 4675
+$Comp
+L power:GND #PWR?
+U 1 1 607A675D
+P 1025 4725
+F 0 "#PWR?" H 1025 4475 50  0001 C CNN
+F 1 "GND" H 1030 4552 50  0000 C CNN
+F 2 "" H 1025 4725 50  0001 C CNN
+F 3 "" H 1025 4725 50  0001 C CNN
+	1    1025 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 607A6766
+P 1350 4475
+F 0 "C?" H 1465 4520 60  0000 L CNN
+F 1 "C_10u_0402" H 1350 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1550 4675 60  0001 L CNN
+F 3 "" H 1350 4475 50  0001 C CNN
+F 4 "MURATA" H 1550 4875 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 1550 4775 60  0001 L CNN "MPN"
+F 6 "10u" H 1465 4422 50  0000 L CNN "Val"
+	1    1350 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 607A676F
+P 1700 4475
+F 0 "C?" H 1815 4520 60  0000 L CNN
+F 1 "C_10u_0402" H 1700 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1900 4675 60  0001 L CNN
+F 3 "" H 1700 4475 50  0001 C CNN
+F 4 "MURATA" H 1900 4875 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 1900 4775 60  0001 L CNN "MPN"
+F 6 "10u" H 1815 4422 50  0000 L CNN "Val"
+	1    1700 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4275 1350 4275
+Connection ~ 1350 4275
+Wire Wire Line
+	1700 4625 1700 4675
+Wire Wire Line
+	1700 4675 1350 4675
+Connection ~ 1350 4675
+Wire Wire Line
+	1700 4325 1700 4275
+Connection ~ 5200 4675
+Wire Wire Line
+	5525 4675 5525 4625
+Wire Wire Line
+	5200 4675 5525 4675
+Connection ~ 5200 4275
+Wire Wire Line
+	5525 4275 5200 4275
+Wire Wire Line
+	5525 4325 5525 4275
+$Comp
+L antmicroCapacitors0402:C_1n_0402 C?
+U 1 1 607A6784
+P 5525 4475
+F 0 "C?" H 5640 4520 60  0000 L CNN
+F 1 "C_1n_0402" H 5525 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5725 4675 60  0001 L CNN
+F 3 "" H 5525 4475 50  0001 C CNN
+F 4 "YAGEO" H 5725 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0402KRX7R9BB102" H 5725 4775 60  0001 L CNN "MPN"
+F 6 "1n" H 5640 4422 50  0000 L CNN "Val"
+	1    5525 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4675 4500 4675
+Connection ~ 4850 4675
+Wire Wire Line
+	4850 4625 4850 4675
+Connection ~ 4500 4675
+Wire Wire Line
+	5200 4675 4850 4675
+Wire Wire Line
+	5200 4625 5200 4675
+Connection ~ 4150 4675
+Wire Wire Line
+	4500 4675 4150 4675
+Wire Wire Line
+	4500 4625 4500 4675
+Wire Wire Line
+	4500 4275 4850 4275
+Connection ~ 4500 4275
+Wire Wire Line
+	4500 4325 4500 4275
+Wire Wire Line
+	4850 4275 5200 4275
+Connection ~ 4850 4275
+Wire Wire Line
+	4850 4325 4850 4275
+Connection ~ 4150 4275
+Wire Wire Line
+	5200 4275 5200 4325
+Wire Wire Line
+	4150 4275 4500 4275
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A679F
+P 5200 4475
+F 0 "C?" H 5315 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 5200 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5400 4675 60  0001 L CNN
+F 3 "" H 5200 4475 50  0001 C CNN
+F 4 "YAGEO" H 5400 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5400 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 5315 4422 50  0000 L CNN "Val"
+	1    5200 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A67A8
+P 4850 4475
+F 0 "C?" H 4965 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 4850 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5050 4675 60  0001 L CNN
+F 3 "" H 4850 4475 50  0001 C CNN
+F 4 "YAGEO" H 5050 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5050 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 4965 4422 50  0000 L CNN "Val"
+	1    4850 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A67B1
+P 4500 4475
+F 0 "C?" H 4615 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 4500 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4700 4675 60  0001 L CNN
+F 3 "" H 4500 4475 50  0001 C CNN
+F 4 "YAGEO" H 4700 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4700 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 4615 4422 50  0000 L CNN "Val"
+	1    4500 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4275 4150 4325
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A67BB
+P 4150 4475
+F 0 "C?" H 4265 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 4150 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4350 4675 60  0001 L CNN
+F 3 "" H 4150 4475 50  0001 C CNN
+F 4 "YAGEO" H 4350 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4350 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 4265 4422 50  0000 L CNN "Val"
+	1    4150 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 607A67C4
+P 2050 4475
+F 0 "C?" H 2165 4520 60  0000 L CNN
+F 1 "C_1u_0402" H 2050 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2250 4675 60  0001 L CNN
+F 3 "" H 2050 4475 50  0001 C CNN
+F 4 "TDK" H 2250 4875 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 2250 4775 60  0001 L CNN "MPN"
+F 6 "1u" H 2165 4422 50  0000 L CNN "Val"
+	1    2050 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4675 1700 4675
+Wire Wire Line
+	2050 4625 2050 4675
+Wire Wire Line
+	4150 4675 3800 4675
+Wire Wire Line
+	4150 4625 4150 4675
+Wire Wire Line
+	1700 4275 2050 4275
+Wire Wire Line
+	3800 4275 4150 4275
+Wire Wire Line
+	2050 4325 2050 4275
+Connection ~ 1700 4275
+Connection ~ 1700 4675
+Wire Wire Line
+	3100 4675 2750 4675
+Connection ~ 3100 4675
+Wire Wire Line
+	3100 4625 3100 4675
+Connection ~ 2750 4675
+Wire Wire Line
+	3450 4675 3100 4675
+Connection ~ 2400 4675
+Wire Wire Line
+	2750 4675 2400 4675
+Wire Wire Line
+	2750 4625 2750 4675
+Wire Wire Line
+	2750 4275 3100 4275
+Connection ~ 2750 4275
+Wire Wire Line
+	2750 4325 2750 4275
+Wire Wire Line
+	3100 4275 3450 4275
+Connection ~ 3100 4275
+Wire Wire Line
+	3100 4325 3100 4275
+Connection ~ 2400 4275
+Wire Wire Line
+	2400 4275 2750 4275
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A67E6
+P 3100 4475
+F 0 "C?" H 3215 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 3100 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3300 4675 60  0001 L CNN
+F 3 "" H 3100 4475 50  0001 C CNN
+F 4 "YAGEO" H 3300 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3300 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 3215 4422 50  0000 L CNN "Val"
+	1    3100 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A67EF
+P 2750 4475
+F 0 "C?" H 2865 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 2750 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2950 4675 60  0001 L CNN
+F 3 "" H 2750 4475 50  0001 C CNN
+F 4 "YAGEO" H 2950 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2950 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 2865 4422 50  0000 L CNN "Val"
+	1    2750 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4275 2400 4325
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A67F9
+P 2400 4475
+F 0 "C?" H 2515 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 2400 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2600 4675 60  0001 L CNN
+F 3 "" H 2400 4475 50  0001 C CNN
+F 4 "YAGEO" H 2600 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2600 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 2515 4422 50  0000 L CNN "Val"
+	1    2400 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4675 2050 4675
+Wire Wire Line
+	2400 4625 2400 4675
+Wire Wire Line
+	2050 4275 2400 4275
+Connection ~ 3800 4675
+Connection ~ 3450 4675
+Wire Wire Line
+	3800 4675 3450 4675
+Wire Wire Line
+	3800 4625 3800 4675
+Connection ~ 3800 4275
+Wire Wire Line
+	3800 4325 3800 4275
+Connection ~ 3450 4275
+Wire Wire Line
+	3450 4275 3800 4275
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A680D
+P 3800 4475
+F 0 "C?" H 3915 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 3800 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4000 4675 60  0001 L CNN
+F 3 "" H 3800 4475 50  0001 C CNN
+F 4 "YAGEO" H 4000 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4000 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 3915 4422 50  0000 L CNN "Val"
+	1    3800 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4275 3450 4325
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607A6817
+P 3450 4475
+F 0 "C?" H 3565 4520 60  0000 L CNN
+F 1 "C_100n_0201" H 3450 4325 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3650 4675 60  0001 L CNN
+F 3 "" H 3450 4475 50  0001 C CNN
+F 4 "YAGEO" H 3650 4875 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3650 4775 60  0001 L CNN "MPN"
+F 6 "100n" H 3565 4422 50  0000 L CNN "Val"
+	1    3450 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4625 3450 4675
+$Comp
+L antmicroCapacitors0603:C_22u_0603 C?
+U 1 1 607B2D53
+P 1025 5650
+F 0 "C?" H 1140 5695 60  0000 L CNN
+F 1 "C_22u_0603" H 1025 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 1225 5850 60  0001 L CNN
+F 3 "" H 1025 5650 50  0001 C CNN
+F 4 "MURATA" H 1225 6050 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 1225 5950 60  0001 L CNN "MPN"
+F 6 "22u" H 1140 5597 50  0000 L CNN "Val"
+	1    1025 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1025 5375 1    50   Input ~ 0
+VCC_0V9
+Wire Wire Line
+	1025 5375 1025 5450
+Wire Wire Line
+	1025 5500 1025 5450
+Connection ~ 1025 5450
+Wire Wire Line
+	1025 5800 1025 5850
+Connection ~ 1025 5850
+Wire Wire Line
+	1025 5850 1025 5900
+$Comp
+L power:GND #PWR?
+U 1 1 607B2D62
+P 1025 5900
+F 0 "#PWR?" H 1025 5650 50  0001 C CNN
+F 1 "GND" H 1030 5727 50  0000 C CNN
+F 2 "" H 1025 5900 50  0001 C CNN
+F 3 "" H 1025 5900 50  0001 C CNN
+	1    1025 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_22u_0603 C?
+U 1 1 607BB40F
+P 1350 5650
+F 0 "C?" H 1465 5695 60  0000 L CNN
+F 1 "C_22u_0603" H 1350 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 1550 5850 60  0001 L CNN
+F 3 "" H 1350 5650 50  0001 C CNN
+F 4 "MURATA" H 1550 6050 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 1550 5950 60  0001 L CNN "MPN"
+F 6 "22u" H 1465 5597 50  0000 L CNN "Val"
+	1    1350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 607C5888
+P 1675 5650
+F 0 "C?" H 1790 5695 60  0000 L CNN
+F 1 "C_10u_0402" H 1675 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1875 5850 60  0001 L CNN
+F 3 "" H 1675 5650 50  0001 C CNN
+F 4 "MURATA" H 1875 6050 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 1875 5950 60  0001 L CNN "MPN"
+F 6 "10u" H 1790 5597 50  0000 L CNN "Val"
+	1    1675 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 607C5891
+P 2025 5650
+F 0 "C?" H 2140 5695 60  0000 L CNN
+F 1 "C_10u_0402" H 2025 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2225 5850 60  0001 L CNN
+F 3 "" H 2025 5650 50  0001 C CNN
+F 4 "MURATA" H 2225 6050 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 2225 5950 60  0001 L CNN "MPN"
+F 6 "10u" H 2140 5597 50  0000 L CNN "Val"
+	1    2025 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 5800 2025 5850
+Wire Wire Line
+	2025 5500 2025 5450
+Connection ~ 2025 5450
+Connection ~ 2025 5850
+Wire Wire Line
+	1025 5450 1350 5450
+Wire Wire Line
+	1025 5850 1350 5850
+Connection ~ 2050 4275
+Connection ~ 2050 4675
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 607CEFC8
+P 2375 5650
+F 0 "C?" H 2490 5695 60  0000 L CNN
+F 1 "C_1u_0402" H 2375 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2575 5850 60  0001 L CNN
+F 3 "" H 2375 5650 50  0001 C CNN
+F 4 "TDK" H 2575 6050 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 2575 5950 60  0001 L CNN "MPN"
+F 6 "1u" H 2490 5597 50  0000 L CNN "Val"
+	1    2375 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 5850 4825 5850
+Connection ~ 5175 5850
+Wire Wire Line
+	5175 5800 5175 5850
+Connection ~ 4825 5850
+Wire Wire Line
+	5525 5800 5525 5850
+Connection ~ 4475 5850
+Wire Wire Line
+	4825 5850 4475 5850
+Wire Wire Line
+	4825 5800 4825 5850
+Wire Wire Line
+	4825 5450 5175 5450
+Connection ~ 4825 5450
+Wire Wire Line
+	4825 5500 4825 5450
+Connection ~ 5175 5450
+Wire Wire Line
+	5175 5500 5175 5450
+Connection ~ 4475 5450
+Wire Wire Line
+	5525 5450 5525 5500
+Wire Wire Line
+	4475 5450 4825 5450
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAAA0
+P 5525 5650
+F 0 "C?" H 5640 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 5525 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5725 5850 60  0001 L CNN
+F 3 "" H 5525 5650 50  0001 C CNN
+F 4 "YAGEO" H 5725 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5725 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 5640 5597 50  0000 L CNN "Val"
+	1    5525 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAAA9
+P 5175 5650
+F 0 "C?" H 5290 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 5175 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5375 5850 60  0001 L CNN
+F 3 "" H 5175 5650 50  0001 C CNN
+F 4 "YAGEO" H 5375 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5375 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 5290 5597 50  0000 L CNN "Val"
+	1    5175 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAAB2
+P 4825 5650
+F 0 "C?" H 4940 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 4825 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5025 5850 60  0001 L CNN
+F 3 "" H 4825 5650 50  0001 C CNN
+F 4 "YAGEO" H 5025 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5025 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 4940 5597 50  0000 L CNN "Val"
+	1    4825 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 5450 4475 5500
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAABC
+P 4475 5650
+F 0 "C?" H 4590 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 4475 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4675 5850 60  0001 L CNN
+F 3 "" H 4475 5650 50  0001 C CNN
+F 4 "YAGEO" H 4675 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4675 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 4590 5597 50  0000 L CNN "Val"
+	1    4475 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 5850 4125 5850
+Wire Wire Line
+	4475 5800 4475 5850
+Wire Wire Line
+	4125 5450 4475 5450
+Wire Wire Line
+	3425 5850 3075 5850
+Connection ~ 3425 5850
+Wire Wire Line
+	3425 5800 3425 5850
+Connection ~ 3075 5850
+Wire Wire Line
+	3775 5850 3425 5850
+Connection ~ 2725 5850
+Wire Wire Line
+	3075 5850 2725 5850
+Wire Wire Line
+	3075 5800 3075 5850
+Wire Wire Line
+	3075 5450 3425 5450
+Connection ~ 3075 5450
+Wire Wire Line
+	3075 5500 3075 5450
+Wire Wire Line
+	3425 5450 3775 5450
+Connection ~ 3425 5450
+Wire Wire Line
+	3425 5500 3425 5450
+Connection ~ 2725 5450
+Wire Wire Line
+	2725 5450 3075 5450
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAAD8
+P 3425 5650
+F 0 "C?" H 3540 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 3425 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3625 5850 60  0001 L CNN
+F 3 "" H 3425 5650 50  0001 C CNN
+F 4 "YAGEO" H 3625 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3625 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 3540 5597 50  0000 L CNN "Val"
+	1    3425 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAAE1
+P 3075 5650
+F 0 "C?" H 3190 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 3075 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3275 5850 60  0001 L CNN
+F 3 "" H 3075 5650 50  0001 C CNN
+F 4 "YAGEO" H 3275 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3275 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 3190 5597 50  0000 L CNN "Val"
+	1    3075 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 5450 2725 5500
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAAEB
+P 2725 5650
+F 0 "C?" H 2840 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 2725 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2925 5850 60  0001 L CNN
+F 3 "" H 2725 5650 50  0001 C CNN
+F 4 "YAGEO" H 2925 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2925 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 2840 5597 50  0000 L CNN "Val"
+	1    2725 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 5800 2725 5850
+Connection ~ 4125 5850
+Connection ~ 3775 5850
+Wire Wire Line
+	4125 5850 3775 5850
+Wire Wire Line
+	4125 5800 4125 5850
+Connection ~ 4125 5450
+Wire Wire Line
+	4125 5500 4125 5450
+Connection ~ 3775 5450
+Wire Wire Line
+	3775 5450 4125 5450
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAAFF
+P 4125 5650
+F 0 "C?" H 4240 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 4125 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 4325 5850 60  0001 L CNN
+F 3 "" H 4125 5650 50  0001 C CNN
+F 4 "YAGEO" H 4325 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4325 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 4240 5597 50  0000 L CNN "Val"
+	1    4125 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3775 5450 3775 5500
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 607DAB09
+P 3775 5650
+F 0 "C?" H 3890 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 3775 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3975 5850 60  0001 L CNN
+F 3 "" H 3775 5650 50  0001 C CNN
+F 4 "YAGEO" H 3975 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3975 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 3890 5597 50  0000 L CNN "Val"
+	1    3775 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3775 5800 3775 5850
+Wire Wire Line
+	2025 5850 2375 5850
+Wire Wire Line
+	2025 5450 2375 5450
+Connection ~ 7600 5850
+Wire Wire Line
+	7600 5850 7925 5850
+Connection ~ 7600 5450
+Wire Wire Line
+	7925 5450 7600 5450
+Wire Wire Line
+	7250 5850 6900 5850
+Connection ~ 7250 5850
+Wire Wire Line
+	7250 5800 7250 5850
+Connection ~ 6900 5850
+Wire Wire Line
+	7600 5850 7250 5850
+Wire Wire Line
+	7600 5800 7600 5850
+Connection ~ 6550 5850
+Wire Wire Line
+	6900 5850 6550 5850
+Wire Wire Line
+	6900 5800 6900 5850
+Wire Wire Line
+	6900 5450 7250 5450
+Connection ~ 6900 5450
+Wire Wire Line
+	6900 5500 6900 5450
+Wire Wire Line
+	7250 5450 7600 5450
+Connection ~ 7250 5450
+Wire Wire Line
+	7250 5500 7250 5450
+Connection ~ 6550 5450
+Wire Wire Line
+	7600 5450 7600 5500
+Wire Wire Line
+	6550 5450 6900 5450
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6081BBA0
+P 7600 5650
+F 0 "C?" H 7715 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 7600 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 7800 5850 60  0001 L CNN
+F 3 "" H 7600 5650 50  0001 C CNN
+F 4 "YAGEO" H 7800 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 7800 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 7715 5597 50  0000 L CNN "Val"
+	1    7600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6081BBA9
+P 7250 5650
+F 0 "C?" H 7365 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 7250 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 7450 5850 60  0001 L CNN
+F 3 "" H 7250 5650 50  0001 C CNN
+F 4 "YAGEO" H 7450 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 7450 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 7365 5597 50  0000 L CNN "Val"
+	1    7250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6081BBB2
+P 6900 5650
+F 0 "C?" H 7015 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 6900 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 7100 5850 60  0001 L CNN
+F 3 "" H 6900 5650 50  0001 C CNN
+F 4 "YAGEO" H 7100 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 7100 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 7015 5597 50  0000 L CNN "Val"
+	1    6900 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5450 6550 5500
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6081BBBC
+P 6550 5650
+F 0 "C?" H 6665 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 6550 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 6750 5850 60  0001 L CNN
+F 3 "" H 6550 5650 50  0001 C CNN
+F 4 "YAGEO" H 6750 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 6750 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 6665 5597 50  0000 L CNN "Val"
+	1    6550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5850 6200 5850
+Wire Wire Line
+	6550 5800 6550 5850
+Wire Wire Line
+	6200 5450 6550 5450
+Connection ~ 6200 5850
+Wire Wire Line
+	6200 5850 5850 5850
+Wire Wire Line
+	6200 5800 6200 5850
+Connection ~ 6200 5450
+Wire Wire Line
+	6200 5500 6200 5450
+Wire Wire Line
+	5850 5450 6200 5450
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6081BBD2
+P 6200 5650
+F 0 "C?" H 6315 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 6200 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 6400 5850 60  0001 L CNN
+F 3 "" H 6200 5650 50  0001 C CNN
+F 4 "YAGEO" H 6400 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 6400 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 6315 5597 50  0000 L CNN "Val"
+	1    6200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5450 5850 5500
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6081BBDC
+P 5850 5650
+F 0 "C?" H 5965 5695 60  0000 L CNN
+F 1 "C_100n_0201" H 5850 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 6050 5850 60  0001 L CNN
+F 3 "" H 5850 5650 50  0001 C CNN
+F 4 "YAGEO" H 6050 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 6050 5950 60  0001 L CNN "MPN"
+F 6 "100n" H 5965 5597 50  0000 L CNN "Val"
+	1    5850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5800 5850 5850
+Wire Wire Line
+	5175 5850 5525 5850
+Wire Wire Line
+	5175 5450 5525 5450
+Wire Wire Line
+	5850 5450 5525 5450
+Connection ~ 5850 5450
+Connection ~ 5525 5450
+Wire Wire Line
+	5850 5850 5525 5850
+Connection ~ 5850 5850
+Connection ~ 5525 5850
+Wire Wire Line
+	1350 5500 1350 5450
+Connection ~ 1350 5450
+Wire Wire Line
+	1350 5450 1675 5450
+Wire Wire Line
+	1675 5500 1675 5450
+Connection ~ 1675 5450
+Wire Wire Line
+	1675 5450 2025 5450
+Wire Wire Line
+	1350 5800 1350 5850
+Connection ~ 1350 5850
+Wire Wire Line
+	1350 5850 1675 5850
+Wire Wire Line
+	1675 5800 1675 5850
+Connection ~ 1675 5850
+Wire Wire Line
+	1675 5850 2025 5850
+Wire Wire Line
+	2375 5500 2375 5450
+Connection ~ 2375 5450
+Wire Wire Line
+	2375 5450 2725 5450
+Wire Wire Line
+	2375 5800 2375 5850
+Connection ~ 2375 5850
+Wire Wire Line
+	2375 5850 2725 5850
+Wire Wire Line
+	7925 5850 7925 5800
+Wire Wire Line
+	7925 5500 7925 5450
+$Comp
+L antmicroCapacitors0402:C_1n_0402 C?
+U 1 1 6089A6A2
+P 7925 5650
+F 0 "C?" H 8040 5695 60  0000 L CNN
+F 1 "C_1n_0402" H 7925 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8125 5850 60  0001 L CNN
+F 3 "" H 7925 5650 50  0001 C CNN
+F 4 "YAGEO" H 8125 6050 60  0001 L CNN "Manufacturer"
+F 5 "CC0402KRX7R9BB102" H 8125 5950 60  0001 L CNN "MPN"
+F 6 "1n" H 8040 5597 50  0000 L CNN "Val"
+	1    7925 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6175 3475 1    50   Input ~ 0
+VCC_0V9
+$Comp
+L power:GND #PWR?
+U 1 1 608B3F9D
+P 6175 4000
+F 0 "#PWR?" H 6175 3750 50  0001 C CNN
+F 1 "GND" H 6180 3827 50  0000 C CNN
+F 2 "" H 6175 4000 50  0001 C CNN
+F 3 "" H 6175 4000 50  0001 C CNN
+	1    6175 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 3475 6175 3600
+Wire Wire Line
+	6175 3900 6175 4000
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 608E3B6A
+P 6175 3750
+F 0 "C?" H 6290 3795 60  0000 L CNN
+F 1 "C_100n_0201" H 6175 3600 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 6375 3950 60  0001 L CNN
+F 3 "" H 6175 3750 50  0001 C CNN
+F 4 "YAGEO" H 6375 4150 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 6375 4050 60  0001 L CNN "MPN"
+F 6 "100n" H 6290 3697 50  0000 L CNN "Val"
+	1    6175 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6575 3475 1    50   Input ~ 0
+VCC_1V1
+$Comp
+L power:GND #PWR?
+U 1 1 608E5D2F
+P 6575 4000
+F 0 "#PWR?" H 6575 3750 50  0001 C CNN
+F 1 "GND" H 6580 3827 50  0000 C CNN
+F 2 "" H 6575 4000 50  0001 C CNN
+F 3 "" H 6575 4000 50  0001 C CNN
+	1    6575 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6575 3475 6575 3600
+Wire Wire Line
+	6575 3900 6575 4000
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 608E5D3A
+P 6575 3750
+F 0 "C?" H 6690 3795 60  0000 L CNN
+F 1 "C_100n_0201" H 6575 3600 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 6775 3950 60  0001 L CNN
+F 3 "" H 6575 3750 50  0001 C CNN
+F 4 "YAGEO" H 6775 4150 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 6775 4050 60  0001 L CNN "MPN"
+F 6 "100n" H 6690 3697 50  0000 L CNN "Val"
+	1    6575 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 6100 3625 1    50   ~ 0
+VDDPLL_DDR0
+Text Notes 6500 3625 1    50   ~ 0
+VDDQCK_DDR0
+Text GLabel 6975 3475 1    50   Input ~ 0
+VCC_0V9
+$Comp
+L power:GND #PWR?
+U 1 1 60909EF2
+P 6975 4000
+F 0 "#PWR?" H 6975 3750 50  0001 C CNN
+F 1 "GND" H 6980 3827 50  0000 C CNN
+F 2 "" H 6975 4000 50  0001 C CNN
+F 3 "" H 6975 4000 50  0001 C CNN
+	1    6975 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 3475 6975 3600
+Wire Wire Line
+	6975 3900 6975 4000
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60909EFD
+P 6975 3750
+F 0 "C?" H 7090 3795 60  0000 L CNN
+F 1 "C_100n_0201" H 6975 3600 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 7175 3950 60  0001 L CNN
+F 3 "" H 6975 3750 50  0001 C CNN
+F 4 "YAGEO" H 7175 4150 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 7175 4050 60  0001 L CNN "MPN"
+F 6 "100n" H 7090 3697 50  0000 L CNN "Val"
+	1    6975 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7375 3475 1    50   Input ~ 0
+VCC_1V1
+$Comp
+L power:GND #PWR?
+U 1 1 60909F04
+P 7375 4000
+F 0 "#PWR?" H 7375 3750 50  0001 C CNN
+F 1 "GND" H 7380 3827 50  0000 C CNN
+F 2 "" H 7375 4000 50  0001 C CNN
+F 3 "" H 7375 4000 50  0001 C CNN
+	1    7375 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7375 3475 7375 3600
+Wire Wire Line
+	7375 3900 7375 4000
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60909F0F
+P 7375 3750
+F 0 "C?" H 7490 3795 60  0000 L CNN
+F 1 "C_100n_0201" H 7375 3600 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 7575 3950 60  0001 L CNN
+F 3 "" H 7375 3750 50  0001 C CNN
+F 4 "YAGEO" H 7575 4150 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 7575 4050 60  0001 L CNN "MPN"
+F 6 "100n" H 7490 3697 50  0000 L CNN "Val"
+	1    7375 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 6900 3625 1    50   ~ 0
+VDDPLL_DDR1
+Text Notes 7300 3625 1    50   ~ 0
+VDDQCK_DDR1
+Text GLabel 1050 7125 1    50   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	1050 7125 1050 7200
+Wire Wire Line
+	1050 7250 1050 7200
+Connection ~ 1050 7200
+Wire Wire Line
+	1050 7550 1050 7600
+Connection ~ 1050 7600
+Wire Wire Line
+	1050 7600 1050 7650
+$Comp
+L power:GND #PWR?
+U 1 1 60921101
+P 1050 7650
+F 0 "#PWR?" H 1050 7400 50  0001 C CNN
+F 1 "GND" H 1055 7477 50  0000 C CNN
+F 2 "" H 1050 7650 50  0001 C CNN
+F 3 "" H 1050 7650 50  0001 C CNN
+	1    1050 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 7200 1375 7200
+Wire Wire Line
+	1050 7600 1375 7600
+Wire Wire Line
+	1375 7250 1375 7200
+Connection ~ 1375 7200
+Wire Wire Line
+	1375 7200 1700 7200
+Wire Wire Line
+	1700 7250 1700 7200
+Connection ~ 1700 7200
+Wire Wire Line
+	1375 7550 1375 7600
+Connection ~ 1375 7600
+Wire Wire Line
+	1375 7600 1700 7600
+Wire Wire Line
+	1700 7550 1700 7600
+Connection ~ 1700 7600
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 609351B7
+P 1050 7400
+F 0 "C?" H 1165 7445 60  0000 L CNN
+F 1 "C_10u_0402" H 1050 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1250 7600 60  0001 L CNN
+F 3 "" H 1050 7400 50  0001 C CNN
+F 4 "MURATA" H 1250 7800 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 1250 7700 60  0001 L CNN "MPN"
+F 6 "10u" H 1165 7347 50  0000 L CNN "Val"
+	1    1050 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60935614
+P 1375 7400
+F 0 "C?" H 1490 7445 60  0000 L CNN
+F 1 "C_1u_0402" H 1375 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1575 7600 60  0001 L CNN
+F 3 "" H 1375 7400 50  0001 C CNN
+F 4 "TDK" H 1575 7800 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 1575 7700 60  0001 L CNN "MPN"
+F 6 "1u" H 1490 7347 50  0000 L CNN "Val"
+	1    1375 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60936269
+P 1700 7400
+F 0 "C?" H 1815 7445 60  0000 L CNN
+F 1 "C_100n_0201" H 1700 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 1900 7600 60  0001 L CNN
+F 3 "" H 1700 7400 50  0001 C CNN
+F 4 "YAGEO" H 1900 7800 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 1900 7700 60  0001 L CNN "MPN"
+F 6 "100n" H 1815 7347 50  0000 L CNN "Val"
+	1    1700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60936666
+P 2050 7400
+F 0 "C?" H 2165 7445 60  0000 L CNN
+F 1 "C_100n_0201" H 2050 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2250 7600 60  0001 L CNN
+F 3 "" H 2050 7400 50  0001 C CNN
+F 4 "YAGEO" H 2250 7800 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2250 7700 60  0001 L CNN "MPN"
+F 6 "100n" H 2165 7347 50  0000 L CNN "Val"
+	1    2050 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 7550 2400 7600
+Wire Wire Line
+	2400 7250 2400 7200
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60938FDE
+P 2400 7400
+F 0 "C?" H 2515 7445 60  0000 L CNN
+F 1 "C_100n_0201" H 2400 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2600 7600 60  0001 L CNN
+F 3 "" H 2400 7400 50  0001 C CNN
+F 4 "YAGEO" H 2600 7800 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2600 7700 60  0001 L CNN "MPN"
+F 6 "100n" H 2515 7347 50  0000 L CNN "Val"
+	1    2400 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7200 2050 7200
+Wire Wire Line
+	1700 7600 2050 7600
+Wire Wire Line
+	2050 7250 2050 7200
+Connection ~ 2050 7200
+Wire Wire Line
+	2050 7200 2400 7200
+Wire Wire Line
+	2050 7550 2050 7600
+Connection ~ 2050 7600
+Wire Wire Line
+	2050 7600 2400 7600
+Text GLabel 2825 7125 1    50   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	2825 7125 2825 7200
+Wire Wire Line
+	2825 7250 2825 7200
+Connection ~ 2825 7200
+Wire Wire Line
+	2825 7550 2825 7600
+Connection ~ 2825 7600
+Wire Wire Line
+	2825 7600 2825 7650
+$Comp
+L power:GND #PWR?
+U 1 1 6099F94E
+P 2825 7650
+F 0 "#PWR?" H 2825 7400 50  0001 C CNN
+F 1 "GND" H 2830 7477 50  0000 C CNN
+F 2 "" H 2825 7650 50  0001 C CNN
+F 3 "" H 2825 7650 50  0001 C CNN
+	1    2825 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 7200 3150 7200
+Wire Wire Line
+	2825 7600 3150 7600
+Wire Wire Line
+	3150 7250 3150 7200
+Connection ~ 3150 7200
+Wire Wire Line
+	3150 7200 3475 7200
+Wire Wire Line
+	3475 7250 3475 7200
+Wire Wire Line
+	3150 7550 3150 7600
+Connection ~ 3150 7600
+Wire Wire Line
+	3150 7600 3475 7600
+Wire Wire Line
+	3475 7550 3475 7600
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 6099F96C
+P 2825 7400
+F 0 "C?" H 2940 7445 60  0000 L CNN
+F 1 "C_1u_0402" H 2825 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3025 7600 60  0001 L CNN
+F 3 "" H 2825 7400 50  0001 C CNN
+F 4 "TDK" H 3025 7800 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 3025 7700 60  0001 L CNN "MPN"
+F 6 "1u" H 2940 7347 50  0000 L CNN "Val"
+	1    2825 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6099F975
+P 3150 7400
+F 0 "C?" H 3265 7445 60  0000 L CNN
+F 1 "C_100n_0201" H 3150 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3350 7600 60  0001 L CNN
+F 3 "" H 3150 7400 50  0001 C CNN
+F 4 "YAGEO" H 3350 7800 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3350 7700 60  0001 L CNN "MPN"
+F 6 "100n" H 3265 7347 50  0000 L CNN "Val"
+	1    3150 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 6099F97E
+P 3475 7400
+F 0 "C?" H 3590 7445 60  0000 L CNN
+F 1 "C_100n_0201" H 3475 7250 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3675 7600 60  0001 L CNN
+F 3 "" H 3475 7400 50  0001 C CNN
+F 4 "YAGEO" H 3675 7800 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3675 7700 60  0001 L CNN "MPN"
+F 6 "100n" H 3590 7347 50  0000 L CNN "Val"
+	1    3475 7400
+	1    0    0    -1  
+$EndComp
+Text Notes 950  7250 1    50   ~ 0
+VDD3318_SENSOR
+Text GLabel 975  8925 1    50   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	975  8925 975  9000
+Wire Wire Line
+	975  9050 975  9000
+Connection ~ 975  9000
+Wire Wire Line
+	975  9350 975  9400
+Connection ~ 975  9400
+Wire Wire Line
+	975  9400 975  9450
+$Comp
+L power:GND #PWR?
+U 1 1 60A07323
+P 975 9450
+F 0 "#PWR?" H 975 9200 50  0001 C CNN
+F 1 "GND" H 980 9277 50  0000 C CNN
+F 2 "" H 975 9450 50  0001 C CNN
+F 3 "" H 975 9450 50  0001 C CNN
+	1    975  9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	975  9000 1300 9000
+Wire Wire Line
+	975  9400 1300 9400
+Wire Wire Line
+	1300 9050 1300 9000
+Connection ~ 1300 9000
+Wire Wire Line
+	1300 9000 1625 9000
+Wire Wire Line
+	1625 9050 1625 9000
+Connection ~ 1625 9000
+Wire Wire Line
+	1300 9350 1300 9400
+Connection ~ 1300 9400
+Wire Wire Line
+	1300 9400 1625 9400
+Wire Wire Line
+	1625 9350 1625 9400
+Connection ~ 1625 9400
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 60A07338
+P 975 9200
+F 0 "C?" H 1090 9245 60  0000 L CNN
+F 1 "C_10u_0402" H 975 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1175 9400 60  0001 L CNN
+F 3 "" H 975 9200 50  0001 C CNN
+F 4 "MURATA" H 1175 9600 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 1175 9500 60  0001 L CNN "MPN"
+F 6 "10u" H 1090 9147 50  0000 L CNN "Val"
+	1    975  9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60A07341
+P 1300 9200
+F 0 "C?" H 1415 9245 60  0000 L CNN
+F 1 "C_1u_0402" H 1300 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1500 9400 60  0001 L CNN
+F 3 "" H 1300 9200 50  0001 C CNN
+F 4 "TDK" H 1500 9600 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 1500 9500 60  0001 L CNN "MPN"
+F 6 "1u" H 1415 9147 50  0000 L CNN "Val"
+	1    1300 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60A0734A
+P 1625 9200
+F 0 "C?" H 1740 9245 60  0000 L CNN
+F 1 "C_100n_0201" H 1625 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 1825 9400 60  0001 L CNN
+F 3 "" H 1625 9200 50  0001 C CNN
+F 4 "YAGEO" H 1825 9600 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 1825 9500 60  0001 L CNN "MPN"
+F 6 "100n" H 1740 9147 50  0000 L CNN "Val"
+	1    1625 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60A07353
+P 1975 9200
+F 0 "C?" H 2090 9245 60  0000 L CNN
+F 1 "C_100n_0201" H 1975 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2175 9400 60  0001 L CNN
+F 3 "" H 1975 9200 50  0001 C CNN
+F 4 "YAGEO" H 2175 9600 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2175 9500 60  0001 L CNN "MPN"
+F 6 "100n" H 2090 9147 50  0000 L CNN "Val"
+	1    1975 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 9350 2325 9400
+Wire Wire Line
+	2325 9050 2325 9000
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60A0735E
+P 2325 9200
+F 0 "C?" H 2440 9245 60  0000 L CNN
+F 1 "C_100n_0201" H 2325 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 2525 9400 60  0001 L CNN
+F 3 "" H 2325 9200 50  0001 C CNN
+F 4 "YAGEO" H 2525 9600 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 2525 9500 60  0001 L CNN "MPN"
+F 6 "100n" H 2440 9147 50  0000 L CNN "Val"
+	1    2325 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 9000 1975 9000
+Wire Wire Line
+	1625 9400 1975 9400
+Wire Wire Line
+	1975 9050 1975 9000
+Connection ~ 1975 9000
+Wire Wire Line
+	1975 9000 2325 9000
+Wire Wire Line
+	1975 9350 1975 9400
+Connection ~ 1975 9400
+Wire Wire Line
+	1975 9400 2325 9400
+Text Notes 875  9050 1    50   ~ 0
+VDD3318_GMII
+Text GLabel 2750 8925 1    50   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	2750 8925 2750 9000
+Wire Wire Line
+	2750 9050 2750 9000
+Connection ~ 2750 9000
+Wire Wire Line
+	2750 9350 2750 9400
+Connection ~ 2750 9400
+Wire Wire Line
+	2750 9400 2750 9450
+$Comp
+L power:GND #PWR?
+U 1 1 60A23221
+P 2750 9450
+F 0 "#PWR?" H 2750 9200 50  0001 C CNN
+F 1 "GND" H 2755 9277 50  0000 C CNN
+F 2 "" H 2750 9450 50  0001 C CNN
+F 3 "" H 2750 9450 50  0001 C CNN
+	1    2750 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 9000 3075 9000
+Wire Wire Line
+	2750 9400 3075 9400
+Wire Wire Line
+	3075 9050 3075 9000
+Connection ~ 3075 9000
+Wire Wire Line
+	3075 9000 3400 9000
+Wire Wire Line
+	3400 9050 3400 9000
+Connection ~ 3400 9000
+Wire Wire Line
+	3075 9350 3075 9400
+Connection ~ 3075 9400
+Wire Wire Line
+	3075 9400 3400 9400
+Wire Wire Line
+	3400 9350 3400 9400
+Connection ~ 3400 9400
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60A2323F
+P 2750 9200
+F 0 "C?" H 2865 9245 60  0000 L CNN
+F 1 "C_1u_0402" H 2750 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2950 9400 60  0001 L CNN
+F 3 "" H 2750 9200 50  0001 C CNN
+F 4 "TDK" H 2950 9600 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 2950 9500 60  0001 L CNN "MPN"
+F 6 "1u" H 2865 9147 50  0000 L CNN "Val"
+	1    2750 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60A23248
+P 3075 9200
+F 0 "C?" H 3190 9245 60  0000 L CNN
+F 1 "C_100n_0201" H 3075 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3275 9400 60  0001 L CNN
+F 3 "" H 3075 9200 50  0001 C CNN
+F 4 "YAGEO" H 3275 9600 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3275 9500 60  0001 L CNN "MPN"
+F 6 "100n" H 3190 9147 50  0000 L CNN "Val"
+	1    3075 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60A23251
+P 3400 9200
+F 0 "C?" H 3515 9245 60  0000 L CNN
+F 1 "C_100n_0201" H 3400 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3600 9400 60  0001 L CNN
+F 3 "" H 3400 9200 50  0001 C CNN
+F 4 "YAGEO" H 3600 9600 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3600 9500 60  0001 L CNN "MPN"
+F 6 "100n" H 3515 9147 50  0000 L CNN "Val"
+	1    3400 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60A2325C
+P 3750 9200
+F 0 "C?" H 3865 9245 60  0000 L CNN
+F 1 "C_100n_0201" H 3750 9050 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 3950 9400 60  0001 L CNN
+F 3 "" H 3750 9200 50  0001 C CNN
+F 4 "YAGEO" H 3950 9600 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 3950 9500 60  0001 L CNN "MPN"
+F 6 "100n" H 3865 9147 50  0000 L CNN "Val"
+	1    3750 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 9000 3750 9000
+Wire Wire Line
+	3400 9400 3750 9400
+Wire Wire Line
+	3750 9050 3750 9000
+Wire Wire Line
+	3750 9350 3750 9400
+Wire Wire Line
+	4475 9075 4800 9075
+Wire Wire Line
+	4800 9125 4800 9075
+Connection ~ 4800 9075
+Wire Wire Line
+	4800 9075 5125 9075
+Wire Wire Line
+	5125 9125 5125 9075
+Connection ~ 5125 9075
+Wire Wire Line
+	5825 9125 5825 9075
+Wire Wire Line
+	5125 9075 5475 9075
+Wire Wire Line
+	5475 9125 5475 9075
+Connection ~ 5475 9075
+Wire Wire Line
+	5475 9075 5825 9075
+Wire Wire Line
+	5825 9075 6150 9075
+Wire Wire Line
+	6150 9125 6150 9075
+Connection ~ 6150 9075
+Wire Wire Line
+	6150 9075 6475 9075
+Wire Wire Line
+	6475 9125 6475 9075
+Connection ~ 6475 9075
+Wire Wire Line
+	7150 9125 7150 9075
+Wire Wire Line
+	6475 9075 6825 9075
+Wire Wire Line
+	6825 9125 6825 9075
+Connection ~ 6825 9075
+Wire Wire Line
+	6825 9075 7150 9075
+Connection ~ 5825 9075
+Text GLabel 4475 9000 1    50   Input ~ 0
+VCC_1V8
+Wire Wire Line
+	4475 9000 4475 9075
+Wire Wire Line
+	4475 9075 4475 9125
+Connection ~ 4475 9075
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60B042FC
+P 4475 9275
+F 0 "C?" H 4590 9320 60  0000 L CNN
+F 1 "C_1u_0402" H 4475 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4675 9475 60  0001 L CNN
+F 3 "" H 4475 9275 50  0001 C CNN
+F 4 "TDK" H 4675 9675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 4675 9575 60  0001 L CNN "MPN"
+F 6 "1u" H 4590 9222 50  0000 L CNN "Val"
+	1    4475 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60B04E94
+P 4800 9275
+F 0 "C?" H 4915 9320 60  0000 L CNN
+F 1 "C_1u_0402" H 4800 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5000 9475 60  0001 L CNN
+F 3 "" H 4800 9275 50  0001 C CNN
+F 4 "TDK" H 5000 9675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 5000 9575 60  0001 L CNN "MPN"
+F 6 "1u" H 4915 9222 50  0000 L CNN "Val"
+	1    4800 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60B04B17
+P 5475 9275
+F 0 "C?" H 5590 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 5475 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5675 9475 60  0001 L CNN
+F 3 "" H 5475 9275 50  0001 C CNN
+F 4 "YAGEO" H 5675 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5675 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 5590 9222 50  0000 L CNN "Val"
+	1    5475 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60B08DA2
+P 5125 9275
+F 0 "C?" H 5240 9320 60  0000 L CNN
+F 1 "C_1u_0402" H 5125 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5325 9475 60  0001 L CNN
+F 3 "" H 5125 9275 50  0001 C CNN
+F 4 "TDK" H 5325 9675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 5325 9575 60  0001 L CNN "MPN"
+F 6 "1u" H 5240 9222 50  0000 L CNN "Val"
+	1    5125 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60B0A8B6
+P 5825 9275
+F 0 "C?" H 5940 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 5825 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 6025 9475 60  0001 L CNN
+F 3 "" H 5825 9275 50  0001 C CNN
+F 4 "YAGEO" H 6025 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 6025 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 5940 9222 50  0000 L CNN "Val"
+	1    5825 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60B0AD89
+P 6150 9275
+F 0 "C?" H 6265 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 6150 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 6350 9475 60  0001 L CNN
+F 3 "" H 6150 9275 50  0001 C CNN
+F 4 "YAGEO" H 6350 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 6350 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 6265 9222 50  0000 L CNN "Val"
+	1    6150 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60B0D43A
+P 6475 9275
+F 0 "C?" H 6590 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 6475 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 6675 9475 60  0001 L CNN
+F 3 "" H 6475 9275 50  0001 C CNN
+F 4 "YAGEO" H 6675 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 6675 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 6590 9222 50  0000 L CNN "Val"
+	1    6475 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60B0D443
+P 6825 9275
+F 0 "C?" H 6940 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 6825 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 7025 9475 60  0001 L CNN
+F 3 "" H 6825 9275 50  0001 C CNN
+F 4 "YAGEO" H 7025 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 7025 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 6940 9222 50  0000 L CNN "Val"
+	1    6825 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60B0D44C
+P 7150 9275
+F 0 "C?" H 7265 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 7150 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 7350 9475 60  0001 L CNN
+F 3 "" H 7150 9275 50  0001 C CNN
+F 4 "YAGEO" H 7350 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 7350 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 7265 9222 50  0000 L CNN "Val"
+	1    7150 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 9425 4475 9475
+Wire Wire Line
+	4475 9475 4800 9475
+Wire Wire Line
+	7150 9475 7150 9425
+Wire Wire Line
+	6825 9425 6825 9475
+Connection ~ 6825 9475
+Wire Wire Line
+	6825 9475 7150 9475
+Wire Wire Line
+	6475 9425 6475 9475
+Connection ~ 6475 9475
+Wire Wire Line
+	6475 9475 6825 9475
+Wire Wire Line
+	6150 9425 6150 9475
+Connection ~ 6150 9475
+Wire Wire Line
+	6150 9475 6475 9475
+Wire Wire Line
+	5825 9425 5825 9475
+Connection ~ 5825 9475
+Wire Wire Line
+	5825 9475 6150 9475
+Wire Wire Line
+	5475 9425 5475 9475
+Connection ~ 5475 9475
+Wire Wire Line
+	5475 9475 5825 9475
+Wire Wire Line
+	5125 9425 5125 9475
+Connection ~ 5125 9475
+Wire Wire Line
+	5125 9475 5475 9475
+Wire Wire Line
+	4800 9425 4800 9475
+Connection ~ 4800 9475
+Wire Wire Line
+	4800 9475 5125 9475
+Wire Wire Line
+	4475 9475 4475 9550
+Connection ~ 4475 9475
+$Comp
+L power:GND #PWR?
+U 1 1 60C697E1
+P 4475 9550
+F 0 "#PWR?" H 4475 9300 50  0001 C CNN
+F 1 "GND" H 4480 9377 50  0000 C CNN
+F 2 "" H 4475 9550 50  0001 C CNN
+F 3 "" H 4475 9550 50  0001 C CNN
+	1    4475 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 9075 8025 9075
+Wire Wire Line
+	8025 9125 8025 9075
+Connection ~ 8025 9075
+Wire Wire Line
+	8025 9075 8350 9075
+Wire Wire Line
+	8350 9125 8350 9075
+Connection ~ 8350 9075
+Text GLabel 7700 9000 1    50   Input ~ 0
+VCC_0V9
+Wire Wire Line
+	7700 9000 7700 9075
+Wire Wire Line
+	7700 9075 7700 9125
+Connection ~ 7700 9075
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60C9D0FA
+P 7700 9275
+F 0 "C?" H 7815 9320 60  0000 L CNN
+F 1 "C_1u_0402" H 7700 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7900 9475 60  0001 L CNN
+F 3 "" H 7700 9275 50  0001 C CNN
+F 4 "TDK" H 7900 9675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 7900 9575 60  0001 L CNN "MPN"
+F 6 "1u" H 7815 9222 50  0000 L CNN "Val"
+	1    7700 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60C9D103
+P 8025 9275
+F 0 "C?" H 8140 9320 60  0000 L CNN
+F 1 "C_1u_0402" H 8025 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8225 9475 60  0001 L CNN
+F 3 "" H 8025 9275 50  0001 C CNN
+F 4 "TDK" H 8225 9675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 8225 9575 60  0001 L CNN "MPN"
+F 6 "1u" H 8140 9222 50  0000 L CNN "Val"
+	1    8025 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60C9D10C
+P 8350 9275
+F 0 "C?" H 8465 9320 60  0000 L CNN
+F 1 "C_1u_0402" H 8350 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8550 9475 60  0001 L CNN
+F 3 "" H 8350 9275 50  0001 C CNN
+F 4 "TDK" H 8550 9675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 8550 9575 60  0001 L CNN "MPN"
+F 6 "1u" H 8465 9222 50  0000 L CNN "Val"
+	1    8350 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 9425 7700 9475
+Wire Wire Line
+	7700 9475 8025 9475
+Wire Wire Line
+	8350 9425 8350 9475
+Connection ~ 8350 9475
+Wire Wire Line
+	8025 9425 8025 9475
+Connection ~ 8025 9475
+Wire Wire Line
+	8025 9475 8350 9475
+Wire Wire Line
+	7700 9475 7700 9550
+Connection ~ 7700 9475
+$Comp
+L power:GND #PWR?
+U 1 1 60C9D11C
+P 7700 9550
+F 0 "#PWR?" H 7700 9300 50  0001 C CNN
+F 1 "GND" H 7705 9377 50  0000 C CNN
+F 2 "" H 7700 9550 50  0001 C CNN
+F 3 "" H 7700 9550 50  0001 C CNN
+	1    7700 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 9125 8700 9075
+Connection ~ 8700 9075
+Wire Wire Line
+	9375 9125 9375 9075
+Wire Wire Line
+	8700 9075 9050 9075
+Wire Wire Line
+	9050 9125 9050 9075
+Connection ~ 9050 9075
+Wire Wire Line
+	9050 9075 9375 9075
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60CC1EC2
+P 8700 9275
+F 0 "C?" H 8815 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 8700 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 8900 9475 60  0001 L CNN
+F 3 "" H 8700 9275 50  0001 C CNN
+F 4 "YAGEO" H 8900 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 8900 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 8815 9222 50  0000 L CNN "Val"
+	1    8700 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60CC1ECB
+P 9050 9275
+F 0 "C?" H 9165 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 9050 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 9250 9475 60  0001 L CNN
+F 3 "" H 9050 9275 50  0001 C CNN
+F 4 "YAGEO" H 9250 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 9250 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 9165 9222 50  0000 L CNN "Val"
+	1    9050 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60CC1ED4
+P 9375 9275
+F 0 "C?" H 9490 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 9375 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 9575 9475 60  0001 L CNN
+F 3 "" H 9375 9275 50  0001 C CNN
+F 4 "YAGEO" H 9575 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 9575 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 9490 9222 50  0000 L CNN "Val"
+	1    9375 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 9475 9375 9425
+Wire Wire Line
+	9050 9425 9050 9475
+Connection ~ 9050 9475
+Wire Wire Line
+	9050 9475 9375 9475
+Wire Wire Line
+	8700 9425 8700 9475
+Connection ~ 8700 9475
+Wire Wire Line
+	8700 9475 9050 9475
+Text Notes 4325 9000 1    50   ~ 0
+MIPI&USB
+$Comp
+L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB?
+U 1 1 60CEF0B0
+P 10625 9075
+F 0 "FB?" H 10625 9362 60  0000 C CNN
+F 1 "BLM15PD121SN1D" H 10625 9256 60  0000 C CNN
+F 2 "antmicro-footprints:0402-res" H 10825 9275 60  0001 L CNN
+F 3 "" H 10825 9375 60  0001 L CNN
+F 4 "BLM15PD121SN1D" H 10825 9575 60  0001 L CNN "MPN"
+F 5 "Murata" H 10825 10175 60  0001 L CNN "Manufacturer"
+	1    10625 9075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9975 9075 10300 9075
+Text GLabel 9975 9000 1    50   Input ~ 0
+AVDD3V3_USB
+Wire Wire Line
+	9975 9000 9975 9075
+Wire Wire Line
+	9975 9075 9975 9125
+Connection ~ 9975 9075
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 60CF4B3F
+P 9975 9275
+F 0 "C?" H 10090 9320 60  0000 L CNN
+F 1 "C_1u_0402" H 9975 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10175 9475 60  0001 L CNN
+F 3 "" H 9975 9275 50  0001 C CNN
+F 4 "TDK" H 10175 9675 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 10175 9575 60  0001 L CNN "MPN"
+F 6 "1u" H 10090 9222 50  0000 L CNN "Val"
+	1    9975 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9975 9425 9975 9475
+Wire Wire Line
+	9975 9475 10300 9475
+Wire Wire Line
+	9975 9475 9975 9550
+Connection ~ 9975 9475
+$Comp
+L power:GND #PWR?
+U 1 1 60CF4B49
+P 9975 9550
+F 0 "#PWR?" H 9975 9300 50  0001 C CNN
+F 1 "GND" H 9980 9377 50  0000 C CNN
+F 2 "" H 9975 9550 50  0001 C CNN
+F 3 "" H 9975 9550 50  0001 C CNN
+	1    9975 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100n_0201 C?
+U 1 1 60D1AAEE
+P 10300 9275
+F 0 "C?" H 10415 9320 60  0000 L CNN
+F 1 "C_100n_0201" H 10300 9125 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 10500 9475 60  0001 L CNN
+F 3 "" H 10300 9275 50  0001 C CNN
+F 4 "YAGEO" H 10500 9675 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 10500 9575 60  0001 L CNN "MPN"
+F 6 "100n" H 10415 9222 50  0000 L CNN "Val"
+	1    10300 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 9125 10300 9075
+Wire Wire Line
+	10300 9425 10300 9475
+Connection ~ 10300 9075
+Wire Wire Line
+	10300 9075 10425 9075
+Wire Wire Line
+	10825 9075 11100 9075
+Wire Wire Line
+	11100 9075 11100 9025
+Text GLabel 11100 9025 1    50   Input ~ 0
+VCC_3V3
+Connection ~ 2050 3100
+Connection ~ 2050 3500
+Text Notes 3775 1100 0    118  ~ 24
+VIC power
+Wire Wire Line
+	8375 9075 8700 9075
+Wire Wire Line
+	8375 9475 8700 9475
+Wire Wire Line
+	8350 9075 8700 9075
+Wire Wire Line
+	8350 9475 8700 9475
+Text Notes 1675 6500 0    118  ~ 24
+VIC 3V3 GPIO
+Text Notes 1650 8350 0    118  ~ 24
+VIC LCD&RGMII
+Text Notes 6850 8375 0    118  ~ 24
+VIC MIPI&USB
+$EndSCHEMATC
