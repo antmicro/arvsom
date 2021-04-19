@@ -1,0 +1,1025 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 10 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L antmicroMicrocontrollers:VIC7100 U?
+U 7 1 617DF04A
+P 8975 1350
+F 0 "U?" H 10006 -652 60  0000 L CNN
+F 1 "VIC7100" H 10006 -758 60  0000 L CNN
+F 2 "antmicro-footprints:vic7100" H 9175 1400 60  0001 L CNN
+F 3 "" H 11225 1050 60  0001 L CNN
+F 4 "VIC7100" H 10006 -856 50  0000 L CNN "MPN"
+	7    8975 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:VIC7100 U?
+U 9 1 61811424
+P 2125 1275
+F 0 "U?" H 3256 -2327 60  0000 L CNN
+F 1 "VIC7100" H 3256 -2433 60  0000 L CNN
+F 2 "antmicro-footprints:vic7100" H 2325 1325 60  0001 L CNN
+F 3 "" H 4375 975 60  0001 L CNN
+F 4 "VIC7100" H 3256 -2531 50  0000 L CNN "MPN"
+	9    2125 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 8675 2125 8575
+Wire Wire Line
+	2125 8275 1850 8275
+Connection ~ 2125 8275
+Connection ~ 2125 8375
+Wire Wire Line
+	2125 8375 2125 8275
+Connection ~ 2125 8475
+Wire Wire Line
+	2125 8475 2125 8375
+Connection ~ 2125 8575
+Wire Wire Line
+	2125 8575 2125 8475
+Text GLabel 1850 8275 0    50   Input ~ 0
+VCC_3V3
+Text GLabel 2125 1275 0    50   Input ~ 0
+RPI_GPIO2
+Text GLabel 2125 1375 0    50   Input ~ 0
+RPI_GPIO3
+Text GLabel 2125 1475 0    50   Input ~ 0
+RPI_GPIO4
+Text Notes 3325 1300 0    50   ~ 0
+X2C_TX_CLK
+Text Notes 3325 1400 0    50   ~ 0
+X2C_TX_RST
+Text Notes 3325 1500 0    50   ~ 0
+X2C_TX_SEND
+Text GLabel 2125 1575 0    50   Input ~ 0
+RPI_GPIO17
+Text GLabel 2125 1675 0    50   Input ~ 0
+RPI_GPIO27
+Text GLabel 2125 1775 0    50   Input ~ 0
+RPI_GPIO22
+Text GLabel 2125 1875 0    50   Input ~ 0
+RPI_GPIO11
+Text GLabel 2125 1975 0    50   Input ~ 0
+RPI_GPIO25
+Text GLabel 2125 2075 0    50   Input ~ 0
+RPI_GPIO18
+Text GLabel 2125 2175 0    50   Input ~ 0
+RPI_GPIO23
+Text GLabel 2125 2275 0    50   Input ~ 0
+RPI_GPIO24
+Text GLabel 2125 2375 0    50   Input ~ 0
+RPI_GPIO10
+Text GLabel 2125 2475 0    50   Input ~ 0
+RPI_GPIO9
+Text GLabel 2125 2575 0    50   Input ~ 0
+RPI_GPIO15
+Text GLabel 2125 2675 0    50   Input ~ 0
+RPI_GPIO14
+Text GLabel 2125 2775 0    50   Input ~ 0
+RPI_GPIO8
+Text GLabel 2125 2875 0    50   Input ~ 0
+RPI_GPIO7
+Text GLabel 2125 2975 0    50   Input ~ 0
+RPI_ID_SC
+Text GLabel 2125 3075 0    50   Input ~ 0
+RPI_ID_SD
+Text GLabel 2125 3175 0    50   Input ~ 0
+RPI_GPIO5
+Text GLabel 2125 3275 0    50   Input ~ 0
+RPI_GPIO6
+Text GLabel 2125 3375 0    50   Input ~ 0
+RPI_GPIO13
+Text GLabel 2125 3475 0    50   Input ~ 0
+RPI_GPIO19
+Text GLabel 2125 3575 0    50   Input ~ 0
+RPI_GPIO26
+Text GLabel 2125 3675 0    50   Input ~ 0
+RPI_GPIO12
+Text GLabel 2125 3775 0    50   Input ~ 0
+RPI_GPIO16
+Text GLabel 2125 3875 0    50   Input ~ 0
+RPI_GPIO20
+Text GLabel 2125 3975 0    50   Input ~ 0
+RPI_GPIO21
+Text GLabel 2125 4075 0    50   Input ~ 0
+VDD2PEN
+Text GLabel 2125 4175 0    50   Input ~ 0
+WIFI_SDIO1_CMD
+Text GLabel 2125 4275 0    50   Input ~ 0
+WIFI_SDIO1_D1
+Text GLabel 2125 4375 0    50   Input ~ 0
+WIFI_SDIO1_D3
+Text GLabel 2125 4475 0    50   Input ~ 0
+BT_WAKE
+Text GLabel 2125 4575 0    50   Input ~ 0
+WIFI_SDIO1_CLK
+Text GLabel 2125 4675 0    50   Input ~ 0
+WIFI_SDIO1_D2
+Text GLabel 2125 4775 0    50   Input ~ 0
+LED
+Text GLabel 2125 4875 0    50   Input ~ 0
+WIFI_SDIO1_D0
+Text GLabel 2125 4975 0    50   Input ~ 0
+PWR_OFF
+Text GLabel 2125 5075 0    50   Input ~ 0
+BT_UART_CTS
+Text GLabel 2125 5175 0    50   Input ~ 0
+BT_UART_RXD
+Text GLabel 2125 5275 0    50   Input ~ 0
+BT_UART_TXD
+Text GLabel 2125 5375 0    50   Input ~ 0
+BT_UART_RTS
+Text GLabel 2125 5475 0    50   Input ~ 0
+WIFI_EN
+Text GLabel 2125 5575 0    50   Input ~ 0
+BT_RSTN
+Text GLabel 2125 5675 0    50   Input ~ 0
+SDIO0_D0
+Text GLabel 2125 5775 0    50   Input ~ 0
+SDIO0_D1
+Text GLabel 2125 5875 0    50   Input ~ 0
+SDIO0_D2
+Text GLabel 2125 5975 0    50   Input ~ 0
+SDIO0_D3
+Text GLabel 2125 6075 0    50   Input ~ 0
+SDIO0_CMD
+Text GLabel 2125 6175 0    50   Input ~ 0
+SDIO0_CLK
+Text GLabel 2125 6275 0    50   Input ~ 0
+SDIO0_CD
+Text GLabel 2125 6375 0    50   Input ~ 0
+CSI1_PWDN
+Text GLabel 2125 6475 0    50   Input ~ 0
+CSI0_PWDN
+Text GLabel 2125 6575 0    50   Input ~ 0
+I2C2_SDA
+Text GLabel 2125 6675 0    50   Input ~ 0
+I2C2_SCL
+Text GLabel 2125 6775 0    50   Input ~ 0
+I2C0_SDA
+Text GLabel 2125 6875 0    50   Input ~ 0
+I2C0_SCL
+Text GLabel 2125 6975 0    50   Input ~ 0
+DAC_PWML
+Text GLabel 2125 7075 0    50   Input ~ 0
+DAC_PWMR
+Text GLabel 1325 7175 0    50   Input ~ 0
+HDMI_I2STX0
+Text GLabel 1325 7275 0    50   Input ~ 0
+HDMI_LRCLK
+Text GLabel 1325 7375 0    50   Input ~ 0
+HDMI_12MHZ
+Text GLabel 1325 7475 0    50   Input ~ 0
+HDMI_INT
+Text GLabel 1325 7575 0    50   Input ~ 0
+HDMI_BCLK
+NoConn ~ 2125 7675
+NoConn ~ 2125 7775
+NoConn ~ 2125 7875
+NoConn ~ 2125 7975
+NoConn ~ 2125 8075
+NoConn ~ 2125 8175
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 619E8438
+P 1600 7175
+F 0 "R?" H 1400 7225 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 7025 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1800 7375 60  0001 L CNN
+F 3 "" H 1600 7175 50  0001 C CNN
+F 4 "Vishay" H 1800 7575 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 7475 60  0001 L CNN "MPN"
+F 6 "33R" H 1625 7175 50  0000 C CNN "Val"
+	1    1600 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 619EF7E3
+P 1600 7275
+F 0 "R?" H 1825 7325 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 7125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1800 7475 60  0001 L CNN
+F 3 "" H 1600 7275 50  0001 C CNN
+F 4 "Vishay" H 1800 7675 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 7575 60  0001 L CNN "MPN"
+F 6 "33R" H 1600 7275 50  0000 C CNN "Val"
+	1    1600 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 619F3AD5
+P 1600 7375
+F 0 "R?" H 1825 7425 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 7225 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1800 7575 60  0001 L CNN
+F 3 "" H 1600 7375 50  0001 C CNN
+F 4 "Vishay" H 1800 7775 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 7675 60  0001 L CNN "MPN"
+F 6 "33R" H 1600 7375 50  0000 C CNN "Val"
+	1    1600 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 619F4460
+P 1600 7475
+F 0 "R?" H 1825 7525 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 7325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1800 7675 60  0001 L CNN
+F 3 "" H 1600 7475 50  0001 C CNN
+F 4 "Vishay" H 1800 7875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 7775 60  0001 L CNN "MPN"
+F 6 "33R" H 1600 7475 50  0000 C CNN "Val"
+	1    1600 7475
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 619F4C47
+P 1600 7575
+F 0 "R?" H 1825 7625 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 7425 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1800 7775 60  0001 L CNN
+F 3 "" H 1600 7575 50  0001 C CNN
+F 4 "Vishay" H 1800 7975 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 7875 60  0001 L CNN "MPN"
+F 6 "33R" H 1600 7575 50  0000 C CNN "Val"
+	1    1600 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1325 7175 1450 7175
+Wire Wire Line
+	1750 7175 2125 7175
+Wire Wire Line
+	1325 7275 1450 7275
+Wire Wire Line
+	1325 7375 1450 7375
+Wire Wire Line
+	1325 7475 1450 7475
+Wire Wire Line
+	1325 7575 1450 7575
+Wire Wire Line
+	1750 7275 2125 7275
+Wire Wire Line
+	1750 7375 2125 7375
+Wire Wire Line
+	1750 7475 2125 7475
+Wire Wire Line
+	1750 7575 2125 7575
+$Comp
+L antmicroMicrocontrollers:VIC7100 U?
+U 10 1 61A45CFC
+P 2125 9175
+F 0 "U?" H 3256 8373 60  0000 L CNN
+F 1 "VIC7100" H 3256 8267 60  0000 L CNN
+F 2 "antmicro-footprints:vic7100" H 2325 9225 60  0001 L CNN
+F 3 "" H 4375 8875 60  0001 L CNN
+F 4 "VIC7100" H 3256 8169 50  0000 L CNN "MPN"
+	10   2125 9175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 10875 2125 10975
+Wire Wire Line
+	2125 10875 1800 10875
+Wire Wire Line
+	1800 10875 1800 10750
+Connection ~ 2125 10875
+Text GLabel 1800 10750 1    50   Input ~ 0
+VCC_3V3
+NoConn ~ 2125 9175
+NoConn ~ 2125 9275
+NoConn ~ 2125 9375
+NoConn ~ 2125 9475
+NoConn ~ 2125 9575
+NoConn ~ 2125 9675
+NoConn ~ 2125 9775
+NoConn ~ 2125 9875
+NoConn ~ 2125 9975
+NoConn ~ 2125 10075
+NoConn ~ 2125 10175
+NoConn ~ 2125 10275
+NoConn ~ 2125 10375
+NoConn ~ 2125 10475
+NoConn ~ 2125 10575
+NoConn ~ 2125 10675
+NoConn ~ 2125 10775
+$Comp
+L antmicroMicrocontrollers:VIC7100 U?
+U 8 1 61AFCC3D
+P 5700 1300
+F 0 "U?" H 6731 -152 60  0000 L CNN
+F 1 "VIC7100" H 6731 -258 60  0000 L CNN
+F 2 "antmicro-footprints:vic7100" H 5900 1350 60  0001 L CNN
+F 3 "" H 7950 1000 60  0001 L CNN
+F 4 "VIC7100" H 6731 -356 50  0000 L CNN "MPN"
+	8    5700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4400 5700 4300
+Connection ~ 5700 4200
+Wire Wire Line
+	5700 4200 5700 4100
+Connection ~ 5700 4300
+Wire Wire Line
+	5700 4300 5700 4200
+Wire Wire Line
+	5700 4100 5475 4100
+Connection ~ 5700 4100
+Text GLabel 5475 4100 0    50   Input ~ 0
+VCC_3V3
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61B7B4E8
+P 5550 1300
+F 0 "R?" H 5325 1350 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 1500 60  0001 L CNN
+F 3 "" H 5550 1300 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 1700 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 1600 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 1300 50  0000 C CNN "Val"
+	1    5550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61B89341
+P 5550 1400
+F 0 "R?" H 5325 1450 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1250 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 1600 60  0001 L CNN
+F 3 "" H 5550 1400 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 1800 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 1700 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 1400 50  0000 C CNN "Val"
+	1    5550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BDF0DA
+P 5550 1500
+F 0 "R?" H 5325 1550 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1350 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 1700 60  0001 L CNN
+F 3 "" H 5550 1500 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 1900 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 1800 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 1500 50  0000 C CNN "Val"
+	1    5550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BDF0E3
+P 5550 1600
+F 0 "R?" H 5325 1650 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1450 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 1800 60  0001 L CNN
+F 3 "" H 5550 1600 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2000 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 1900 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 1600 50  0000 C CNN "Val"
+	1    5550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BDFD85
+P 5550 1700
+F 0 "R?" H 5325 1750 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1550 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 1900 60  0001 L CNN
+F 3 "" H 5550 1700 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2100 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2000 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 1700 50  0000 C CNN "Val"
+	1    5550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BDFD8E
+P 5550 1800
+F 0 "R?" H 5325 1850 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1650 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2000 60  0001 L CNN
+F 3 "" H 5550 1800 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2200 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2100 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 1800 50  0000 C CNN "Val"
+	1    5550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BE369A
+P 5550 1900
+F 0 "R?" H 5325 1950 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1750 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2100 60  0001 L CNN
+F 3 "" H 5550 1900 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2300 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2200 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 1900 50  0000 C CNN "Val"
+	1    5550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BE36A3
+P 5550 2000
+F 0 "R?" H 5325 2050 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1850 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2200 60  0001 L CNN
+F 3 "" H 5550 2000 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2400 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2300 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2000 50  0000 C CNN "Val"
+	1    5550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BE63F9
+P 5550 2100
+F 0 "R?" H 5325 2150 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 1950 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2300 60  0001 L CNN
+F 3 "" H 5550 2100 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2500 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2400 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2100 50  0000 C CNN "Val"
+	1    5550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BE6402
+P 5550 2200
+F 0 "R?" H 5325 2250 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2050 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2400 60  0001 L CNN
+F 3 "" H 5550 2200 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2600 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2500 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2200 50  0000 C CNN "Val"
+	1    5550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BE6F22
+P 5550 2300
+F 0 "R?" H 5325 2350 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2500 60  0001 L CNN
+F 3 "" H 5550 2300 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2700 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2600 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2300 50  0000 C CNN "Val"
+	1    5550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BE6F2B
+P 5550 2400
+F 0 "R?" H 5325 2450 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2250 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2600 60  0001 L CNN
+F 3 "" H 5550 2400 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2800 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2700 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2400 50  0000 C CNN "Val"
+	1    5550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BE9D41
+P 5550 2500
+F 0 "R?" H 5325 2550 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2350 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2700 60  0001 L CNN
+F 3 "" H 5550 2500 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 2900 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2800 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2500 50  0000 C CNN "Val"
+	1    5550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BE9D4A
+P 5550 2600
+F 0 "R?" H 5325 2650 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2450 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2800 60  0001 L CNN
+F 3 "" H 5550 2600 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3000 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 2900 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2600 50  0000 C CNN "Val"
+	1    5550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BECCB0
+P 5550 2700
+F 0 "R?" H 5325 2750 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2550 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 2900 60  0001 L CNN
+F 3 "" H 5550 2700 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3100 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3000 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2700 50  0000 C CNN "Val"
+	1    5550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BECCB9
+P 5550 2800
+F 0 "R?" H 5325 2850 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2650 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3000 60  0001 L CNN
+F 3 "" H 5550 2800 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3200 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3100 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2800 50  0000 C CNN "Val"
+	1    5550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BED7D7
+P 5550 2900
+F 0 "R?" H 5325 2950 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2750 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3100 60  0001 L CNN
+F 3 "" H 5550 2900 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3300 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3200 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 2900 50  0000 C CNN "Val"
+	1    5550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BED7E0
+P 5550 3000
+F 0 "R?" H 5325 3050 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3200 60  0001 L CNN
+F 3 "" H 5550 3000 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3400 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3300 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3000 50  0000 C CNN "Val"
+	1    5550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BEE52E
+P 5550 3100
+F 0 "R?" H 5325 3150 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3300 60  0001 L CNN
+F 3 "" H 5550 3100 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3500 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3400 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3100 50  0000 C CNN "Val"
+	1    5550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BEE537
+P 5550 3200
+F 0 "R?" H 5325 3250 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3050 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3400 60  0001 L CNN
+F 3 "" H 5550 3200 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3600 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3500 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3200 50  0000 C CNN "Val"
+	1    5550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BF5D89
+P 5550 3300
+F 0 "R?" H 5325 3350 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3500 60  0001 L CNN
+F 3 "" H 5550 3300 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3700 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3600 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3300 50  0000 C CNN "Val"
+	1    5550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BF5D92
+P 5550 3400
+F 0 "R?" H 5325 3450 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3250 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3600 60  0001 L CNN
+F 3 "" H 5550 3400 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3800 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3700 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3400 50  0000 C CNN "Val"
+	1    5550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BF9196
+P 5550 3500
+F 0 "R?" H 5325 3550 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3350 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3700 60  0001 L CNN
+F 3 "" H 5550 3500 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 3900 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3800 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3500 50  0000 C CNN "Val"
+	1    5550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BF919F
+P 5550 3600
+F 0 "R?" H 5325 3650 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3450 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3800 60  0001 L CNN
+F 3 "" H 5550 3600 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 4000 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 3900 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3600 50  0000 C CNN "Val"
+	1    5550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BFC0B3
+P 5550 3700
+F 0 "R?" H 5325 3750 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3550 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 3900 60  0001 L CNN
+F 3 "" H 5550 3700 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 4100 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 4000 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3700 50  0000 C CNN "Val"
+	1    5550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BFC0BC
+P 5550 3800
+F 0 "R?" H 5325 3850 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3650 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 4000 60  0001 L CNN
+F 3 "" H 5550 3800 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 4200 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 4100 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3800 50  0000 C CNN "Val"
+	1    5550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BFEB40
+P 5550 3900
+F 0 "R?" H 5325 3950 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3750 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 4100 60  0001 L CNN
+F 3 "" H 5550 3900 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 4300 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 4200 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 3900 50  0000 C CNN "Val"
+	1    5550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_33R_0201 R?
+U 1 1 61BFEB49
+P 5550 4000
+F 0 "R?" H 5325 4050 60  0000 C CNN
+F 1 "R_33R_0201" H 5550 3850 60  0001 C CNN
+F 2 "antmicro-footprints:0201-res" H 5750 4200 60  0001 L CNN
+F 3 "" H 5550 4000 50  0001 C CNN
+F 4 "MULTICOMP" H 5750 4400 60  0001 L CNN "Manufacturer"
+F 5 "MCWR02X33R0FAL" H 5750 4300 60  0001 L CNN "MPN"
+F 6 "33R" H 5550 4000 50  0000 C CNN "Val"
+	1    5550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1300 4975 1300
+Wire Wire Line
+	5400 1400 4975 1400
+Wire Wire Line
+	5400 1500 4975 1500
+Wire Wire Line
+	5400 1600 4975 1600
+Wire Wire Line
+	5400 1700 4975 1700
+Wire Wire Line
+	5400 1800 4975 1800
+Wire Wire Line
+	5400 1900 4975 1900
+Wire Wire Line
+	5400 2000 4975 2000
+Wire Wire Line
+	5400 2100 4975 2100
+Wire Wire Line
+	5400 2200 4975 2200
+Wire Wire Line
+	5400 2300 4975 2300
+Wire Wire Line
+	5400 2400 4975 2400
+Wire Wire Line
+	5400 2500 4975 2500
+Wire Wire Line
+	5400 2600 4975 2600
+Wire Wire Line
+	5400 2700 4975 2700
+Wire Wire Line
+	5400 2800 4975 2800
+Wire Wire Line
+	5400 2900 4975 2900
+Wire Wire Line
+	5400 3000 4975 3000
+Wire Wire Line
+	5400 3100 4975 3100
+Wire Wire Line
+	5400 3200 4975 3200
+Wire Wire Line
+	5400 3300 4975 3300
+Wire Wire Line
+	5400 3400 4975 3400
+Wire Wire Line
+	5400 3500 4975 3500
+Wire Wire Line
+	5400 3600 4975 3600
+Wire Wire Line
+	5400 3700 4975 3700
+Wire Wire Line
+	5400 3800 4975 3800
+Wire Wire Line
+	5400 3900 4975 3900
+Wire Wire Line
+	5400 4000 4975 4000
+Text GLabel 4975 1300 0    50   Input ~ 0
+LCD_PCLK
+Text GLabel 4975 1400 0    50   Input ~ 0
+LCD_DE
+Text GLabel 4975 1500 0    50   Input ~ 0
+LCD_VSYNC
+Text GLabel 4975 1600 0    50   Input ~ 0
+LCD_HSYNC
+Text GLabel 4975 1700 0    50   Input ~ 0
+LCD_DATA0
+Text GLabel 4975 1800 0    50   Input ~ 0
+LCD_DATA1
+Text GLabel 4975 1900 0    50   Input ~ 0
+LCD_DATA2
+Text GLabel 4975 2000 0    50   Input ~ 0
+LCD_DATA3
+Text GLabel 4975 2100 0    50   Input ~ 0
+LCD_DATA4
+Text GLabel 4975 2200 0    50   Input ~ 0
+LCD_DATA5
+Text GLabel 4975 2300 0    50   Input ~ 0
+LCD_DATA6
+Text GLabel 4975 2400 0    50   Input ~ 0
+LCD_DATA7
+Text GLabel 4975 2500 0    50   Input ~ 0
+LCD_DATA8
+Text GLabel 4975 2600 0    50   Input ~ 0
+LCD_DATA9
+Text GLabel 4975 2700 0    50   Input ~ 0
+LCD_DATA10
+Text GLabel 4975 2800 0    50   Input ~ 0
+LCD_DATA11
+Text GLabel 4975 2900 0    50   Input ~ 0
+LCD_DATA12
+Text GLabel 4975 3000 0    50   Input ~ 0
+LCD_DATA13
+Text GLabel 4975 3100 0    50   Input ~ 0
+LCD_DATA14
+Text GLabel 4975 3200 0    50   Input ~ 0
+LCD_DATA15
+Text GLabel 4975 3300 0    50   Input ~ 0
+LCD_DATA16
+Text GLabel 4975 3400 0    50   Input ~ 0
+LCD_DATA17
+Text GLabel 4975 3500 0    50   Input ~ 0
+LCD_DATA18
+Text GLabel 4975 3600 0    50   Input ~ 0
+LCD_DATA19
+Text GLabel 4975 3700 0    50   Input ~ 0
+LCD_DATA20
+Text GLabel 4975 3800 0    50   Input ~ 0
+LCD_DATA21
+Text GLabel 4975 3900 0    50   Input ~ 0
+LCD_DATA22
+Text GLabel 4975 4000 0    50   Input ~ 0
+LCD_DATA23
+$Comp
+L antmicroMicrocontrollers:VIC7100 U?
+U 11 1 61CE65BF
+P 5625 5075
+F 0 "U?" H 6756 3773 60  0000 L CNN
+F 1 "VIC7100" H 6756 3667 60  0000 L CNN
+F 2 "antmicro-footprints:vic7100" H 5825 5125 60  0001 L CNN
+F 3 "" H 7875 4775 60  0001 L CNN
+F 4 "VIC7100" H 6756 3569 50  0000 L CNN "MPN"
+	11   5625 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 7775 5400 7775
+Text GLabel 5400 7775 0    50   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	5625 7775 5625 7875
+Connection ~ 5625 7775
+NoConn ~ 5625 5175
+NoConn ~ 5625 5375
+NoConn ~ 5625 5875
+NoConn ~ 5625 5975
+NoConn ~ 5625 6075
+NoConn ~ 5625 6175
+NoConn ~ 5625 6475
+NoConn ~ 5625 6975
+NoConn ~ 5625 7075
+NoConn ~ 5625 7175
+NoConn ~ 5625 7275
+NoConn ~ 5625 7375
+NoConn ~ 5625 7475
+Text GLabel 5625 5075 0    50   Input ~ 0
+GMAC_GTXCLK
+Text GLabel 5625 5275 0    50   Input ~ 0
+GMAC_TXEN
+Text GLabel 5625 5475 0    50   Input ~ 0
+GMAC_TXD0
+Text GLabel 5625 5575 0    50   Input ~ 0
+GMAC_TXD1
+Text GLabel 5625 5675 0    50   Input ~ 0
+GMAC_TXD2
+Text GLabel 5625 5775 0    50   Input ~ 0
+GMAC_TXD3
+Text GLabel 5625 6275 0    50   Input ~ 0
+GMAC_RXCLK
+Text GLabel 5625 6375 0    50   Input ~ 0
+GMAC_RXDV
+Text GLabel 5625 6575 0    50   Input ~ 0
+GMAC_RXD0
+Text GLabel 5625 6675 0    50   Input ~ 0
+GMAC_RXD1
+Text GLabel 5625 6775 0    50   Input ~ 0
+GMAC_RXD2
+Text GLabel 5625 6875 0    50   Input ~ 0
+GMAC_RXD3
+Text GLabel 5625 7575 0    50   Input ~ 0
+GMAC_MDC
+Text GLabel 5625 7675 0    50   Input ~ 0
+GMAC_MDIO
+Text GLabel 8700 1350 0    50   Input ~ 0
+VCC_0V9
+Wire Wire Line
+	8700 1350 8975 1350
+Wire Wire Line
+	8975 1350 8975 1450
+Connection ~ 8975 1350
+Connection ~ 8975 1450
+Wire Wire Line
+	8975 1450 8975 1550
+Text GLabel 8700 1650 0    50   Input ~ 0
+VCC_1V8
+Wire Wire Line
+	8700 1650 8975 1650
+Wire Wire Line
+	8975 1850 8975 1750
+Connection ~ 8975 1650
+Connection ~ 8975 1750
+Wire Wire Line
+	8975 1750 8975 1650
+Text GLabel 8700 1950 0    50   Input ~ 0
+AVDD3V3_USB
+Wire Wire Line
+	8700 1950 8975 1950
+Wire Wire Line
+	8975 2050 8975 2150
+Connection ~ 8975 2150
+Wire Wire Line
+	8975 2150 8975 2250
+Connection ~ 8975 2250
+Wire Wire Line
+	8975 2250 8975 2350
+Wire Wire Line
+	8975 2050 8800 2050
+Wire Wire Line
+	8800 2050 8800 2150
+Connection ~ 8975 2050
+$Comp
+L power:GND #PWR?
+U 1 1 6271DEF0
+P 8800 2150
+F 0 "#PWR?" H 8800 1900 50  0001 C CNN
+F 1 "GND" H 8805 1977 50  0000 C CNN
+F 2 "" H 8800 2150 50  0001 C CNN
+F 3 "" H 8800 2150 50  0001 C CNN
+	1    8800 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 2450 0    50   Input ~ 0
+CDTX_DSI_D0_N
+Text GLabel 8975 2550 0    50   Input ~ 0
+CDTX_DSI_D0_P
+Text GLabel 8975 2650 0    50   Input ~ 0
+CDTX_DSI_D1_N
+Text GLabel 8975 2750 0    50   Input ~ 0
+CDTX_DSI_D1_P
+Text GLabel 8975 2850 0    50   Input ~ 0
+CDTX_DSI_D2_N
+Text GLabel 8975 2950 0    50   Input ~ 0
+CDTX_DSI_D2_P
+Text GLabel 8975 3050 0    50   Input ~ 0
+CDTX_DSI_D3_N
+Text GLabel 8975 3150 0    50   Input ~ 0
+CDTX_DSI_D3_P
+Text GLabel 8975 3250 0    50   Input ~ 0
+CDTX_DSI_D4_N
+Text GLabel 8975 3350 0    50   Input ~ 0
+CDTX_DSI_D4_P
+Text GLabel 8975 3450 0    50   Input ~ 0
+CSI2RX_D0_N
+Text GLabel 8975 3550 0    50   Input ~ 0
+CSI2RX_D0_P
+Text GLabel 8975 3650 0    50   Input ~ 0
+CSI2RX_D1_N
+Text GLabel 8975 3750 0    50   Input ~ 0
+CSI2RX_D1_P
+Text GLabel 8975 3850 0    50   Input ~ 0
+CSI2RX_CLK_N
+Text GLabel 8975 3950 0    50   Input ~ 0
+CSI2RX_CLK_P
+Text GLabel 8975 4050 0    50   Input ~ 0
+CSI1RX_D0_N
+Text GLabel 8975 4150 0    50   Input ~ 0
+CSI1RX_D0_P
+Text GLabel 8975 4250 0    50   Input ~ 0
+CSI1RX_D1_N
+Text GLabel 8975 4350 0    50   Input ~ 0
+CSI1RX_D1_P
+Text GLabel 8975 4450 0    50   Input ~ 0
+CSI1RX_CLK_N
+Text GLabel 8975 4550 0    50   Input ~ 0
+CSI1RX_CLK_P
+Text GLabel 8975 4650 0    50   Input ~ 0
+USBDM_N
+Text GLabel 8975 4750 0    50   Input ~ 0
+USBDP_P
+Text GLabel 8975 4850 0    50   Input ~ 0
+USB_SSRXA1
+Text GLabel 8975 4950 0    50   Input ~ 0
+USB_SSRXB1
+Text GLabel 8975 5050 0    50   Input ~ 0
+USB_SSRXA2
+Text GLabel 8975 5150 0    50   Input ~ 0
+USB_SSRXB2
+Text GLabel 8975 5250 0    50   Input ~ 0
+USB_SSTXA1
+Text GLabel 8975 5350 0    50   Input ~ 0
+USB_SSTXB1
+Text GLabel 8975 5450 0    50   Input ~ 0
+USB_SSTXA2
+Text GLabel 8975 5550 0    50   Input ~ 0
+USB_SSTXB2
+$EndSCHEMATC
