@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 12
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -795,32 +795,6 @@ GPIO14
 Text GLabel 5250 5100 2    50   Input ~ 0
 GPIO15
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DS-0.4V(51) J?
-U 1 1 60803D5D
-P 4300 5000
-F 0 "J?" H 4300 7667 50  0000 C CNN
-F 1 "DF40C-100DS-0.4V(51)" H 4300 7576 50  0000 C CNN
-F 2 "antmicro-footprints:DF40C-100DS-0.4V_51_" H 4300 5000 50  0001 L BNN
-F 3 "" H 4300 5000 50  0001 L BNN
-F 4 "HRS" H 4300 5000 50  0001 L BNN "Manufacturer"
-	1    4300 5000
-	-1   0    0    -1  
-$EndComp
-Connection ~ 3800 6700
-Connection ~ 3800 6900
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DS-0.4V(51) J?
-U 1 1 60807468
-P 8300 5000
-F 0 "J?" H 8300 7667 50  0000 C CNN
-F 1 "DF40C-100DS-0.4V(51)" H 8300 7576 50  0000 C CNN
-F 2 "antmicro-footprints:DF40C-100DS-0.4V_51_" H 8300 5000 50  0001 L BNN
-F 3 "" H 8300 5000 50  0001 L BNN
-F 4 "HRS" H 8300 5000 50  0001 L BNN "Manufacturer"
-	1    8300 5000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 6083430C
 P 3700 7850
@@ -904,21 +878,6 @@ Wire Wire Line
 	4800 6400 5250 6400
 Text GLabel 5250 6400 2    50   Input ~ 0
 5V0_IN
-Connection ~ 4800 6400
-Connection ~ 4800 6500
-Wire Wire Line
-	4800 6500 4800 6400
-Connection ~ 4800 6600
-Wire Wire Line
-	4800 6600 4800 6500
-Wire Wire Line
-	4800 6600 4800 6700
-Wire Wire Line
-	4800 6700 4800 6800
-Connection ~ 4800 6700
-Connection ~ 4800 6800
-Wire Wire Line
-	4800 6800 4800 6900
 Wire Wire Line
 	4800 7200 5250 7200
 Text GLabel 5250 7200 2    50   Input ~ 0
@@ -931,4 +890,34 @@ Wire Wire Line
 	7800 2800 7350 2800
 Text GLabel 7350 2800 0    50   Input ~ 0
 RESERVED
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J?
+U 1 1 60FEF31E
+P 4300 5000
+F 0 "J?" H 4300 7757 50  0000 C CNN
+F 1 "DF40C-100DP-0.4V(51)" H 4300 7666 50  0000 C CNN
+F 2 "antmicro-footprints:HRS_DF40C-100DP-0.4V(51)" H 4300 5000 50  0001 L BNN
+F 3 "" H 4300 5000 50  0001 L BNN
+F 4 "HRS" H 4300 5000 50  0001 L BNN "Manufacturer"
+F 5 "DF40C-100DP-0.4V(51)" H 4300 7575 50  0000 C CNN "MPN"
+	1    4300 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6800 4800 6900
+Connection ~ 3800 6700
+Connection ~ 3800 6900
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J?
+U 1 1 60FFB551
+P 8300 5000
+F 0 "J?" H 8300 7757 50  0000 C CNN
+F 1 "DF40C-100DP-0.4V(51)" H 8300 7666 50  0000 C CNN
+F 2 "antmicro-footprints:HRS_DF40C-100DP-0.4V(51)" H 8300 5000 50  0001 L BNN
+F 3 "" H 8300 5000 50  0001 L BNN
+F 4 "HRS" H 8300 5000 50  0001 L BNN "Manufacturer"
+F 5 "DF40C-100DP-0.4V(51)" H 8300 7575 50  0000 C CNN "MPN"
+	1    8300 5000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
