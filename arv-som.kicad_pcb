@@ -12694,7 +12694,7 @@
     )
   )
 
-  (module riscv-u74-som-footprints:9774030151 (layer F.Cu) (tedit 5EE0CAB2) (tstamp 608300A9)
+  (module arv-som-footprints:9774030151 (layer F.Cu) (tedit 5EE0CAB2) (tstamp 608300A9)
     (at 181.520001 91.470002)
     (path /60752D32/6059EE21)
     (fp_text reference SP4 (at 0 -4.2) (layer F.SilkS)
@@ -12712,7 +12712,7 @@
     )
   )
 
-  (module riscv-u74-som-footprints:9774030151 (layer F.Cu) (tedit 5EE0CAB2) (tstamp 608300A4)
+  (module arv-som-footprints:9774030151 (layer F.Cu) (tedit 5EE0CAB2) (tstamp 608300A4)
     (at 133.520001 91.470002)
     (path /60752D32/6059ECA8)
     (fp_text reference SP3 (at 0 -4.2) (layer F.SilkS)
@@ -12730,7 +12730,7 @@
     )
   )
 
-  (module riscv-u74-som-footprints:9774030151 (layer F.Cu) (tedit 5EE0CAB2) (tstamp 6083009F)
+  (module arv-som-footprints:9774030151 (layer F.Cu) (tedit 5EE0CAB2) (tstamp 6083009F)
     (at 181.520001 58.470002)
     (path /60752D32/6059EA55)
     (fp_text reference SP2 (at 0 -4.2) (layer F.SilkS)
@@ -12748,7 +12748,7 @@
     )
   )
 
-  (module riscv-u74-som-footprints:9774030151 (layer F.Cu) (tedit 5EE0CAB2) (tstamp 6083009A)
+  (module arv-som-footprints:9774030151 (layer F.Cu) (tedit 5EE0CAB2) (tstamp 6083009A)
     (at 133.520001 58.470002)
     (path /60752D32/6059CEA0)
     (fp_text reference SP1 (at 0 -4.2) (layer F.SilkS)
@@ -13201,7 +13201,7 @@
     )
   )
 
-  (module riscv-u74-som-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm (layer F.Cu) (tedit 5FA01141) (tstamp 6081BDE1)
+  (module arv-som-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm (layer F.Cu) (tedit 5FA01141) (tstamp 6081BDE1)
     (at 175.620001 73.970002)
     (descr "BGA-200, 14.5x10.0mm, 200 Ball, 12x22 Layout, 0.8x0.65mm Pitch, http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf")
     (tags "BGA 200 0.8x0.65")
