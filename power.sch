@@ -426,8 +426,8 @@ F 3 "" H 4375 7375 50  0001 C CNN
 	1    4375 7375
 	1    0    0    -1  
 $EndComp
-Text GLabel 4375 5875 1    50   Input ~ 0
-LDO_3V3
+Text GLabel 4200 5975 0    50   Input ~ 0
+VDD2PEN_OTP_1V8
 $Comp
 L antmicroCapacitorsmisc:C_100n_0402_16V C?
 U 1 1 607AEEA7
@@ -576,7 +576,7 @@ F 3 "" H 4875 7375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4625 6575 1    50   Input ~ 0
-LDO_3V3
+VSYS_5V8
 Wire Wire Line
 	4625 6675 4625 6850
 Wire Wire Line
@@ -641,26 +641,24 @@ Wire Wire Line
 	4375 5975 4375 6850
 Wire Wire Line
 	4375 5975 5825 5975
-Wire Wire Line
-	4375 5875 4375 5975
 Connection ~ 4375 5975
-Text GLabel 3100 6000 0    50   Input ~ 0
+Text GLabel 2550 5800 0    50   Input ~ 0
 SYS_RSTN
 $Comp
 L antmicroResistors0402:R_10k_0402 R?
 U 1 1 6087A26D
-P 3250 6000
-F 0 "R?" H 3250 5787 60  0000 C CNN
-F 1 "R_10k_0402" H 3250 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3450 6200 60  0001 L CNN
-F 3 "" H 3250 6000 50  0001 C CNN
-F 4 "VISHAY" H 3450 6400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 3450 6300 60  0001 L CNN "MPN"
-F 6 "10k" H 3250 5885 50  0000 C CNN "Val"
-	1    3250 6000
+P 2700 5800
+F 0 "R?" H 2700 5587 60  0000 C CNN
+F 1 "R_10k_0402" H 2700 5650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2900 6000 60  0001 L CNN
+F 3 "" H 2700 5800 50  0001 C CNN
+F 4 "VISHAY" H 2900 6200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2900 6100 60  0001 L CNN "MPN"
+F 6 "10k" H 2700 5685 50  0000 C CNN "Val"
+	1    2700 5800
 	-1   0    0    1   
 $EndComp
-Text GLabel 3400 6000 2    50   Input ~ 0
+Text GLabel 2850 5800 2    50   Input ~ 0
 VCC_1V8
 Wire Wire Line
 	7825 3825 8025 3825
@@ -1927,4 +1925,6 @@ Wire Wire Line
 Connection ~ 6225 8900
 Text Notes 6075 9150 0    50   ~ 0
 TODO: replace with 49k9 resistor
+Wire Wire Line
+	4200 5975 4375 5975
 $EndSCHEMATC

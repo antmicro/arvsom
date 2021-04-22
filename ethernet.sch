@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 12
+Sheet 5 11
 Title ""
 Date ""
 Rev ""
@@ -104,28 +104,8 @@ Wire Wire Line
 	10175 5100 9500 5100
 Wire Wire Line
 	10175 5000 9500 5000
-Text Label 10175 5900 2    50   ~ 0
-ETH0_N
-Text Label 10175 5700 2    50   ~ 0
-ETH1_P
-Text Label 10175 5600 2    50   ~ 0
-ETH1_N
-Text Label 10175 5400 2    50   ~ 0
-ETH2_P
-Text Label 10175 5300 2    50   ~ 0
-ETH2_N
-Text Label 10175 5100 2    50   ~ 0
-ETH3_P
-Text Label 10175 5000 2    50   ~ 0
-ETH3_N
-Text Label 10175 6000 2    50   ~ 0
-ETH0_P
 Wire Wire Line
 	6100 6000 6900 6000
-Text Label 6100 6000 0    50   ~ 0
-ETH_LED1
-Text Label 6100 5900 0    50   ~ 0
-ETH_LED2
 Wire Wire Line
 	6900 5900 6100 5900
 Wire Wire Line
@@ -618,10 +598,10 @@ Connection ~ 10125 6975
 Wire Wire Line
 	10550 7100 10550 7150
 $Comp
-L antmicroInterfaceControllers:KSZ9031RNXCA U?
+L antmicroInterfaceControllers:KSZ9031RNXCA U11
 U 1 1 609879F3
 P 7100 3800
-F 0 "U?" H 8200 711 50  0000 C CNN
+F 0 "U11" H 8200 711 50  0000 C CNN
 F 1 "KSZ9031RNXCA" H 8200 620 50  0000 C CNN
 F 2 "antmicro-footprints:QFN-48-Microchip-QFN77-48LD-PL-2" H 7100 4300 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117F.pdf" H 7100 4300 50  0001 L CNN
@@ -631,10 +611,10 @@ F 5 "KSZ9031RNXCA" H 7400 4200 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCrystals:ABM8G-25.000MHZ-18-D2Y-T Y?
+L antmicroCrystals:ABM8G-25.000MHZ-18-D2Y-T Y1
 U 1 1 609949CB
 P 10125 6775
-F 0 "Y?" H 10319 6868 31  0000 L CNN
+F 0 "Y1" H 10319 6868 31  0000 L CNN
 F 1 "ABM8G-25.000MHZ-18-D2Y-T" H 10319 6806 31  0000 L CNN
 F 2 "antmicro-footprints:KX-7" H 12225 6775 50  0001 C CNN
 F 3 "" H 12325 6875 50  0001 C CNN
@@ -644,10 +624,10 @@ F 5 "Abracon" H 10319 6682 31  0000 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_1M5_0402 R?
+L antmicroResistors0402:R_1M5_0402 R41
 U 1 1 609952DF
 P 10175 6400
-F 0 "R?" H 10175 6613 60  0000 C CNN
+F 0 "R41" H 10175 6613 60  0000 C CNN
 F 1 "R_1M5_0402" H 10175 6250 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 10375 6600 60  0001 L CNN
 F 3 "" H 10175 6400 50  0001 C CNN
@@ -658,10 +638,10 @@ F 6 "1M5" H 10175 6515 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22p_0402 C?
+L antmicroCapacitors0402:C_22p_0402 C70
 U 1 1 60995FE2
 P 10550 6950
-F 0 "C?" H 10665 6995 60  0000 L CNN
+F 0 "C70" H 10665 6995 60  0000 L CNN
 F 1 "C_22p_0402" H 10550 6800 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 10750 7150 60  0001 L CNN
 F 3 "" H 10550 6950 50  0001 C CNN
@@ -672,10 +652,10 @@ F 6 "22p" H 10665 6897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22p_0402 C?
+L antmicroCapacitors0402:C_22p_0402 C69
 U 1 1 60998307
 P 9750 6950
-F 0 "C?" H 9865 6995 60  0000 L CNN
+F 0 "C69" H 9865 6995 60  0000 L CNN
 F 1 "C_22p_0402" H 9750 6800 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 9950 7150 60  0001 L CNN
 F 3 "" H 9750 6950 50  0001 C CNN
@@ -686,10 +666,10 @@ F 6 "22p" H 9865 6897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0148
 U 1 1 609990FA
 P 9750 7150
-F 0 "#PWR?" H 9750 6900 50  0001 C CNN
+F 0 "#PWR0148" H 9750 6900 50  0001 C CNN
 F 1 "GND" H 9755 6977 50  0000 C CNN
 F 2 "" H 9750 7150 50  0001 C CNN
 F 3 "" H 9750 7150 50  0001 C CNN
@@ -697,10 +677,10 @@ F 3 "" H 9750 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0149
 U 1 1 6099948C
 P 10125 7150
-F 0 "#PWR?" H 10125 6900 50  0001 C CNN
+F 0 "#PWR0149" H 10125 6900 50  0001 C CNN
 F 1 "GND" H 10130 6977 50  0000 C CNN
 F 2 "" H 10125 7150 50  0001 C CNN
 F 3 "" H 10125 7150 50  0001 C CNN
@@ -708,10 +688,10 @@ F 3 "" H 10125 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0150
 U 1 1 6099970A
 P 10550 7150
-F 0 "#PWR?" H 10550 6900 50  0001 C CNN
+F 0 "#PWR0150" H 10550 6900 50  0001 C CNN
 F 1 "GND" H 10555 6977 50  0000 C CNN
 F 2 "" H 10550 7150 50  0001 C CNN
 F 3 "" H 10550 7150 50  0001 C CNN
@@ -721,10 +701,10 @@ $EndComp
 Wire Wire Line
 	8300 7050 8300 7200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0151
 U 1 1 6099CC44
 P 8300 7200
-F 0 "#PWR?" H 8300 6950 50  0001 C CNN
+F 0 "#PWR0151" H 8300 6950 50  0001 C CNN
 F 1 "GND" H 8305 7027 50  0000 C CNN
 F 2 "" H 8300 7200 50  0001 C CNN
 F 3 "" H 8300 7200 50  0001 C CNN
@@ -732,10 +712,10 @@ F 3 "" H 8300 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_12k1_0402 R?
+L antmicroResistors0402:R_12k1_0402 R30
 U 1 1 6099D953
 P 8450 7050
-F 0 "R?" H 8450 7263 60  0000 C CNN
+F 0 "R30" H 8450 7263 60  0000 C CNN
 F 1 "R_12k1_0402" H 8450 6900 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8650 7250 60  0001 L CNN
 F 3 "" H 8450 7050 50  0001 C CNN
@@ -746,10 +726,10 @@ F 6 "12k1" H 8450 7165 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C?
+L antmicroCapacitors0402:C_4u7_0402 C45
 U 1 1 609BDDE5
 P 1625 2375
-F 0 "C?" H 1740 2420 60  0000 L CNN
+F 0 "C45" H 1740 2420 60  0000 L CNN
 F 1 "C_4u7_0402" H 1625 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 1825 2575 60  0001 L CNN
 F 3 "" H 1625 2375 50  0001 C CNN
@@ -760,10 +740,10 @@ F 6 "4u7" H 1740 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C?
+L antmicroCapacitors0402:C_470n_0402 C46
 U 1 1 609BF508
 P 1875 2375
-F 0 "C?" H 1990 2420 60  0000 L CNN
+F 0 "C46" H 1990 2420 60  0000 L CNN
 F 1 "C_470n_0402" H 1875 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2075 2575 60  0001 L CNN
 F 3 "" H 1875 2375 50  0001 C CNN
@@ -774,10 +754,10 @@ F 6 "470n" H 1990 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C?
+L antmicroCapacitors0402:C_470n_0402 C48
 U 1 1 609C0915
 P 2125 2375
-F 0 "C?" H 2240 2420 60  0000 L CNN
+F 0 "C48" H 2240 2420 60  0000 L CNN
 F 1 "C_470n_0402" H 2125 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2325 2575 60  0001 L CNN
 F 3 "" H 2125 2375 50  0001 C CNN
@@ -788,10 +768,10 @@ F 6 "470n" H 2240 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C?
+L antmicroCapacitors0402:C_470n_0402 C52
 U 1 1 609C0D14
 P 2375 2375
-F 0 "C?" H 2490 2420 60  0000 L CNN
+F 0 "C52" H 2490 2420 60  0000 L CNN
 F 1 "C_470n_0402" H 2375 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2575 2575 60  0001 L CNN
 F 3 "" H 2375 2375 50  0001 C CNN
@@ -802,10 +782,10 @@ F 6 "470n" H 2490 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C56
 U 1 1 609C1299
 P 2625 2375
-F 0 "C?" H 2740 2420 60  0000 L CNN
+F 0 "C56" H 2740 2420 60  0000 L CNN
 F 1 "C_10n_0402" H 2625 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2825 2575 60  0001 L CNN
 F 3 "" H 2625 2375 50  0001 C CNN
@@ -816,10 +796,10 @@ F 6 "10n" H 2740 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C61
 U 1 1 609C2980
 P 2875 2375
-F 0 "C?" H 2990 2420 60  0000 L CNN
+F 0 "C61" H 2990 2420 60  0000 L CNN
 F 1 "C_10n_0402" H 2875 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3075 2575 60  0001 L CNN
 F 3 "" H 2875 2375 50  0001 C CNN
@@ -830,10 +810,10 @@ F 6 "10n" H 2990 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C64
 U 1 1 609C2BB7
 P 3125 2375
-F 0 "C?" H 3240 2420 60  0000 L CNN
+F 0 "C64" H 3240 2420 60  0000 L CNN
 F 1 "C_10n_0402" H 3125 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3325 2575 60  0001 L CNN
 F 3 "" H 3125 2375 50  0001 C CNN
@@ -844,10 +824,10 @@ F 6 "10n" H 3240 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C67
 U 1 1 609C2D4E
 P 3375 2375
-F 0 "C?" H 3490 2420 60  0000 L CNN
+F 0 "C67" H 3490 2420 60  0000 L CNN
 F 1 "C_10n_0402" H 3375 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3575 2575 60  0001 L CNN
 F 3 "" H 3375 2375 50  0001 C CNN
@@ -858,10 +838,10 @@ F 6 "10n" H 3490 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C68
 U 1 1 609C2F5B
 P 3625 2375
-F 0 "C?" H 3740 2420 60  0000 L CNN
+F 0 "C68" H 3740 2420 60  0000 L CNN
 F 1 "C_10n_0402" H 3625 2225 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3825 2575 60  0001 L CNN
 F 3 "" H 3625 2375 50  0001 C CNN
@@ -872,10 +852,10 @@ F 6 "10n" H 3740 2322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM18AG601SN1D FB?
+L antmicroFerriteBeadsandChips:BLM18AG601SN1D FB2
 U 1 1 609C3A9D
 P 2400 3675
-F 0 "FB?" H 2400 3962 60  0000 C CNN
+F 0 "FB2" H 2400 3962 60  0000 C CNN
 F 1 "BLM18AG601SN1D" H 2400 3856 60  0000 C CNN
 F 2 "antmicro-footprints:0603" H 2600 3875 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 2600 3975 60  0001 L CNN
@@ -885,10 +865,10 @@ F 5 "Murata Electronics North America" H 2600 4775 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C?
+L antmicroCapacitors0402:C_4u7_0402 C58
 U 1 1 609C5584
 P 2775 3925
-F 0 "C?" H 2890 3970 60  0000 L CNN
+F 0 "C58" H 2890 3970 60  0000 L CNN
 F 1 "C_4u7_0402" H 2775 3775 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2975 4125 60  0001 L CNN
 F 3 "" H 2775 3925 50  0001 C CNN
@@ -899,10 +879,10 @@ F 6 "4u7" H 2890 3872 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C63
 U 1 1 609C6393
 P 3025 3925
-F 0 "C?" H 3140 3970 60  0000 L CNN
+F 0 "C63" H 3140 3970 60  0000 L CNN
 F 1 "C_10n_0402" H 3025 3775 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3225 4125 60  0001 L CNN
 F 3 "" H 3025 3925 50  0001 C CNN
@@ -913,10 +893,10 @@ F 6 "10n" H 3140 3872 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C66
 U 1 1 609C6858
 P 3275 3925
-F 0 "C?" H 3390 3970 60  0000 L CNN
+F 0 "C66" H 3390 3970 60  0000 L CNN
 F 1 "C_10n_0402" H 3275 3775 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3475 4125 60  0001 L CNN
 F 3 "" H 3275 3925 50  0001 C CNN
@@ -927,10 +907,10 @@ F 6 "10n" H 3390 3872 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C?
+L antmicroCapacitors0402:C_4u7_0402 C49
 U 1 1 609C7C27
 P 2225 5625
-F 0 "C?" H 2340 5670 60  0000 L CNN
+F 0 "C49" H 2340 5670 60  0000 L CNN
 F 1 "C_4u7_0402" H 2225 5475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2425 5825 60  0001 L CNN
 F 3 "" H 2225 5625 50  0001 C CNN
@@ -941,10 +921,10 @@ F 6 "4u7" H 2340 5572 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C?
+L antmicroCapacitors0402:C_470n_0402 C53
 U 1 1 609C8AD8
 P 2475 5625
-F 0 "C?" H 2590 5670 60  0000 L CNN
+F 0 "C53" H 2590 5670 60  0000 L CNN
 F 1 "C_470n_0402" H 2475 5475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2675 5825 60  0001 L CNN
 F 3 "" H 2475 5625 50  0001 C CNN
@@ -955,10 +935,10 @@ F 6 "470n" H 2590 5572 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C57
 U 1 1 609C99E1
 P 2725 5625
-F 0 "C?" H 2840 5670 60  0000 L CNN
+F 0 "C57" H 2840 5670 60  0000 L CNN
 F 1 "C_10n_0402" H 2725 5475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2925 5825 60  0001 L CNN
 F 3 "" H 2725 5625 50  0001 C CNN
@@ -969,10 +949,10 @@ F 6 "10n" H 2840 5572 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C62
 U 1 1 609CA41E
 P 2975 5625
-F 0 "C?" H 3090 5670 60  0000 L CNN
+F 0 "C62" H 3090 5670 60  0000 L CNN
 F 1 "C_10n_0402" H 2975 5475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3175 5825 60  0001 L CNN
 F 3 "" H 2975 5625 50  0001 C CNN
@@ -985,10 +965,10 @@ $EndComp
 Wire Wire Line
 	3225 5375 3225 5475
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C65
 U 1 1 609CB220
 P 3225 5625
-F 0 "C?" H 3340 5670 60  0000 L CNN
+F 0 "C65" H 3340 5670 60  0000 L CNN
 F 1 "C_10n_0402" H 3225 5475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3425 5825 60  0001 L CNN
 F 3 "" H 3225 5625 50  0001 C CNN
@@ -1001,10 +981,10 @@ $EndComp
 Wire Wire Line
 	2775 4175 2775 4275
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0152
 U 1 1 609CE9AC
 P 2775 4275
-F 0 "#PWR?" H 2775 4025 50  0001 C CNN
+F 0 "#PWR0152" H 2775 4025 50  0001 C CNN
 F 1 "GND" H 2780 4102 50  0000 C CNN
 F 2 "" H 2775 4275 50  0001 C CNN
 F 3 "" H 2775 4275 50  0001 C CNN
@@ -1012,10 +992,10 @@ F 3 "" H 2775 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0153
 U 1 1 609D05DF
 P 1625 2750
-F 0 "#PWR?" H 1625 2500 50  0001 C CNN
+F 0 "#PWR0153" H 1625 2500 50  0001 C CNN
 F 1 "GND" H 1630 2577 50  0000 C CNN
 F 2 "" H 1625 2750 50  0001 C CNN
 F 3 "" H 1625 2750 50  0001 C CNN
@@ -1023,10 +1003,10 @@ F 3 "" H 1625 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0154
 U 1 1 609D1979
 P 2225 6025
-F 0 "#PWR?" H 2225 5775 50  0001 C CNN
+F 0 "#PWR0154" H 2225 5775 50  0001 C CNN
 F 1 "GND" H 2230 5852 50  0000 C CNN
 F 2 "" H 2225 6025 50  0001 C CNN
 F 3 "" H 2225 6025 50  0001 C CNN
@@ -1034,10 +1014,10 @@ F 3 "" H 2225 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM18AG601SN1D FB?
+L antmicroFerriteBeadsandChips:BLM18AG601SN1D FB3
 U 1 1 609D2D04
 P 3200 7000
-F 0 "FB?" H 3200 7287 60  0000 C CNN
+F 0 "FB3" H 3200 7287 60  0000 C CNN
 F 1 "BLM18AG601SN1D" H 3200 7181 60  0000 C CNN
 F 2 "antmicro-footprints:0603" H 3400 7200 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 3400 7300 60  0001 L CNN
@@ -1047,10 +1027,10 @@ F 5 "Murata Electronics North America" H 3400 8100 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0155
 U 1 1 609D58EC
 P 2825 7525
-F 0 "#PWR?" H 2825 7275 50  0001 C CNN
+F 0 "#PWR0155" H 2825 7275 50  0001 C CNN
 F 1 "GND" H 2830 7352 50  0000 C CNN
 F 2 "" H 2825 7525 50  0001 C CNN
 F 3 "" H 2825 7525 50  0001 C CNN
@@ -1058,10 +1038,10 @@ F 3 "" H 2825 7525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C?
+L antmicroCapacitors0402:C_4u7_0402 C50
 U 1 1 609D5FEF
 P 2325 7175
-F 0 "C?" H 2440 7220 60  0000 L CNN
+F 0 "C50" H 2440 7220 60  0000 L CNN
 F 1 "C_4u7_0402" H 2325 7025 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2525 7375 60  0001 L CNN
 F 3 "" H 2325 7175 50  0001 C CNN
@@ -1072,10 +1052,10 @@ F 6 "4u7" H 2440 7122 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C54
 U 1 1 609D66EE
 P 2575 7175
-F 0 "C?" H 2690 7220 60  0000 L CNN
+F 0 "C54" H 2690 7220 60  0000 L CNN
 F 1 "C_100n_0402" H 2575 7025 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2775 7375 60  0001 L CNN
 F 3 "" H 2575 7175 50  0001 C CNN
@@ -1086,10 +1066,10 @@ F 6 "100n" H 2690 7122 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C59
 U 1 1 609D6BA3
 P 2825 7175
-F 0 "C?" H 2940 7220 60  0000 L CNN
+F 0 "C59" H 2940 7220 60  0000 L CNN
 F 1 "C_10n_0402" H 2825 7025 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3025 7375 60  0001 L CNN
 F 3 "" H 2825 7175 50  0001 C CNN
@@ -1100,10 +1080,10 @@ F 6 "10n" H 2940 7122 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM18AG601SN1D FB?
+L antmicroFerriteBeadsandChips:BLM18AG601SN1D FB4
 U 1 1 609D7849
 P 3375 8725
-F 0 "FB?" H 3375 9012 60  0000 C CNN
+F 0 "FB4" H 3375 9012 60  0000 C CNN
 F 1 "BLM18AG601SN1D" H 3375 8906 60  0000 C CNN
 F 2 "antmicro-footprints:0603" H 3575 8925 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 3575 9025 60  0001 L CNN
@@ -1113,10 +1093,10 @@ F 5 "Murata Electronics North America" H 3575 9825 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0156
 U 1 1 609D7F76
 P 2850 9300
-F 0 "#PWR?" H 2850 9050 50  0001 C CNN
+F 0 "#PWR0156" H 2850 9050 50  0001 C CNN
 F 1 "GND" H 2855 9127 50  0000 C CNN
 F 2 "" H 2850 9300 50  0001 C CNN
 F 3 "" H 2850 9300 50  0001 C CNN
@@ -1124,10 +1104,10 @@ F 3 "" H 2850 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C?
+L antmicroCapacitors0402:C_4u7_0402 C47
 U 1 1 609D842A
 P 2100 8950
-F 0 "C?" H 2215 8995 60  0000 L CNN
+F 0 "C47" H 2215 8995 60  0000 L CNN
 F 1 "C_4u7_0402" H 2100 8800 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2300 9150 60  0001 L CNN
 F 3 "" H 2100 8950 50  0001 C CNN
@@ -1138,10 +1118,10 @@ F 6 "4u7" H 2215 8897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_470n_0402 C?
+L antmicroCapacitors0402:C_470n_0402 C51
 U 1 1 609D9191
 P 2350 8950
-F 0 "C?" H 2465 8995 60  0000 L CNN
+F 0 "C51" H 2465 8995 60  0000 L CNN
 F 1 "C_470n_0402" H 2350 8800 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2550 9150 60  0001 L CNN
 F 3 "" H 2350 8950 50  0001 C CNN
@@ -1152,10 +1132,10 @@ F 6 "470n" H 2465 8897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C55
 U 1 1 609DA220
 P 2600 8950
-F 0 "C?" H 2715 8995 60  0000 L CNN
+F 0 "C55" H 2715 8995 60  0000 L CNN
 F 1 "C_10n_0402" H 2600 8800 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2800 9150 60  0001 L CNN
 F 3 "" H 2600 8950 50  0001 C CNN
@@ -1166,10 +1146,10 @@ F 6 "10n" H 2715 8897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C?
+L antmicroCapacitors0402:C_10n_0402 C60
 U 1 1 609DAAE9
 P 2850 8950
-F 0 "C?" H 2965 8995 60  0000 L CNN
+F 0 "C60" H 2965 8995 60  0000 L CNN
 F 1 "C_10n_0402" H 2850 8800 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3050 9150 60  0001 L CNN
 F 3 "" H 2850 8950 50  0001 C CNN
@@ -1180,10 +1160,10 @@ F 6 "10n" H 2965 8897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R31
 U 1 1 609EE5AB
 P 8500 8650
-F 0 "R?" H 8500 8863 60  0000 C CNN
+F 0 "R31" H 8500 8863 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 8500 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 8850 60  0001 L CNN
 F 3 "" H 8500 8650 50  0001 C CNN
@@ -1194,10 +1174,10 @@ F 6 "10k" H 8500 8765 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R32
 U 1 1 609EF37C
 P 8500 8750
-F 0 "R?" H 8500 8963 60  0000 C CNN
+F 0 "R32" H 8500 8963 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 8600 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 8950 60  0001 L CNN
 F 3 "" H 8500 8750 50  0001 C CNN
@@ -1208,10 +1188,10 @@ F 6 "10k" H 8500 8865 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R33
 U 1 1 609EF519
 P 8500 8850
-F 0 "R?" H 8500 9063 60  0000 C CNN
+F 0 "R33" H 8500 9063 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 8700 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 9050 60  0001 L CNN
 F 3 "" H 8500 8850 50  0001 C CNN
@@ -1222,10 +1202,10 @@ F 6 "10k" H 8500 8965 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R34
 U 1 1 609EF722
 P 8500 8950
-F 0 "R?" H 8500 9163 60  0000 C CNN
+F 0 "R34" H 8500 9163 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 8800 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 9150 60  0001 L CNN
 F 3 "" H 8500 8950 50  0001 C CNN
@@ -1236,10 +1216,10 @@ F 6 "10k" H 8500 9065 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R35
 U 1 1 609EFAE0
 P 8500 9150
-F 0 "R?" H 8500 9363 60  0000 C CNN
+F 0 "R35" H 8500 9363 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 9000 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 9350 60  0001 L CNN
 F 3 "" H 8500 9150 50  0001 C CNN
@@ -1250,10 +1230,10 @@ F 6 "10k" H 8500 9265 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R36
 U 1 1 609EFD1D
 P 8500 9250
-F 0 "R?" H 8500 9463 60  0000 C CNN
+F 0 "R36" H 8500 9463 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 9100 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 9450 60  0001 L CNN
 F 3 "" H 8500 9250 50  0001 C CNN
@@ -1264,10 +1244,10 @@ F 6 "10k" H 8500 9365 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R40
 U 1 1 609F0502
 P 8500 9750
-F 0 "R?" H 8500 9963 60  0000 C CNN
+F 0 "R40" H 8500 9963 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 9600 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 9950 60  0001 L CNN
 F 3 "" H 8500 9750 50  0001 C CNN
@@ -1278,10 +1258,10 @@ F 6 "10k" H 8500 9865 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R39
 U 1 1 609F0907
 P 8500 9650
-F 0 "R?" H 8500 9863 60  0000 C CNN
+F 0 "R39" H 8500 9863 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 9500 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 9850 60  0001 L CNN
 F 3 "" H 8500 9650 50  0001 C CNN
@@ -1292,10 +1272,10 @@ F 6 "10k" H 8500 9765 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R38
 U 1 1 609F0AE0
 P 8500 9550
-F 0 "R?" H 8500 9763 60  0000 C CNN
+F 0 "R38" H 8500 9763 60  0000 C CNN
 F 1 "R_10k_0402" H 8500 9400 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 9750 60  0001 L CNN
 F 3 "" H 8500 9550 50  0001 C CNN
@@ -1306,10 +1286,10 @@ F 6 "10k" H 8500 9665 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_4k7_0402 R?
+L antmicroResistors0402:R_4k7_0402 R37
 U 1 1 609F3665
 P 8500 9450
-F 0 "R?" H 8500 9663 60  0000 C CNN
+F 0 "R37" H 8500 9663 60  0000 C CNN
 F 1 "R_4k7_0402" H 8500 9300 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8700 9650 60  0001 L CNN
 F 3 "" H 8500 9450 50  0001 C CNN
@@ -1322,10 +1302,10 @@ $EndComp
 Wire Wire Line
 	8925 8950 8925 9150
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L antmicroResistors0402:R_1k_0402 R29
 U 1 1 609FEFE6
 P 8250 9050
-F 0 "R?" H 8250 9263 60  0000 C CNN
+F 0 "R29" H 8250 9263 60  0000 C CNN
 F 1 "R_1k_0402" H 8250 8900 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8450 9250 60  0001 L CNN
 F 3 "" H 8250 9050 50  0001 C CNN
@@ -1342,14 +1322,34 @@ Wire Wire Line
 Wire Wire Line
 	8750 9050 8750 9925
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0157
 U 1 1 60A18A65
 P 8750 9925
-F 0 "#PWR?" H 8750 9675 50  0001 C CNN
+F 0 "#PWR0157" H 8750 9675 50  0001 C CNN
 F 1 "GND" H 8755 9752 50  0000 C CNN
 F 2 "" H 8750 9925 50  0001 C CNN
 F 3 "" H 8750 9925 50  0001 C CNN
 	1    8750 9925
 	1    0    0    -1  
 $EndComp
+Text GLabel 10175 5000 2    50   Input ~ 0
+ETH3_N
+Text GLabel 10175 5100 2    50   Input ~ 0
+ETH3_P
+Text GLabel 10175 5300 2    50   Input ~ 0
+ETH2_N
+Text GLabel 10175 5400 2    50   Input ~ 0
+ETH2_P
+Text GLabel 10175 5600 2    50   Input ~ 0
+ETH1_N
+Text GLabel 10175 5700 2    50   Input ~ 0
+ETH1_P
+Text GLabel 10175 5900 2    50   Input ~ 0
+ETH0_N
+Text GLabel 10175 6000 2    50   Input ~ 0
+ETH0_P
+Text GLabel 6100 5900 0    50   Input ~ 0
+ETH_LED2
+Text GLabel 6100 6000 0    50   Input ~ 0
+ETH_LED1
 $EndSCHEMATC

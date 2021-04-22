@@ -1,4 +1,4 @@
-1329584629718018
+1384617621988375
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -132,6 +132,13 @@ antmicro-footprints
 0
 10
 9
+antmicro-footprints
+8-WSON-6x5
+
+
+0
+9
+8
 antmicro-footprints
 10TSSOP
 
@@ -973,6 +980,13 @@ capacitor electrolytic
 2
 2
 antmicro-footprints
+CSD87381P
+
+
+0
+6
+5
+antmicro-footprints
 CUI_SJ-43516-SMT-BE
 
 
@@ -1091,6 +1105,27 @@ DF13A-2P-1.25H
 0
 4
 3
+antmicro-footprints
+DF13A-10P-1.25H
+
+
+0
+13
+11
+antmicro-footprints
+DF13C-12P-1.25V
+
+
+0
+14
+13
+antmicro-footprints
+DF40C-100DP-0.4V(51)
+
+
+0
+104
+101
 antmicro-footprints
 DF40C-100DS-0.4V_51_
 
@@ -1547,6 +1582,13 @@ HDMI_Mini_Female_2001-1-2-21-00-BK
 23
 20
 antmicro-footprints
+HRS_DF40C-100DP-0.4V(51)
+
+
+0
+104
+104
+antmicro-footprints
 HSEC8-120-01-S-D-EM2
 
 
@@ -1673,6 +1715,13 @@ IHLP2020BZER4R7M01
 2
 2
 antmicro-footprints
+IHLP4040DZERR56M01
+
+
+0
+2
+2
+antmicro-footprints
 IM69D130
 
 
@@ -1688,6 +1737,13 @@ IMU_Module_SEN0140
 4
 antmicro-footprints
 INDC3225X120N
+
+
+0
+2
+2
+antmicro-footprints
+IND_LQH32PN1R0NN0L
 
 
 0
@@ -1784,6 +1840,13 @@ KEMET_D
 0
 2
 2
+antmicro-footprints
+KSZ9031MNXCC
+
+
+0
+70
+70
 antmicro-footprints
 KX-7
 
@@ -1981,6 +2044,13 @@ http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/4c/aa/72/
 10
 10
 antmicro-footprints
+LM63635-Q1
+
+
+0
+13
+13
+antmicro-footprints
 LORA_Module_RM103
 http://ww1.microchip.com/downloads/en/DeviceDoc/50002346C.pdf
 
@@ -2106,6 +2176,13 @@ MOLEX_5040500291
 0
 4
 4
+antmicro-footprints
+MPX1D0520LR47
+
+
+0
+2
+2
 antmicro-footprints
 MRJ5385011
 
@@ -2743,6 +2820,13 @@ https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_116
 0
 40
 40
+antmicro-footprints
+PinHeader_2x1_P2mm_Horizontal_SMD
+https://www.tme.eu/Document/b513fad23f829adfcd29624d4756a518/DS1025-07.pdf
+
+0
+2
+2
 antmicro-footprints
 PinHeader_2x1mm_P2mm_SMD_RA
 
@@ -3745,6 +3829,13 @@ SOIC127P600X172-8N
 8
 8
 antmicro-footprints
+SOIC127P600X175-16N
+
+
+0
+16
+16
+antmicro-footprints
 SOIC127P700X242-4N
 ACPL-217-500E
 Integrated Circuit
@@ -3947,6 +4038,13 @@ SOT95P275X110-6N
 0
 6
 6
+antmicro-footprints
+SOT95P280X145-5N
+
+
+0
+5
+5
 antmicro-footprints
 SOT230P700X180-4N
 IRFL4310PBF
@@ -4507,6 +4605,20 @@ TOP-3_Vertical_Insulated
 0
 3
 3
+antmicro-footprints
+TPD2E009DRTR
+
+
+0
+3
+3
+antmicro-footprints
+TPD4E05U06QDQARQ1
+
+
+0
+10
+10
 antmicro-footprints
 TPD6E05U06
 
@@ -5334,12 +5446,26 @@ WE_68610414122
 6
 5
 antmicro-footprints
+WE_691382030002
+
+
+0
+2
+2
+antmicro-footprints
 WE_68711014522
 
 
 0
 12
 11
+antmicro-footprints
+WE_68715014022
+
+
+0
+52
+51
 antmicro-footprints
 WE_68715014522
 
@@ -5368,6 +5494,13 @@ WE_687650100002_FLEX
 0
 50
 50
+antmicro-footprints
+WE_744773014
+
+
+0
+2
+2
 antmicro-footprints
 WE_632723300011
 
@@ -5733,12 +5866,26 @@ hole_1.6mm
 0
 0
 antmicro-footprints
-jetson_xavier_module
+jetson-nano-connector
+
+
+0
+264
+263
+antmicro-footprints
+jetson-xavier-nx-module
 
 
 0
 0
 0
+antmicro-footprints
+molex_015244449
+
+
+0
+4
+4
 antmicro-footprints
 mounting-hole-2.2mm
 
@@ -5817,6 +5964,13 @@ resson_logo_silk
 0
 0
 antmicro-footprints
+te-770829-1
+
+
+0
+4
+4
+antmicro-footprints
 usb3106-30-0230
 
 
@@ -5824,7 +5978,91 @@ usb3106-30-0230
 7
 6
 antmicro-footprints
+vic7100
+
+
+0
+777
+777
+antmicro-footprints
 zglue-logo
+
+
+0
+0
+0
+riscv-u74-som-footprints
+9774030151
+
+
+0
+1
+1
+riscv-u74-som-footprints
+BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm
+BGA-200, 14.5x10.0mm, 200 Ball, 12x22 Layout, 0.8x0.65mm Pitch, http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf
+BGA 200 0.8x0.65
+0
+200
+200
+riscv-u74-som-footprints
+DF40#HC3.0-100DS-0.4v
+
+
+0
+100
+100
+riscv-u74-som-footprints
+DF40$HC3.0-100DS-0.4v (copy)
+
+
+0
+100
+100
+riscv-u74-som-footprints
+DF40HC(3.0)-100DS-0.4v
+
+
+0
+100
+100
+riscv-u74-som-footprints
+DF40HC-3.0-100DS-0.4v
+
+
+0
+100
+100
+riscv-u74-som-footprints
+QFN-48-Microchip-QFN77-48LD-PL-2
+
+
+0
+49
+49
+riscv-u74-som-footprints
+QFN50P900X900X80-65N
+
+
+0
+65
+65
+riscv-u74-som-footprints
+QFN50P900X900X100-65N
+
+
+0
+65
+65
+riscv-u74-som-footprints
+S25FL128SAGNFI000
+
+
+0
+9
+9
+riscv-u74-som-footprints
+SiFive-U74
 
 
 0

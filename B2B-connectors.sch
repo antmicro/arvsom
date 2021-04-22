@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3800 2700 3350 2700
+	3800 2700 3075 2700
 Wire Wire Line
-	3800 2800 3350 2800
+	3800 2800 3075 2800
 Wire Wire Line
-	3800 3000 3350 3000
+	3800 3000 3075 3000
 Wire Wire Line
-	3800 3100 3350 3100
+	3800 3100 3075 3100
 Wire Wire Line
 	3800 3300 3350 3300
 Wire Wire Line
@@ -58,53 +58,13 @@ Wire Wire Line
 Wire Wire Line
 	3800 5400 3350 5400
 Wire Wire Line
-	3800 5600 3350 5600
-Text GLabel 3350 2700 0    50   Input ~ 0
-TRD1_P
-Text GLabel 3350 2800 0    50   Input ~ 0
-TRD1_N
-Text GLabel 3350 3100 0    50   Input ~ 0
-TRD0_P
-Text GLabel 3350 3000 0    50   Input ~ 0
-TRD0_N
+	3800 5600 3025 5600
 Text GLabel 3350 3300 0    50   Input ~ 0
 SYNC_IN
 Text GLabel 3350 3400 0    50   Input ~ 0
 SYNC_OUT
 Text GLabel 3350 3500 0    50   Input ~ 0
 EEPROM_nWP
-Text GLabel 3350 3700 0    50   Input ~ 0
-GPIO26
-Text GLabel 3350 3800 0    50   Input ~ 0
-GPIO19
-Text GLabel 3350 3900 0    50   Input ~ 0
-GPIO13
-Text GLabel 3350 4000 0    50   Input ~ 0
-GPIO6
-Text GLabel 3350 4200 0    50   Input ~ 0
-GPIO5
-Text GLabel 3350 4300 0    50   Input ~ 0
-ID_SD
-Text GLabel 3350 4400 0    50   Input ~ 0
-GPIO11
-Text GLabel 3350 4500 0    50   Input ~ 0
-GPIO9
-Text GLabel 3350 4700 0    50   Input ~ 0
-GPIO10
-Text GLabel 3350 4800 0    50   Input ~ 0
-GPIO22
-Text GLabel 3350 4900 0    50   Input ~ 0
-GPIO27
-Text GLabel 3350 5000 0    50   Input ~ 0
-GPIO17
-Text GLabel 3350 5200 0    50   Input ~ 0
-GPIO4
-Text GLabel 3350 5300 0    50   Input ~ 0
-GPIO3
-Text GLabel 3350 5400 0    50   Input ~ 0
-GPIO2
-Text GLabel 3350 5600 0    50   Input ~ 0
-SD_CMD
 Wire Wire Line
 	3800 6300 3350 6300
 Text GLabel 3350 6300 0    50   Input ~ 0
@@ -112,13 +72,9 @@ RESERVED
 Wire Wire Line
 	3800 6400 3350 6400
 Wire Wire Line
-	3800 6500 3350 6500
-Text GLabel 3350 6500 0    50   Input ~ 0
-SCL0
+	3800 6500 3050 6500
 Wire Wire Line
-	3800 6600 3350 6600
-Text GLabel 3350 6600 0    50   Input ~ 0
-SDA0
+	3800 6600 3050 6600
 Wire Wire Line
 	3800 6700 3350 6700
 Wire Wire Line
@@ -200,29 +156,17 @@ Connection ~ 3700 2900
 Wire Wire Line
 	3700 2900 3700 3200
 Wire Wire Line
-	4800 2700 5250 2700
+	4800 2700 5400 2700
 Wire Wire Line
-	4800 2800 5250 2800
-Text GLabel 5250 2700 2    50   Input ~ 0
-TRD3_P
-Text GLabel 5250 2800 2    50   Input ~ 0
-TRD3_N
+	4800 2800 5400 2800
 Wire Wire Line
-	4800 3000 5250 3000
+	4800 3000 5400 3000
 Wire Wire Line
-	4800 3100 5250 3100
-Text GLabel 5250 3100 2    50   Input ~ 0
-TRD2_P
-Text GLabel 5250 3000 2    50   Input ~ 0
-TRD2_N
+	4800 3100 5400 3100
 Wire Wire Line
-	4800 3300 5250 3300
+	4800 3300 5400 3300
 Wire Wire Line
-	4800 3400 5250 3400
-Text GLabel 5250 3300 2    50   Input ~ 0
-ETH_LEDG
-Text GLabel 5250 3400 2    50   Input ~ 0
-ETH_LEDY
+	4800 3400 5400 3400
 Wire Wire Line
 	4800 3700 4900 3700
 Wire Wire Line
@@ -231,62 +175,30 @@ Wire Wire Line
 	4800 3900 5250 3900
 Wire Wire Line
 	4800 4000 5250 4000
-Text GLabel 5250 3800 2    50   Input ~ 0
-GPIO21
-Text GLabel 5250 3900 2    50   Input ~ 0
-GPIO20
-Text GLabel 5250 4000 2    50   Input ~ 0
-GPIO16
-Text GLabel 5250 4100 2    50   Input ~ 0
-GPIO12
 Wire Wire Line
 	4800 4300 5250 4300
 Wire Wire Line
 	4800 4400 5250 4400
 Wire Wire Line
 	4800 4500 5250 4500
-Text GLabel 5250 4300 2    50   Input ~ 0
-ID_SC
-Text GLabel 5250 4400 2    50   Input ~ 0
-GPIO7
-Text GLabel 5250 4500 2    50   Input ~ 0
-GPIO8
 Wire Wire Line
 	4800 4800 5250 4800
 Wire Wire Line
 	4800 4900 5250 4900
 Wire Wire Line
 	4800 5000 5250 5000
-Text GLabel 5250 4800 2    50   Input ~ 0
-GPIO24
-Text GLabel 5250 4900 2    50   Input ~ 0
-GPIO23
-Text GLabel 5250 5000 2    50   Input ~ 0
-GPIO18
-Text GLabel 5250 4600 2    50   Input ~ 0
-GPIO25
 Wire Wire Line
 	4800 5200 4900 5200
 Wire Wire Line
 	4800 5300 5250 5300
-Text GLabel 5250 5400 2    50   Input ~ 0
-SD_CLK
 Wire Wire Line
 	4800 5500 4900 5500
-Text GLabel 5250 5600 2    50   Input ~ 0
-SD_DAT3
 Wire Wire Line
-	4800 5600 5250 5600
-Text GLabel 5250 5700 2    50   Input ~ 0
-SD_DAT0
+	4800 5600 5700 5600
 Wire Wire Line
 	4800 5800 4900 5800
-Text GLabel 5250 5900 2    50   Input ~ 0
-SD_DAT1
 Wire Wire Line
-	4800 5900 5250 5900
-Text GLabel 5250 6000 2    50   Input ~ 0
-SD_DAT2
+	4800 5900 5700 5900
 Wire Wire Line
 	4800 6100 4900 6100
 Text GLabel 5250 6300 2    50   Input ~ 0
@@ -354,41 +266,25 @@ Wire Wire Line
 Text GLabel 7350 3700 0    50   Input ~ 0
 PCIE_TX_N
 Wire Wire Line
-	7800 3900 7350 3900
-Text GLabel 7350 3900 0    50   Input ~ 0
-CAM0_D0_N
+	7800 3900 7050 3900
 Wire Wire Line
-	7800 4000 7350 4000
-Text GLabel 7350 4000 0    50   Input ~ 0
-CAM0_D0_P
+	7800 4000 7050 4000
 Wire Wire Line
-	7800 4200 7350 4200
-Text GLabel 7350 4200 0    50   Input ~ 0
-CAM0_D1_N
+	7800 4200 7050 4200
 Wire Wire Line
-	7800 4300 7350 4300
-Text GLabel 7350 4300 0    50   Input ~ 0
-CAM0_D1_P
+	7800 4300 7050 4300
 Wire Wire Line
-	7800 4500 7350 4500
-Text GLabel 7350 4500 0    50   Input ~ 0
-CAM0_C_N
+	7800 4500 7100 4500
 Wire Wire Line
-	7800 4600 7350 4600
-Text GLabel 7350 4600 0    50   Input ~ 0
-CAM0_C_P
+	7800 4600 7100 4600
 Wire Wire Line
 	8800 2600 9250 2600
 Text GLabel 9250 2600 2    50   Input ~ 0
 USBOTG_ID
 Wire Wire Line
-	8800 2700 9250 2700
-Text GLabel 9250 2700 2    50   Input ~ 0
-USB2_N
+	8800 2700 9425 2700
 Wire Wire Line
-	8800 2800 9250 2800
-Text GLabel 9250 2800 2    50   Input ~ 0
-USB2_P
+	8800 2800 9425 2800
 Wire Wire Line
 	8800 3000 9250 3000
 Text GLabel 9250 3000 2    50   Input ~ 0
@@ -398,29 +294,17 @@ Wire Wire Line
 Text GLabel 9250 3100 2    50   Input ~ 0
 TV_OUT
 Wire Wire Line
-	8800 3300 9250 3300
-Text GLabel 9250 3300 2    50   Input ~ 0
-CAM1_D0_N
+	8800 3300 9450 3300
 Wire Wire Line
-	8800 3400 9250 3400
-Text GLabel 9250 3400 2    50   Input ~ 0
-CAM1_D0_P
+	8800 3400 9450 3400
 Wire Wire Line
-	8800 3600 9250 3600
-Text GLabel 9250 3600 2    50   Input ~ 0
-CAM1_D1_N
+	8800 3600 9450 3600
 Wire Wire Line
-	8800 3700 9250 3700
-Text GLabel 9250 3700 2    50   Input ~ 0
-CAM1_D1_P
+	8800 3700 9450 3700
 Wire Wire Line
-	8800 3900 9250 3900
-Text GLabel 9250 3900 2    50   Input ~ 0
-CAM1_C_N
+	8800 3900 9450 3900
 Wire Wire Line
-	8800 4000 9250 4000
-Text GLabel 9250 4000 2    50   Input ~ 0
-CAM1_C_P
+	8800 4000 9450 4000
 Wire Wire Line
 	8800 4200 9250 4200
 Text GLabel 9250 4200 2    50   Input ~ 0
@@ -452,13 +336,9 @@ Wire Wire Line
 Text GLabel 9250 5000 2    50   Input ~ 0
 HDMI1_CEC
 Wire Wire Line
-	8800 5100 9250 5100
-Text GLabel 9250 5100 2    50   Input ~ 0
-HDMI0_CEC
+	8800 5100 9425 5100
 Wire Wire Line
-	8800 5200 9250 5200
-Text GLabel 9250 5200 2    50   Input ~ 0
-HDMI0_HOTPLUG
+	8800 5200 9425 5200
 Wire Wire Line
 	7800 4800 7350 4800
 Text GLabel 7350 4800 0    50   Input ~ 0
@@ -492,37 +372,21 @@ Wire Wire Line
 Text GLabel 7350 5800 0    50   Input ~ 0
 HDMI1_CK_N
 Wire Wire Line
-	7800 6000 7350 6000
-Text GLabel 7350 6000 0    50   Input ~ 0
-HDMI0_D2_P
+	7800 6000 7150 6000
 Wire Wire Line
-	7800 6100 7350 6100
-Text GLabel 7350 6100 0    50   Input ~ 0
-HDMI0_D2_N
+	7800 6100 7150 6100
 Wire Wire Line
-	7800 6300 7350 6300
-Text GLabel 7350 6300 0    50   Input ~ 0
-HDMI0_D1_P
+	7800 6300 7150 6300
 Wire Wire Line
-	7800 6400 7350 6400
-Text GLabel 7350 6400 0    50   Input ~ 0
-HDMI0_D1_N
+	7800 6400 7150 6400
 Wire Wire Line
-	7800 6600 7350 6600
-Text GLabel 7350 6600 0    50   Input ~ 0
-HDMI0_D0_P
+	7800 6600 7150 6600
 Wire Wire Line
-	7800 6700 7350 6700
-Text GLabel 7350 6700 0    50   Input ~ 0
-HDMI0_D0_N
+	7800 6700 7150 6700
 Wire Wire Line
-	7800 6900 7350 6900
-Text GLabel 7350 6900 0    50   Input ~ 0
-HDMI0_CK_P
+	7800 6900 7150 6900
 Wire Wire Line
-	7800 7000 7350 7000
-Text GLabel 7350 7000 0    50   Input ~ 0
-HDMI0_CK_N
+	7800 7000 7150 7000
 Wire Wire Line
 	7800 7200 7350 7200
 Text GLabel 7350 7200 0    50   Input ~ 0
@@ -532,13 +396,9 @@ Wire Wire Line
 Text GLabel 7350 7300 0    50   Input ~ 0
 DSI1_D3_P
 Wire Wire Line
-	7800 7500 7350 7500
-Text GLabel 7350 7500 0    50   Input ~ 0
-HDMI0_SCL
+	7800 7500 7100 7500
 Wire Wire Line
-	8800 7500 9250 7500
-Text GLabel 9250 7500 2    50   Input ~ 0
-HDMI0_SDA
+	8800 7500 9400 7500
 Text GLabel 9250 6000 2    50   Input ~ 0
 DSI0_C_N
 Wire Wire Line
@@ -768,17 +628,17 @@ Connection ~ 4900 5200
 Wire Wire Line
 	4900 5200 4900 5500
 Wire Wire Line
-	5250 5400 4800 5400
+	5700 5400 4800 5400
 Connection ~ 4900 5500
 Wire Wire Line
 	4900 5500 4900 5800
 Wire Wire Line
-	5250 5700 4800 5700
+	5700 5700 4800 5700
 Connection ~ 4900 5800
 Wire Wire Line
 	4900 5800 4900 6100
 Wire Wire Line
-	5250 6000 4800 6000
+	5700 6000 4800 6000
 Connection ~ 4900 6100
 Wire Wire Line
 	4900 6100 4900 7850
@@ -790,15 +650,11 @@ Text GLabel 5250 3600 2    50   Input ~ 0
 PI_nLED_ACT
 Text GLabel 3350 6400 0    50   Input ~ 0
 GPIO_VREF
-Text GLabel 5250 5300 2    50   Output ~ 0
-GPIO14
-Text GLabel 5250 5100 2    50   Input ~ 0
-GPIO15
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0224
 U 1 1 6083430C
 P 3700 7850
-F 0 "#PWR?" H 3700 7600 50  0001 C CNN
+F 0 "#PWR0224" H 3700 7600 50  0001 C CNN
 F 1 "GND" H 3705 7677 50  0000 C CNN
 F 2 "" H 3700 7850 50  0001 C CNN
 F 3 "" H 3700 7850 50  0001 C CNN
@@ -806,10 +662,10 @@ F 3 "" H 3700 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0225
 U 1 1 60834719
 P 4900 7850
-F 0 "#PWR?" H 4900 7600 50  0001 C CNN
+F 0 "#PWR0225" H 4900 7600 50  0001 C CNN
 F 1 "GND" H 4905 7677 50  0000 C CNN
 F 2 "" H 4900 7850 50  0001 C CNN
 F 3 "" H 4900 7850 50  0001 C CNN
@@ -817,10 +673,10 @@ F 3 "" H 4900 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0226
 U 1 1 608363DA
 P 7650 7900
-F 0 "#PWR?" H 7650 7650 50  0001 C CNN
+F 0 "#PWR0226" H 7650 7650 50  0001 C CNN
 F 1 "GND" H 7655 7727 50  0000 C CNN
 F 2 "" H 7650 7900 50  0001 C CNN
 F 3 "" H 7650 7900 50  0001 C CNN
@@ -828,10 +684,10 @@ F 3 "" H 7650 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0227
 U 1 1 6083A5F9
 P 8900 7900
-F 0 "#PWR?" H 8900 7650 50  0001 C CNN
+F 0 "#PWR0227" H 8900 7650 50  0001 C CNN
 F 1 "GND" H 8905 7727 50  0000 C CNN
 F 2 "" H 8900 7900 50  0001 C CNN
 F 3 "" H 8900 7900 50  0001 C CNN
@@ -850,9 +706,9 @@ Text GLabel 5250 3500 2    50   Input ~ 0
 ETH_nLED1
 Text Notes 5825 3625 0    50   ~ 0
 Pi_nLED_Activity
-Text Notes 5725 5125 0    50   ~ 0
+Text Notes 5875 5150 0    50   ~ 0
 RPi_RXD
-Text Notes 5725 5325 0    50   ~ 0
+Text Notes 5875 5350 0    50   ~ 0
 RPi_TXD
 Text GLabel 3350 5700 0    50   Input ~ 0
 SD_DAT5
@@ -891,10 +747,10 @@ Wire Wire Line
 Text GLabel 7350 2800 0    50   Input ~ 0
 RESERVED
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J?
+L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J3
 U 1 1 60FEF31E
 P 4300 5000
-F 0 "J?" H 4300 7757 50  0000 C CNN
+F 0 "J3" H 4300 7757 50  0000 C CNN
 F 1 "DF40C-100DP-0.4V(51)" H 4300 7666 50  0000 C CNN
 F 2 "antmicro-footprints:HRS_DF40C-100DP-0.4V(51)" H 4300 5000 50  0001 L BNN
 F 3 "" H 4300 5000 50  0001 L BNN
@@ -908,10 +764,10 @@ Wire Wire Line
 Connection ~ 3800 6700
 Connection ~ 3800 6900
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J?
+L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J4
 U 1 1 60FFB551
 P 8300 5000
-F 0 "J?" H 8300 7757 50  0000 C CNN
+F 0 "J4" H 8300 7757 50  0000 C CNN
 F 1 "DF40C-100DP-0.4V(51)" H 8300 7666 50  0000 C CNN
 F 2 "antmicro-footprints:HRS_DF40C-100DP-0.4V(51)" H 8300 5000 50  0001 L BNN
 F 3 "" H 8300 5000 50  0001 L BNN
@@ -920,4 +776,191 @@ F 5 "DF40C-100DP-0.4V(51)" H 8300 7575 50  0000 C CNN "MPN"
 	1    8300 5000
 	-1   0    0    -1  
 $EndComp
+Text GLabel 5400 2800 2    50   Input ~ 0
+ETH3_N
+Text GLabel 5400 2700 2    50   Input ~ 0
+ETH3_P
+Text GLabel 5400 3000 2    50   Input ~ 0
+ETH2_N
+Text GLabel 5400 3100 2    50   Input ~ 0
+ETH2_P
+Text GLabel 3075 3000 0    50   Input ~ 0
+ETH0_N
+Text GLabel 3075 3100 0    50   Input ~ 0
+ETH0_P
+Text GLabel 5400 3300 2    50   Input ~ 0
+ETH_LED2
+Text GLabel 5400 3400 2    50   Input ~ 0
+ETH_LED1
+Text GLabel 3075 2800 0    50   Input ~ 0
+ETH1_N
+Text GLabel 3075 2700 0    50   Input ~ 0
+ETH1_P
+Text GLabel 7150 6000 0    50   Input ~ 0
+HDMI_TX2_P
+Text GLabel 7150 6100 0    50   Input ~ 0
+HDMI_TX2_N
+Text GLabel 7150 6300 0    50   Input ~ 0
+HDMI_TX1_P
+Text GLabel 7150 6400 0    50   Input ~ 0
+HDMI_TX1_N
+Text GLabel 7150 6600 0    50   Input ~ 0
+HDMI_TX0_P
+Text GLabel 7150 6700 0    50   Input ~ 0
+HDMI_TX0_N
+Text GLabel 7150 6900 0    50   Input ~ 0
+HDMI_TXC_P
+Text GLabel 7150 7000 0    50   Input ~ 0
+HDMI_TXC_N
+Text GLabel 7100 7500 0    50   Input ~ 0
+HDMI_DSCL
+Text GLabel 9400 7500 2    50   Input ~ 0
+HDMI_DSDA
+Text GLabel 9425 5200 2    50   Input ~ 0
+HDMI_HPD
+Text GLabel 9425 5100 2    50   Input ~ 0
+HDMI_CEC
+Text GLabel 3350 5400 0    50   Input ~ 0
+RPI_GPIO2
+Text GLabel 3350 5300 0    50   Input ~ 0
+RPI_GPIO3
+Text GLabel 3350 5200 0    50   Input ~ 0
+RPI_GPIO4
+Text GLabel 3350 5000 0    50   Input ~ 0
+RPI_GPIO17
+Text GLabel 3350 4900 0    50   Input ~ 0
+RPI_GPIO27
+Text GLabel 3350 4800 0    50   Input ~ 0
+RPI_GPIO22
+Text GLabel 3350 4400 0    50   Input ~ 0
+RPI_GPIO11
+Text GLabel 5250 4600 2    50   Input ~ 0
+RPI_GPIO25
+Text GLabel 5250 5000 2    50   Input ~ 0
+RPI_GPIO18
+Text GLabel 5250 4900 2    50   Input ~ 0
+RPI_GPIO23
+Text GLabel 5250 4800 2    50   Input ~ 0
+RPI_GPIO24
+Text GLabel 3350 4700 0    50   Input ~ 0
+RPI_GPIO10
+Text GLabel 3350 4500 0    50   Input ~ 0
+RPI_GPIO9
+Text GLabel 5250 5100 2    50   Input ~ 0
+RPI_GPIO15
+Text GLabel 5250 5300 2    50   Input ~ 0
+RPI_GPIO14
+Text GLabel 5250 4500 2    50   Input ~ 0
+RPI_GPIO8
+Text GLabel 5250 4400 2    50   Input ~ 0
+RPI_GPIO7
+Text GLabel 5250 4300 2    50   Input ~ 0
+RPI_ID_SC
+Text GLabel 3350 4300 0    50   Input ~ 0
+RPI_ID_SD
+Text GLabel 3350 4200 0    50   Input ~ 0
+RPI_GPIO5
+Text GLabel 3350 4000 0    50   Input ~ 0
+RPI_GPIO6
+Text GLabel 3350 3900 0    50   Input ~ 0
+RPI_GPIO13
+Text GLabel 3350 3800 0    50   Input ~ 0
+RPI_GPIO19
+Text GLabel 3350 3700 0    50   Input ~ 0
+RPI_GPIO26
+Text GLabel 5250 4100 2    50   Input ~ 0
+RPI_GPIO12
+Text GLabel 5250 4000 2    50   Input ~ 0
+RPI_GPIO16
+Text GLabel 5250 3900 2    50   Input ~ 0
+RPI_GPIO20
+Text GLabel 5250 3800 2    50   Input ~ 0
+RPI_GPIO21
+Text GLabel 5700 5700 2    50   Input ~ 0
+SDIO0_D0
+Text GLabel 5700 5900 2    50   Input ~ 0
+SDIO0_D1
+Text GLabel 5700 6000 2    50   Input ~ 0
+SDIO0_D2
+Text GLabel 5700 5600 2    50   Input ~ 0
+SDIO0_D3
+Text GLabel 3025 5600 0    50   Input ~ 0
+SDIO0_CMD
+Text GLabel 5700 5400 2    50   Input ~ 0
+SDIO0_CLK
+Text GLabel 2400 5800 0    50   Input ~ 0
+SDIO0_CD
+Text GLabel 1525 6375 0    50   Input ~ 0
+CSI1_PWDN
+Text GLabel 1525 6475 0    50   Input ~ 0
+CSI0_PWDN
+Text GLabel 2250 6625 0    50   Input ~ 0
+I2C2_SDA
+Text GLabel 2250 6725 0    50   Input ~ 0
+I2C2_SCL
+Text GLabel 3050 6600 0    50   Input ~ 0
+I2C0_SDA
+Text GLabel 3050 6500 0    50   Input ~ 0
+I2C0_SCL
+Wire Wire Line
+	4800 6500 4800 6600
+Connection ~ 4800 6800
+Connection ~ 4800 6600
+Wire Wire Line
+	4800 6600 4800 6700
+Connection ~ 4800 6700
+Wire Wire Line
+	4800 6700 4800 6800
+Wire Wire Line
+	4800 6500 4800 6400
+Connection ~ 4800 6500
+Connection ~ 4800 6400
+Text GLabel 9425 2700 2    50   Input ~ 0
+USBDM_N
+Text GLabel 9425 2800 2    50   Input ~ 0
+USBDP_P
+Text GLabel 9800 5400 2    50   Input ~ 0
+CDTX_DSI_D0_N
+Text GLabel 9800 5500 2    50   Input ~ 0
+CDTX_DSI_D0_P
+Text GLabel 9800 5700 2    50   Input ~ 0
+CDTX_DSI_D1_N
+Text GLabel 9800 5800 2    50   Input ~ 0
+CDTX_DSI_D1_P
+Text GLabel 10075 6250 2    50   Input ~ 0
+CDTX_DSI_D2_N
+Text GLabel 10075 6350 2    50   Input ~ 0
+CDTX_DSI_D2_P
+Text GLabel 10075 6450 2    50   Input ~ 0
+CDTX_DSI_D3_N
+Text GLabel 10075 6550 2    50   Input ~ 0
+CDTX_DSI_D3_P
+Text GLabel 10075 6050 2    50   Input ~ 0
+CDTX_DSI_D4_N
+Text GLabel 10075 6150 2    50   Input ~ 0
+CDTX_DSI_D4_P
+Text GLabel 9450 3300 2    50   Input ~ 0
+CSI2RX_D0_N
+Text GLabel 9450 3400 2    50   Input ~ 0
+CSI2RX_D0_P
+Text GLabel 9450 3600 2    50   Input ~ 0
+CSI2RX_D1_N
+Text GLabel 9450 3700 2    50   Input ~ 0
+CSI2RX_D1_P
+Text GLabel 9450 3900 2    50   Input ~ 0
+CSI2RX_CLK_N
+Text GLabel 9450 4000 2    50   Input ~ 0
+CSI2RX_CLK_P
+Text GLabel 7050 3900 0    50   Input ~ 0
+CSI1RX_D0_N
+Text GLabel 7050 4000 0    50   Input ~ 0
+CSI1RX_D0_P
+Text GLabel 7050 4200 0    50   Input ~ 0
+CSI1RX_D1_N
+Text GLabel 7050 4300 0    50   Input ~ 0
+CSI1RX_D1_P
+Text GLabel 7100 4500 0    50   Input ~ 0
+CSI1RX_CLK_N
+Text GLabel 7100 4600 0    50   Input ~ 0
+CSI1RX_CLK_P
 $EndSCHEMATC

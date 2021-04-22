@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 4
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -13,30 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L riscv-u74-som:DF40HC(3.0)-100DS-0.4v J1
-U 1 1 60535B3F
-P 1950 3650
-F 0 "J1" H 1950 6317 50  0000 C CNN
-F 1 "DF40HC(3.0)-100DS-0.4v" H 1950 6226 50  0000 C CNN
-F 2 "riscv-u74-som-footprints:DF40HC(3.0)-100DS-0.4v" H 1950 3650 50  0001 L BNN
-F 3 "" H 1950 3650 50  0001 L BNN
-F 4 "HRS" H 1950 3650 50  0001 L BNN "Manufacturer"
-	1    1950 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L riscv-u74-som:DF40HC(3.0)-100DS-0.4v J2
-U 1 1 60537500
-P 3475 3750
-F 0 "J2" H 3475 6417 50  0000 C CNN
-F 1 "DF40HC(3.0)-100DS-0.4v" H 3475 6326 50  0000 C CNN
-F 2 "riscv-u74-som-footprints:DF40HC(3.0)-100DS-0.4v" H 3475 3750 50  0001 L BNN
-F 3 "" H 3475 3750 50  0001 L BNN
-F 4 "HRS" H 3475 3750 50  0001 L BNN "Manufacturer"
-	1    3475 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L riscv-u74-som:SiFive-U74 U1
 U 1 1 6053879C
@@ -192,6 +168,32 @@ F 3 "https://www.we-online.com/catalog/datasheet/9774030151.pdf" H 15175 1900 60
 F 4 "Wurth Elektronik" H 15175 1900 50  0001 C CNN "Manufacturer"
 F 5 "9774030151" H 15175 1900 50  0001 C CNN "MPN"
 	1    15175 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J1
+U 1 1 6100E05C
+P 1950 3275
+F 0 "J1" H 1950 6032 50  0000 C CNN
+F 1 "DF40C-100DP-0.4V(51)" H 1950 5941 50  0000 C CNN
+F 2 "antmicro-footprints:HRS_DF40C-100DP-0.4V(51)" H 1950 3275 50  0001 L BNN
+F 3 "" H 1950 3275 50  0001 L BNN
+F 4 "HRS" H 1950 3275 50  0001 L BNN "Manufacturer"
+F 5 "DF40C-100DP-0.4V(51)" H 1950 5850 50  0000 C CNN "MPN"
+	1    1950 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J2
+U 1 1 6100F52A
+P 3350 3250
+F 0 "J2" H 3350 6007 50  0000 C CNN
+F 1 "DF40C-100DP-0.4V(51)" H 3350 5916 50  0000 C CNN
+F 2 "antmicro-footprints:HRS_DF40C-100DP-0.4V(51)" H 3350 3250 50  0001 L BNN
+F 3 "" H 3350 3250 50  0001 L BNN
+F 4 "HRS" H 3350 3250 50  0001 L BNN "Manufacturer"
+F 5 "DF40C-100DP-0.4V(51)" H 3350 5825 50  0000 C CNN "MPN"
+	1    3350 3250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
