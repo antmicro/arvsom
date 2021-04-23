@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -18,12 +18,6 @@ S 1500 1000 775  500
 U 60751C8D
 F0 "PMIC" 50
 F1 "PMIC.sch" 50
-$EndSheet
-$Sheet
-S 1500 1750 750  500 
-U 60752D32
-F0 "Mechanical mock" 50
-F1 "mechanical-mock.sch" 50
 $EndSheet
 $Sheet
 S 1500 3250 750  500 
@@ -73,4 +67,26 @@ U 6293247C
 F0 "B2B connectors" 50
 F1 "B2B-connectors.sch" 50
 $EndSheet
+$Comp
+L antmicroMechanicalParts:antmicro_logo N1
+U 1 1 6199C829
+P 3100 5000
+F 0 "N1" H 3314 5093 50  0000 L CNN
+F 1 "antmicro_logo" H 3314 5002 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_12mm" H 3000 5250 50  0001 C CNN
+F 3 "" H 3100 5350 50  0001 C CNN
+	1    3100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:oshw_logo N2
+U 1 1 6199CA5E
+P 3125 5225
+F 0 "N2" H 3319 5228 50  0000 L CNN
+F 1 "oshw_logo" H 3319 5137 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 3145 4985 50  0001 C CNN
+F 3 "" H 3125 5225 50  0001 C CNN
+	1    3125 5225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
