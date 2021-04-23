@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 11
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -361,16 +361,16 @@ LCD_DATA23
 Wire Wire Line
 	2775 6125 2350 6125
 Text GLabel 2350 6125 0    50   Input ~ 0
-FNSH026_HDMI_BCLK
+HDMI_BCLK
 NoConn ~ 2775 7025
 Wire Wire Line
 	2775 6925 2350 6925
 Text GLabel 2350 6925 0    50   Input ~ 0
-FNSH028_HDMI_I2S_TX0
+HDMI_I2S_TX0
 Wire Wire Line
 	2775 6825 2350 6825
 Text GLabel 2350 6825 0    50   Input ~ 0
-FNSH027_HDMI_I2S_LRCLK
+HDMI_LRCLK
 Wire Wire Line
 	2775 5925 2675 5925
 Wire Wire Line
@@ -410,7 +410,7 @@ LCD_HSYNC
 Wire Wire Line
 	2775 7125 2350 7125
 Text GLabel 2350 7125 0    50   Input ~ 0
-FNSH025_HDMI_12MHZ
+HDMI_12MHZ
 NoConn ~ 2775 7225
 Wire Wire Line
 	4775 5325 5075 5325
@@ -782,9 +782,9 @@ F 6 "1k" V 6028 8395 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Text GLabel 4775 8525 2    50   Input ~ 0
-FNSH062_I2C0_SCL
+I2C0_SCL
 Text GLabel 4775 8625 2    50   Input ~ 0
-FNSH061_I2C0_SDA
+I2C0_SDA
 Wire Wire Line
 	5725 8475 5725 8925
 Connection ~ 5725 8925
@@ -872,7 +872,7 @@ Wire Wire Line
 Text GLabel 6825 8925 1    50   Input ~ 0
 VCC_3V3
 Text GLabel 4775 9125 2    50   Input ~ 0
-FNSH032_HDMI_INT
+HDMI_INT
 Wire Wire Line
 	4775 9725 4925 9725
 Wire Wire Line

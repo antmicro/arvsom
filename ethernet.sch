@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 11
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 7950 9050 0    50   UnSpc ~ 0
-RGMII_RX_DV
+RGMII_RXDV
 Text GLabel 7950 8950 0    50   UnSpc ~ 0
 RGMII_RXD3
 Text GLabel 7950 8850 0    50   UnSpc ~ 0
@@ -24,19 +24,15 @@ RGMII_RXD0
 Text GLabel 7950 8750 0    50   UnSpc ~ 0
 RGMII_RXD1
 Text GLabel 7950 9150 0    50   UnSpc ~ 0
-RGMII_RX_CLK
+RGMII_RXCLK
 Text GLabel 8925 8500 1    50   Input ~ 0
 VCC3V3
 Text GLabel 7950 9250 0    50   UnSpc ~ 0
-RGMII_REF_CLK
+LED_MODE
 Text GLabel 7950 9450 0    50   UnSpc ~ 0
 ETH_MDIO
 Text GLabel 7950 9550 0    50   UnSpc ~ 0
 ETH_~RESET
-Text Label 7150 9650 0    50   ~ 0
-ETH_LED1
-Text Label 7150 9750 0    50   ~ 0
-ETH_LED2
 Wire Wire Line
 	8800 3600 8800 3375
 Wire Wire Line
@@ -124,18 +120,12 @@ Wire Wire Line
 	6900 6400 6650 6400
 Wire Wire Line
 	6075 6300 6900 6300
-Wire Wire Line
-	6900 6100 6075 6100
-Text GLabel 6075 6100 0    50   Output ~ 0
-ETH_INT_N
-Text GLabel 6075 6300 0    50   Output ~ 0
-RGMII_REF_CLK
+Text GLabel 6075 6300 0    50   Input ~ 0
+LED_MODE
 Wire Wire Line
 	6650 6400 6650 6450
 Wire Wire Line
 	6650 6450 6075 6450
-Text GLabel 6100 5700 0    50   Output ~ 0
-RGMII_RX_CLK
 Text GLabel 6100 5600 0    50   Output ~ 0
 RGMII_RXD3
 Text GLabel 6100 5500 0    50   Output ~ 0
@@ -156,8 +146,6 @@ Wire Wire Line
 	6100 5200 6900 5200
 Wire Wire Line
 	6900 5300 6100 5300
-Text GLabel 6100 5000 0    50   Input ~ 0
-RGMII_TX_CLK
 Text GLabel 6100 4900 0    50   Input ~ 0
 RGMII_TXD3
 Text GLabel 6100 4800 0    50   Input ~ 0
@@ -166,8 +154,6 @@ Text GLabel 6100 4700 0    50   Input ~ 0
 RGMII_TXD1
 Text GLabel 6100 4600 0    50   Input ~ 0
 RGMII_TXD0
-Text GLabel 6100 4500 0    50   Input ~ 0
-RGMII_TX_DV
 Wire Wire Line
 	6100 4900 6900 4900
 Wire Wire Line
@@ -180,10 +166,6 @@ Wire Wire Line
 	6100 4500 6900 4500
 Wire Wire Line
 	6900 4600 6100 4600
-Text GLabel 6100 4300 0    50   BiDi ~ 0
-ETH_MDIO
-Text GLabel 6100 4200 0    50   Input ~ 0
-ETH_MDC
 Wire Wire Line
 	6100 4200 6900 4200
 Wire Wire Line
@@ -385,7 +367,7 @@ Connection ~ 3025 4175
 Wire Wire Line
 	3025 4175 3275 4175
 Text GLabel 6100 5200 0    50   Output ~ 0
-RGMII_RX_DV
+RGMII_RXDV
 Wire Wire Line
 	3575 8725 3750 8725
 Wire Wire Line
@@ -602,7 +584,7 @@ L antmicroInterfaceControllers:KSZ9031RNXCA U11
 U 1 1 609879F3
 P 7100 3800
 F 0 "U11" H 8200 711 50  0000 C CNN
-F 1 "KSZ9031RNXCA" H 8200 620 50  0000 C CNN
+F 1 "KSZ9031RNXCA" H 7500 825 50  0000 C CNN
 F 2 "antmicro-footprints:QFN-48-Microchip-QFN77-48LD-PL-2" H 7100 4300 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117F.pdf" H 7100 4300 50  0001 L CNN
 F 4 "Microchip" H 7100 4100 50  0001 L CNN "Manufacturer"
@@ -1352,4 +1334,23 @@ Text GLabel 6100 5900 0    50   Input ~ 0
 ETH_LED2
 Text GLabel 6100 6000 0    50   Input ~ 0
 ETH_LED1
+Text GLabel 6100 4500 0    50   Input ~ 0
+RGMII_TXEN
+Text GLabel 6100 5700 0    50   Output ~ 0
+RGMII_RXCLK
+Text GLabel 6100 5000 0    50   Input ~ 0
+RGMII_GTXCLK
+Text GLabel 6100 4300 0    50   BiDi ~ 0
+RGMII_MDIO
+Text GLabel 6100 4200 0    50   Input ~ 0
+RGMII_MDC
+Text GLabel 7150 9650 0    50   Input ~ 0
+ETH_LED2
+Text GLabel 7150 9750 0    50   Input ~ 0
+ETH_LED1
+NoConn ~ 6900 6100
+Text Notes 5225 6575 0    50   ~ 0
+Can be connected to SYS_RST from PMIC
+Text Label 6325 5200 0    50   ~ 0
+RGMII_RCTL
 $EndSCHEMATC

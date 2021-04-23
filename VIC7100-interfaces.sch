@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 11
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -882,8 +882,8 @@ NoConn ~ 5625 7175
 NoConn ~ 5625 7275
 NoConn ~ 5625 7375
 NoConn ~ 5625 7475
-Text GLabel 5625 5275 0    50   Input ~ 0
-GMAC_TXEN
+Text GLabel 5025 5275 0    50   Input ~ 0
+RGMII_TXEN
 Text GLabel 8700 1350 0    50   Input ~ 0
 VCC_0V9
 Wire Wire Line
@@ -2003,10 +2003,8 @@ Text Notes 12525 3750 0    118  ~ 24
 VIC LCD&RGMII
 Text Notes 11400 5800 0    118  ~ 24
 VIC MIPI&USB
-Text GLabel 5075 4900 0    50   Output ~ 0
-RGMII_REF_CLK
 Text GLabel 5025 6275 0    50   Output ~ 0
-RGMII_RX_CLK
+RGMII_RXCLK
 Text GLabel 5025 6875 0    50   Output ~ 0
 RGMII_RXD3
 Text GLabel 5025 6775 0    50   Output ~ 0
@@ -2016,7 +2014,7 @@ RGMII_RXD1
 Text GLabel 5025 6575 0    50   Output ~ 0
 RGMII_RXD0
 Text GLabel 5050 5075 0    50   Input ~ 0
-RGMII_TX_CLK
+RGMII_GTXCLK
 Text GLabel 5025 5775 0    50   Input ~ 0
 RGMII_TXD3
 Text GLabel 5025 5675 0    50   Input ~ 0
@@ -2025,14 +2023,12 @@ Text GLabel 5025 5575 0    50   Input ~ 0
 RGMII_TXD1
 Text GLabel 5025 5475 0    50   Input ~ 0
 RGMII_TXD0
-Text GLabel 5050 5175 0    50   Input ~ 0
-RGMII_TX_DV
 Text GLabel 5025 7675 0    50   BiDi ~ 0
-ETH_MDIO
+RGMII_MDIO
 Text GLabel 5025 7575 0    50   Input ~ 0
-ETH_MDC
+RGMII_MDC
 Text GLabel 5025 6375 0    50   Output ~ 0
-RGMII_RX_DV
+RGMII_RXDV
 Wire Wire Line
 	12925 6500 13250 6500
 Wire Wire Line
@@ -2067,4 +2063,8 @@ Wire Wire Line
 	5625 5475 5025 5475
 Wire Wire Line
 	5625 5075 5050 5075
+Wire Wire Line
+	5025 5275 5625 5275
+Text Notes 1600 6300 2    50   ~ 0
+not on B2B connector?
 $EndSCHEMATC

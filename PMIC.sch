@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 11
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -1927,4 +1927,8 @@ Text Notes 6075 9150 0    50   ~ 0
 TODO: replace with 49k9 resistor
 Wire Wire Line
 	4200 5975 4375 5975
+Text Notes 8825 3700 0    50   ~ 0
+TODO: find valid replacement for \nCSD87381P
+Text Notes 9750 5925 0    50   ~ 0
+TODO: find valid replacement for \nCSD87381P
 $EndSCHEMATC
