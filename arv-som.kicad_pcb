@@ -1377,7 +1377,7 @@
     (add_net nRPIBOOT)
   )
 
-  (module antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm (layer F.Cu) (tedit 5FA01141) (tstamp 608AE18A)
+  (module arv-som-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm (layer F.Cu) (tedit 5FA01141) (tstamp 608AE18A)
     (at 137.06 74.44 180)
     (descr "BGA-200, 14.5x10.0mm, 200 Ball, 12x22 Layout, 0.8x0.65mm Pitch, http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf")
     (tags "BGA 200 0.8x0.65")
@@ -1812,7 +1812,7 @@
     )
   )
 
-  (module antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm (layer F.Cu) (tedit 5FA01141) (tstamp 608AE09F)
+  (module arv-som-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm (layer F.Cu) (tedit 5FA01141) (tstamp 608AE09F)
     (at 175.13 74.51 180)
     (descr "BGA-200, 14.5x10.0mm, 200 Ball, 12x22 Layout, 0.8x0.65mm Pitch, http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf")
     (tags "BGA 200 0.8x0.65")
@@ -2247,7 +2247,7 @@
     )
   )
 
-  (module antmicro-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 60847378)
+  (module arv-som-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 60847378)
     (at 134.02 85.47)
     (path /6199CA5E)
     (attr virtual)
@@ -3385,7 +3385,7 @@
       (xy -1.520547 2.559315)) (layer F.Mask) (width 0.01))
   )
 
-  (module antmicro-footprints:antmicro-logo_scaled_12mm (layer F.Cu) (tedit 5E4A93F3) (tstamp 60847350)
+  (module arv-som-footprints:antmicro-logo_scaled_12mm (layer F.Cu) (tedit 5E4A93F3) (tstamp 60847350)
     (at 143.52 58.47)
     (path /6199C829)
     (attr virtual)
@@ -3700,7 +3700,7 @@
     )
   )
 
-  (module antmicro-footprints:8-WSON-6x5 (layer F.Cu) (tedit 6080403E) (tstamp 60828F5F)
+  (module arv-som-footprints:8-WSON-6x5 (layer F.Cu) (tedit 6080403E) (tstamp 60828F5F)
     (at 172.520001 90.958002 90)
     (path /607858CA/60785D2D)
     (fp_text reference U9 (at 0.5 -1.1 270) (layer F.SilkS)
@@ -3736,7 +3736,7 @@
     )
   )
 
-  (module antmicro-footprints:vic7100 (layer F.Cu) (tedit 607D5A83) (tstamp 608293EF)
+  (module arv-som-footprints:vic7100 (layer F.Cu) (tedit 607D5A83) (tstamp 608293EF)
     (at 164.830001 61.240002 270)
     (path /60805C73/60805DF2)
     (fp_text reference U13 (at -1.016 1.525) (layer F.SilkS)
@@ -5308,7 +5308,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN-48-Microchip-QFN77-48LD-PL-2 (layer F.Cu) (tedit 600030D3) (tstamp 6081E644)
+  (module arv-som-footprints:QFN-48-Microchip-QFN77-48LD-PL-2 (layer F.Cu) (tedit 600030D3) (tstamp 6081E644)
     (at 173.440001 60.350002 180)
     (path /60980C6E/609879F3)
     (fp_text reference U11 (at -4.9 0 90) (layer F.SilkS)
@@ -5444,7 +5444,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN50P900X900X100-65N (layer F.Cu) (tedit 5FA12592) (tstamp 60828FB7)
+  (module arv-som-footprints:QFN50P900X900X100-65N (layer F.Cu) (tedit 5FA12592) (tstamp 60828FB7)
     (at 145.910001 87.800002 270)
     (path /607858CA/607A5735)
     (fp_text reference U10 (at -5.85 -2.6) (layer F.SilkS)
@@ -5609,7 +5609,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN50P900X900X80-65N (layer F.Cu) (tedit 60537148) (tstamp 60828F4E)
+  (module arv-som-footprints:QFN50P900X900X80-65N (layer F.Cu) (tedit 60537148) (tstamp 60828F4E)
     (at 163.990001 87.580002 180)
     (path /60751C8D/606F10CB)
     (fp_text reference U8 (at -5.9 -2.35 90) (layer F.SilkS)
@@ -5798,7 +5798,7 @@
     )
   )
 
-  (module "antmicro-footprints:HRS_DF40C-100DP-0.4V(51)" (layer B.Cu) (tedit 607ED638) (tstamp 6083ADA4)
+  (module "arv-som-footprints:HRS_DF40C-100DP-0.4V(51)" (layer B.Cu) (tedit 607ED638) (tstamp 6083ADA4)
     (at 155.120001 91.970002 180)
     (path /6293247C/60FFB551)
     (fp_text reference J4 (at -10.25 -2.5) (layer B.SilkS)
@@ -6030,7 +6030,7 @@
     )
   )
 
-  (module "antmicro-footprints:HRS_DF40C-100DP-0.4V(51)" (layer B.Cu) (tedit 607ED638) (tstamp 6083B499)
+  (module "arv-som-footprints:HRS_DF40C-100DP-0.4V(51)" (layer B.Cu) (tedit 607ED638) (tstamp 6083B499)
     (at 155.120001 57.970002 180)
     (path /6293247C/60FEF31E)
     (fp_text reference J3 (at 10 2.5) (layer B.SilkS)
