@@ -4,11 +4,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 10
-Title ""
+Title "VIC7100 configuration"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.0.0"
+Comp "Antmicro ltd"
+Comment1 "http://antmicro.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""

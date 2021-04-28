@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
-Title ""
+Title "ARV System on Module"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.0.0"
+Comp "Antmicro ltd"
+Comment1 "http://antmicro.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
