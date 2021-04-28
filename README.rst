@@ -9,13 +9,12 @@ Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 Overview
 --------
 
-This repository contains open hardware design files for an ARV System on Module (SoM).
-The SoM utilises the StarFive VIC7100 IC.
-The design files were prepared in KiCad.
-The design is now a work in progress.
+This repository contains open hardware design files for the ARV System on Module (SoM) based on the StarFive 71xO SoC.
+The design is made in KiCad and currently in progress.
 
 Repository structure
 --------------------
+
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
@@ -25,14 +24,14 @@ The remaining files are stored in the following directories:
 Key Features
 ------------
 
-* StarFive VIC7100 SoC
+* StarFive 71x0 SoC (7100 in the current revision until 7110 becomes available)
 * 2x DF40 board-to-board connectors for baseboard integration
 * HDMI interface
 * Gigabit Ethernet interface
 * USB 2.0 interface
-* 2x 2-lane MIPI CSI-2 interface
+* 2x MIPI CSI-2 interface (2 lanes each)
 * I2C interface
-* DSI interface (4 lanes)
+* MIPI DSI interface (4 lanes)
 * SD/SDIO/eMMC interface
 * 26 GPIOs
 * 256Mbit QSPI NOR Flash memory
