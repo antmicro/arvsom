@@ -525,13 +525,13 @@ $Comp
 L antmicroResistors0402:R_1k_0402 R26
 U 1 1 608F44D4
 P 9025 6125
-F 0 "R26" V 8980 6195 60  0000 L CNN
+F 0 "R26" H 8950 6225 60  0000 L CNN
 F 1 "R_1k_0402" H 9025 5975 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 9225 6325 60  0001 L CNN
 F 3 "" H 9025 6125 50  0001 C CNN
 F 4 "BOURNS" H 9225 6525 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9225 6425 60  0001 L CNN "MPN"
-F 6 "1k" V 9078 6195 50  0000 L CNN "Val"
+F 6 "1k" H 8975 6125 50  0000 L CNN "Val"
 	1    9025 6125
 	0    1    1    0   
 $EndComp
@@ -539,13 +539,13 @@ $Comp
 L antmicroResistors0402:R_1k_0402 R27
 U 1 1 608F47DE
 P 9275 6125
-F 0 "R27" V 9230 6195 60  0000 L CNN
+F 0 "R27" H 9200 6225 60  0000 L CNN
 F 1 "R_1k_0402" H 9275 5975 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 9475 6325 60  0001 L CNN
 F 3 "" H 9275 6125 50  0001 C CNN
 F 4 "BOURNS" H 9475 6525 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 9475 6425 60  0001 L CNN "MPN"
-F 6 "1k" V 9328 6195 50  0000 L CNN "Val"
+F 6 "1k" H 9225 6125 50  0000 L CNN "Val"
 	1    9275 6125
 	0    1    1    0   
 $EndComp
@@ -563,30 +563,12 @@ Wire Wire Line
 Connection ~ 9275 6625
 Wire Wire Line
 	9275 6625 9425 6625
-$Comp
-L antmicroFuses:0ZCM0002FF2G F1
-U 1 1 60918CF5
-P 9025 5675
-F 0 "F1" V 9071 5545 50  0000 R CNN
-F 1 "0ZCM0002FF2G" V 8980 5545 50  0000 R CNN
-F 2 "antmicro-footprints:0603-res" H 9075 5450 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcm-series.pdf" H 9025 5525 50  0001 C CNN
-F 4 "0ZCM0002FF2G" H 9050 5375 50  0001 C CNN "MPN"
-F 5 "BEL FUSE" H 9075 5300 50  0001 C CNN "Manufacturer"
-	1    9025 5675
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9025 5425 1    50   Input ~ 0
+Text GLabel 9025 5500 1    50   Input ~ 0
 VCC_5V0
-Wire Wire Line
-	9025 5425 9025 5525
-Wire Wire Line
-	9025 5825 9025 5900
 Wire Wire Line
 	9025 5900 9275 5900
 Wire Wire Line
 	9275 5900 9275 5975
-Connection ~ 9025 5900
 Wire Wire Line
 	9025 5900 9025 5975
 Wire Wire Line
@@ -4541,4 +4523,18 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L antmicroFerriteBeadsandChips:BLM15PD121SN1D FB7
+U 1 1 60D6E8D3
+P 9025 5700
+F 0 "FB7" H 9025 5987 60  0000 C CNN
+F 1 "BLM15PD121SN1D" H 9025 5881 60  0000 C CNN
+F 2 "antmicro-footprints:0402-res" H 9225 5900 60  0001 L CNN
+F 3 "" H 9225 6000 60  0001 L CNN
+F 4 "BLM15PD121SN1D" H 9225 6200 60  0001 L CNN "MPN"
+F 5 "Murata" H 9225 6800 60  0001 L CNN "Manufacturer"
+	1    9025 5700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9025 5900
 $EndSCHEMATC
