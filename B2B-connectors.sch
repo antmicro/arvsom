@@ -4,11 +4,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 10
-Title ""
+Title "SoM board-to-board connectors"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.0.0"
+Comp "Antmicro ltd"
+Comment1 "http://antmicro.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -59,11 +59,11 @@ Wire Wire Line
 	3800 5200 3350 5200
 Wire Wire Line
 	3800 5400 3375 5400
-Text GLabel 3350 3300 0    50   Input ~ 0
+Text GLabel 3350 3300 0    39   Input Italic 0
 EEPROM_nWP
 Wire Wire Line
 	3800 6100 3350 6100
-Text GLabel 3350 6100 0    50   Input ~ 0
+Text GLabel 3350 6100 0    39   Input Italic 0
 RESERVED
 Wire Wire Line
 	3800 6200 3350 6200
@@ -78,24 +78,22 @@ Wire Wire Line
 Wire Wire Line
 	3800 6700 3350 6700
 Text GLabel 3350 6700 0    50   Input ~ 0
-1V8_OUT
+VCC_1V8
 Wire Wire Line
 	3800 6800 3800 6700
 Wire Wire Line
 	3800 6900 3350 6900
-Text GLabel 3350 6900 0    50   Input ~ 0
-RUN_PG
 Wire Wire Line
 	3800 7000 3350 7000
 Text GLabel 3350 7000 0    50   Input ~ 0
 AIN1
 Wire Wire Line
 	3800 7100 3350 7100
-Text GLabel 3350 7100 0    50   Input ~ 0
+Text GLabel 3350 7100 0    39   Input Italic 0
 AIN0
 Wire Wire Line
 	3800 7300 3350 7300
-Text GLabel 3350 7300 0    50   Input ~ 0
+Text GLabel 3350 7300 0    39   Input Italic 0
 nEXTRST
 Wire Wire Line
 	3800 2400 3700 2400
@@ -190,34 +188,34 @@ Wire Wire Line
 Wire Wire Line
 	4800 5300 4900 5300
 Wire Wire Line
-	4800 5400 5700 5400
+	4800 5400 5250 5400
 Wire Wire Line
 	4800 5600 4900 5600
 Wire Wire Line
-	4800 5700 5700 5700
+	4800 5700 5250 5700
 Wire Wire Line
 	4800 5900 4900 5900
-Text GLabel 5250 6100 2    50   Input ~ 0
+Text GLabel 5250 6100 2    39   Input Italic 0
 SD_PWR_ON
 Wire Wire Line
 	4800 6800 5250 6800
-Text GLabel 5250 6800 2    50   Input ~ 0
+Text GLabel 5250 6800 2    39   Input Italic 0
 WL_nDis
 Wire Wire Line
 	4800 6900 5250 6900
-Text GLabel 5250 6900 2    50   Input ~ 0
+Text GLabel 5250 6900 2    39   Input Italic 0
 BT_nDis
 Wire Wire Line
 	4800 7100 5250 7100
-Text GLabel 5250 7100 2    50   Input ~ 0
+Text GLabel 5250 7100 2    39   Input Italic 0
 nPWR_LED
 Wire Wire Line
 	4800 7200 5250 7200
 Text GLabel 5250 7200 2    50   Input ~ 0
-CAM_GPIO
+CSI0_PWDN
 Wire Wire Line
 	4800 7300 5250 7300
-Text GLabel 5250 7300 2    50   Input ~ 0
+Text GLabel 5250 7300 2    39   Input Italic 0
 GLOBAL_EN
 Wire Wire Line
 	4800 2400 4900 2400
@@ -235,31 +233,31 @@ Wire Wire Line
 	4900 2700 4900 3000
 Wire Wire Line
 	11225 2325 10775 2325
-Text GLabel 10775 2325 0    50   Input ~ 0
+Text GLabel 10775 2325 0    39   Input Italic 0
 PCIE_CLK_nREQ
 Wire Wire Line
 	11225 2725 10775 2725
-Text GLabel 10775 2725 0    50   Input ~ 0
+Text GLabel 10775 2725 0    39   Input Italic 0
 PCIE_CLK_P
 Wire Wire Line
 	11225 2825 10775 2825
-Text GLabel 10775 2825 0    50   Input ~ 0
+Text GLabel 10775 2825 0    39   Input Italic 0
 PCIE_CLK_N
 Wire Wire Line
 	11225 3025 10775 3025
-Text GLabel 10775 3025 0    50   Input ~ 0
+Text GLabel 10775 3025 0    39   Input Italic 0
 PCIE_RX_P
 Wire Wire Line
 	11225 3125 10775 3125
-Text GLabel 10775 3125 0    50   Input ~ 0
+Text GLabel 10775 3125 0    39   Input Italic 0
 PCIE_RX_N
 Wire Wire Line
 	11225 3325 10775 3325
-Text GLabel 10775 3325 0    50   Input ~ 0
+Text GLabel 10775 3325 0    39   Input Italic 0
 PCIE_TX_P
 Wire Wire Line
 	11225 3425 10775 3425
-Text GLabel 10775 3425 0    50   Input ~ 0
+Text GLabel 10775 3425 0    39   Input Italic 0
 PCIE_TX_N
 Wire Wire Line
 	11225 3625 10475 3625
@@ -275,7 +273,7 @@ Wire Wire Line
 	11225 4325 10525 4325
 Wire Wire Line
 	12225 2325 12675 2325
-Text GLabel 12675 2325 2    50   Input ~ 0
+Text GLabel 12675 2325 2    39   Input Italic 0
 USBOTG_ID
 Wire Wire Line
 	12225 2425 12850 2425
@@ -283,11 +281,11 @@ Wire Wire Line
 	12225 2525 12850 2525
 Wire Wire Line
 	12225 2725 12675 2725
-Text GLabel 12675 2725 2    50   Input ~ 0
+Text GLabel 12675 2725 2    39   Input Italic 0
 PSCIE_nRST
 Wire Wire Line
 	12225 2825 12675 2825
-Text GLabel 12675 2825 2    50   Input ~ 0
+Text GLabel 12675 2825 2    39   Input Italic 0
 TV_OUT
 Wire Wire Line
 	12225 3025 12875 3025
@@ -303,33 +301,33 @@ Wire Wire Line
 	12225 3725 12875 3725
 Wire Wire Line
 	12225 3925 12675 3925
-Text GLabel 12675 3925 2    50   Input ~ 0
+Text GLabel 12675 3925 2    39   Input Italic 0
 CAM1_D2_N
 Wire Wire Line
 	12225 4025 12675 4025
-Text GLabel 12675 4025 2    50   Input ~ 0
+Text GLabel 12675 4025 2    39   Input Italic 0
 CAM1_D2_P
 Wire Wire Line
 	12225 4225 12675 4225
-Text GLabel 12675 4225 2    50   Input ~ 0
+Text GLabel 12675 4225 2    39   Input Italic 0
 CAM1_D3_N
 Wire Wire Line
 	12225 4325 12675 4325
-Text GLabel 12675 4325 2    50   Input ~ 0
+Text GLabel 12675 4325 2    39   Input Italic 0
 CAM1_D3_P
 Wire Wire Line
 	12225 4425 12675 4425
 Wire Wire Line
 	12225 4525 12675 4525
-Text GLabel 12675 4525 2    50   Input ~ 0
+Text GLabel 12675 4525 2    39   Input Italic 0
 HDMI1_SDA
 Wire Wire Line
 	12225 4625 12675 4625
-Text GLabel 12675 4625 2    50   Input ~ 0
+Text GLabel 12675 4625 2    39   Input Italic 0
 HDMI1_SCL
 Wire Wire Line
 	12225 4725 12675 4725
-Text GLabel 12675 4725 2    50   Input ~ 0
+Text GLabel 12675 4725 2    39   Input ~ 0
 HDMI1_CEC
 Wire Wire Line
 	12225 4825 12850 4825
@@ -337,35 +335,35 @@ Wire Wire Line
 	12225 4925 12850 4925
 Wire Wire Line
 	11225 4525 10775 4525
-Text GLabel 10775 4525 0    50   Input ~ 0
+Text GLabel 10775 4525 0    39   Input Italic 0
 HDMI1_D2_P
 Wire Wire Line
 	11225 4625 10775 4625
-Text GLabel 10775 4625 0    50   Input ~ 0
+Text GLabel 10775 4625 0    39   Input Italic 0
 HDMI1_D2_N
 Wire Wire Line
 	11225 4825 10775 4825
-Text GLabel 10775 4825 0    50   Input ~ 0
+Text GLabel 10775 4825 0    39   Input Italic 0
 HDMI1_D1_P
 Wire Wire Line
 	11225 4925 10775 4925
-Text GLabel 10775 4925 0    50   Input ~ 0
+Text GLabel 10775 4925 0    39   Input Italic 0
 HDMI1_D1_N
 Wire Wire Line
 	11225 5125 10775 5125
-Text GLabel 10775 5125 0    50   Input ~ 0
+Text GLabel 10775 5125 0    39   Input Italic 0
 HDMI1_D0_P
 Wire Wire Line
 	11225 5225 10775 5225
-Text GLabel 10775 5225 0    50   Input ~ 0
+Text GLabel 10775 5225 0    39   Input Italic 0
 HDMI1_D0_N
 Wire Wire Line
 	11225 5425 10775 5425
-Text GLabel 10775 5425 0    50   Input ~ 0
+Text GLabel 10775 5425 0    39   Input Italic 0
 HDMI1_CK_P
 Wire Wire Line
 	11225 5525 10775 5525
-Text GLabel 10775 5525 0    50   Input ~ 0
+Text GLabel 10775 5525 0    39   Input Italic 0
 HDMI1_CK_N
 Wire Wire Line
 	11225 5725 10575 5725
@@ -384,13 +382,13 @@ Wire Wire Line
 Wire Wire Line
 	11225 6725 10575 6725
 Wire Wire Line
-	11225 6925 10775 6925
-Text GLabel 10775 6925 0    50   Input ~ 0
-DSI1_D3_N
+	11225 6925 10600 6925
+Text GLabel 10600 6925 0    50   Input ~ 0
+CDTX_DSI_D4_N
 Wire Wire Line
-	11225 7025 10775 7025
-Text GLabel 10775 7025 0    50   Input ~ 0
-DSI1_D3_P
+	11225 7025 10600 7025
+Text GLabel 10600 7025 0    50   Input ~ 0
+CDTX_DSI_D4_P
 Wire Wire Line
 	11225 7225 10525 7225
 Wire Wire Line
@@ -407,36 +405,36 @@ Wire Wire Line
 	12225 5525 12675 5525
 Wire Wire Line
 	12225 5425 12675 5425
-Text GLabel 12675 6625 2    50   Input ~ 0
-DSI1_C_N
+Text GLabel 12675 5725 2    39   Input Italic 0
+DSI0_C_N
 Wire Wire Line
 	12225 6725 12675 6725
-Text GLabel 12675 6725 2    50   Input ~ 0
-DSI1_C_P
+Text GLabel 12675 5825 2    39   Input Italic 0
+DSI0_C_P
 Wire Wire Line
 	12225 6625 12675 6625
-Text GLabel 12675 6025 2    50   BiDi ~ 0
+Text GLabel 12675 5125 2    39   Input Italic 0
 DSI1_D0_N
 Wire Wire Line
 	12225 6125 12675 6125
-Text GLabel 12675 6125 2    50   Input ~ 0
+Text GLabel 12675 5225 2    39   Input Italic 0
 DSI1_D0_P
 Wire Wire Line
 	12225 6025 12675 6025
-Text GLabel 12675 6325 2    50   Input ~ 0
+Text GLabel 12675 5425 2    39   Input Italic 0
 DSI1_D1_N
 Wire Wire Line
 	12225 6425 12675 6425
-Text GLabel 12675 6425 2    50   Input ~ 0
+Text GLabel 12675 5525 2    39   Input ~ 0
 DSI1_D1_P
 Wire Wire Line
 	12225 6325 12675 6325
 Text GLabel 12675 6925 2    50   Input ~ 0
-DSI2_D1_N
+CDTX_DSI_D3_N
 Wire Wire Line
 	12225 7025 12675 7025
 Text GLabel 12675 7025 2    50   Input ~ 0
-DSI2_D1_P
+CDTX_DSI_D3_P
 Wire Wire Line
 	12225 6925 12675 6925
 Wire Wire Line
@@ -587,7 +585,7 @@ Wire Wire Line
 Connection ~ 12325 2925
 Wire Wire Line
 	12325 2925 12325 3225
-Text GLabel 12675 4425 2    50   Input ~ 0
+Text GLabel 12675 4425 2    39   Input ~ 0
 HDMI1_HOTPLUG
 Connection ~ 4900 3500
 Wire Wire Line
@@ -612,27 +610,25 @@ Connection ~ 4900 5000
 Wire Wire Line
 	4900 5000 4900 5300
 Wire Wire Line
-	5700 5200 4800 5200
+	5250 5200 4800 5200
 Connection ~ 4900 5300
 Wire Wire Line
 	4900 5300 4900 5600
 Wire Wire Line
-	5700 5500 4800 5500
+	5250 5500 4800 5500
 Connection ~ 4900 5600
 Wire Wire Line
 	4900 5600 4900 5900
 Wire Wire Line
-	5700 5800 4800 5800
+	5250 5800 4800 5800
 Connection ~ 4900 5900
 Wire Wire Line
 	4900 5900 4900 7650
 Wire Wire Line
 	5250 6100 4800 6100
 Text GLabel 3350 6500 0    50   Input ~ 0
-3V3_OUT
-Text GLabel 5250 3400 2    50   Input ~ 0
-PI_nLED_ACT
-Text GLabel 3350 6200 0    50   Input ~ 0
+VCC_3V3
+Text GLabel 3350 6200 0    39   Input Italic 0
 GPIO_VREF
 $Comp
 L power:GND #PWR0224
@@ -679,34 +675,32 @@ F 3 "" H 12325 7625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3400 5250 3400
+	4800 3400 5400 3400
 Text Notes 5875 3125 0    50   ~ 0
 Ethernet_nLED3
 Text Notes 5875 3225 0    50   ~ 0
 Ethernet_nLED2
-Wire Wire Line
-	4800 3300 5250 3300
 Text Notes 5875 4950 0    50   ~ 0
-RPi_RXD
+Uart_RXD
 Text Notes 5875 5150 0    50   ~ 0
-RPi_TXD
-Text GLabel 3350 5500 0    50   Input ~ 0
+Uart_TXD
+Text GLabel 3350 5500 0    39   Input Italic 0
 SD_DAT5
 Wire Wire Line
 	3350 5500 3800 5500
-Text GLabel 3350 5700 0    50   Input ~ 0
+Text GLabel 3350 5700 0    39   Input Italic 0
 SD_DAT4
 Wire Wire Line
 	3350 5700 3800 5700
-Text GLabel 3350 5800 0    50   Input ~ 0
-SD_DAT2
-Wire Wire Line
-	3350 5800 3800 5800
-Text GLabel 3350 5900 0    50   Input ~ 0
+Text GLabel 3350 5800 0    39   Input Italic 0
 SD_DAT7
 Wire Wire Line
+	3350 5800 3800 5800
+Text GLabel 3350 5900 0    39   Input Italic 0
+SD_DAT6
+Wire Wire Line
 	3350 5900 3800 5900
-Text GLabel 5250 6000 2    50   Input ~ 0
+Text GLabel 5250 6000 2    39   Input Italic 0
 SD_VDD_OVRD
 Wire Wire Line
 	5250 6000 4800 6000
@@ -716,15 +710,15 @@ Text GLabel 5250 6200 2    50   Input ~ 0
 5V0_IN
 Wire Wire Line
 	4800 7000 5250 7000
-Text GLabel 5250 7000 2    50   Input ~ 0
+Text GLabel 5250 7000 2    39   Input Italic 0
 nRPIBOOT
 Wire Wire Line
 	11225 2425 10775 2425
-Text GLabel 10775 2425 0    50   Input ~ 0
+Text GLabel 10775 2425 0    39   Input Italic 0
 RESERVED
 Wire Wire Line
 	11225 2525 10775 2525
-Text GLabel 10775 2525 0    50   Input ~ 0
+Text GLabel 10775 2525 0    39   Input Italic 0
 RESERVED
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:DF40C-100DP-0.4V(51) J3
@@ -856,22 +850,22 @@ Text GLabel 5250 3700 2    50   Input ~ 0
 RPI_GPIO20
 Text GLabel 5250 3600 2    50   Input ~ 0
 RPI_GPIO21
-Text GLabel 5700 5500 2    50   Input ~ 0
+Text GLabel 5250 5500 2    50   Input ~ 0
 SDIO0_D0
-Text GLabel 5700 5700 2    50   Input ~ 0
+Text GLabel 5250 5700 2    50   Input ~ 0
 SDIO0_D1
-Text GLabel 5700 5800 2    50   Input ~ 0
+Text GLabel 5250 5800 2    50   Input ~ 0
 SDIO0_D2
-Text GLabel 5700 5400 2    50   Input ~ 0
+Text GLabel 5250 5400 2    50   Input ~ 0
 SDIO0_D3
 Text GLabel 3375 5400 0    50   Input ~ 0
 SDIO0_CMD
-Text GLabel 5700 5200 2    50   Input ~ 0
+Text GLabel 5250 5200 2    50   Input ~ 0
 SDIO0_CLK
 Text GLabel 3375 6400 0    50   Input ~ 0
-I2C0_SDA
+I2C2_SDA
 Text GLabel 3375 6300 0    50   Input ~ 0
-I2C0_SCL
+I2C2_SCL
 Wire Wire Line
 	4800 6300 4800 6400
 Connection ~ 4800 6600
@@ -913,80 +907,51 @@ Text GLabel 10525 4225 0    50   Input ~ 0
 CSI1RX_CLK_N
 Text GLabel 10525 4325 0    50   Input ~ 0
 CSI1RX_CLK_P
-Text Notes 1075 3125 0    50   ~ 0
-Signals provided by CM4's PHY (BCM54210PE)
-Wire Bus Line
-	2875 3075 2875 3225
-Wire Bus Line
-	2875 3225 2925 3225
-Text Notes 3025 3100 0    50   ~ 0
-SYNC_IN
-Text Notes 3000 3200 0    50   ~ 0
-SYNC_OUT
-Text Notes 5400 3325 0    50   ~ 0
-ETH_nLED1
-Text Notes 5775 3425 0    50   ~ 0
-LED replicating status LED from RPi4B
-Text Notes 6025 3500 0    50   ~ 0
-TBD: connect to any free GPIO?
-Text Notes 2000 3325 0    50   ~ 0
-Write protection TBD
+Text Notes 2100 3225 0    50   ~ 0
+BCM54210PE PHY \nspecific
+Text Notes 5875 3325 0    50   ~ 0
+ETHERNET_nLED1
+Text Notes 5875 3425 0    50   ~ 0
+nLED_ACT
+Text Notes 2100 3325 0    50   ~ 0
+Write protection
 Text Notes 2575 5425 0    50   ~ 0
 SD_CMD
-Text Notes 6250 5225 0    50   ~ 0
+Text Notes 5875 5225 0    50   ~ 0
 SD_CLK
-Text Notes 6250 5425 0    50   ~ 0
+Text Notes 5875 5425 0    50   ~ 0
 SD_DAT3
-Text Notes 6250 5525 0    50   ~ 0
+Text Notes 5875 5525 0    50   ~ 0
 SD_DAT0
-Text Notes 6250 5725 0    50   ~ 0
+Text Notes 5875 5725 0    50   ~ 0
 SD_DAT1
-Text Notes 6250 5825 0    50   ~ 0
+Text Notes 5875 5825 0    50   ~ 0
 SD_DAT2
-Wire Bus Line
-	2550 5700 2900 5700
-Wire Bus Line
-	2900 5700 2900 5375
-Wire Bus Line
-	2900 5700 2900 5975
-Connection ~ 2900 5700
-Text Notes 7700 6025 2    50   ~ 0
-force SD/eMMC interface to 1.8V, otherwise NC
-Text Notes 5800 6825 0    50   ~ 0
-TBD: connect to any free GPIO?
-Text Notes 5800 6925 0    50   ~ 0
-TBD: connect to any free GPIO?
+Text Notes 6600 6025 2    50   ~ 0
+force SD if to 1.8V\n
 Text Notes 5800 7225 0    50   ~ 0
-TBD: connect to any free GPIO?
-Text Notes 1800 7125 0    50   ~ 0
-Analog inputs of CM4's PMIC\n(Type C power connector)
+CAM_GPIO
 Text Notes 5800 7025 0    50   ~ 0
 TBD: connect to any free GPIO? (float if not used)
 Text Notes 5800 7125 0    50   ~ 0
 Power On LED output (AL), needs to be buffered
 Text Notes 5800 7325 0    50   ~ 0
-Drive low to power off CM4
-Text Notes 1275 6925 0    50   ~ 0
-Low: resets CM4\nOutput: signals Power good (10k pullup)
-Wire Bus Line
-	3000 6850 1900 6850
-Wire Bus Line
-	1900 6850 1900 6800
-Text Notes 2400 5775 2    50   ~ 0
-SDCARD/eMMC \navailable only on CM4Lite
+Drive low to power off
+Text Notes 2550 6925 0    50   ~ 0
+RUN_PG
 Text Notes 13350 5775 0    50   ~ 0
 DSI0_C_N
-Text GLabel 12675 5825 2    50   Input ~ 0
+Text GLabel 12675 6725 2    50   Input ~ 0
 CDTX_DSI_D2_P
-Text GLabel 12675 5725 2    50   Input ~ 0
+Text GLabel 12675 6625 2    50   Input ~ 0
 CDTX_DSI_D2_N
-Text GLabel 12675 5525 2    50   Input ~ 0
+Text GLabel 12675 6425 2    50   Input ~ 0
 CDTX_DSI_D1_P
-Text GLabel 12675 5425 2    50   Input ~ 0
+Text GLabel 12675 6325 2    50   Input ~ 0
 CDTX_DSI_D1_N
-Text GLabel 12675 5225 2    50   Input ~ 0
+Text GLabel 12675 6125 2    50   Input ~ 0
 CDTX_DSI_D0_P
-Text GLabel 12675 5125 2    50   Input ~ 0
+Text GLabel 12675 6025 2    50   Input ~ 0
 CDTX_DSI_D0_N
 Text Notes 13350 5875 0    50   ~ 0
 DSI0_C_P
@@ -4867,10 +4832,40 @@ EndData
 $EndBitmap
 Text Notes 7375 1450 0    118  ~ 24
 B2B connectors
-Text Notes 2350 5425 2    50   ~ 0
-Signal from VIC to be connected:\nSDIO0_CD?
-Text Notes 7125 7600 2    50   ~ 0
-Signals from VIC to be connected:\nCSI1_PWDN\nCSI0_PWDN
-Text Notes 15300 6100 2    50   ~ 0
-Signals from VIC to be connected:\nCDTX_DSI_D4_N\nCDTX_DSI_D4_P\nCDTX_DSI_D3_N\nCDTX_DSI_D3_P
+Text GLabel 5400 3300 2    39   Input Italic 0
+ETH_LED1
+Wire Wire Line
+	4800 3300 5400 3300
+Text GLabel 3350 3200 0    39   Input Italic 0
+SYNC_OUT
+Text GLabel 3350 3100 0    39   Input Italic 0
+SYNC_IN
+Text Notes 6625 1675 0    79   ~ 0
+Note: signals in cursive are NOT mapped on the SoM
+Text GLabel 5400 3400 2    50   Input ~ 0
+LED
+Text GLabel 3350 6900 0    50   Input ~ 0
+CTL5
+Text Notes 6625 1800 0    79   ~ 0
+Blue annotations: CM pin reference
+Text Notes 13350 6075 0    50   ~ 0
+DSI1_D0_N
+Text Notes 13350 6175 0    50   ~ 0
+DSI1_D0_P
+Text Notes 13350 6375 0    50   ~ 0
+DSI1_D1_N
+Text Notes 13350 6475 0    50   ~ 0
+DSI1_D1_P
+Text Notes 13350 6675 0    50   ~ 0
+DSI1_C_N
+Text Notes 13350 6775 0    50   ~ 0
+DSI1_C_P
+Text Notes 13350 6975 0    50   ~ 0
+DSI1_D2_N
+Text Notes 13350 7075 0    50   ~ 0
+DSI1_D2_P
+Text Notes 9550 6950 0    50   ~ 0
+DSI1_D3_N
+Text Notes 9550 7050 0    50   ~ 0
+DSI1_D3_P
 $EndSCHEMATC
