@@ -9,7 +9,7 @@ Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 Overview
 --------
 
-This repository contains open hardware design files for the ARV System on Module (SoM) based on the StarFive 71xO SoC.
+This repository contains open hardware design files for the ARV System on Module (SoM) based on the StarFive 71x0 SoC.
 The design is made in KiCad and currently in progress.
 
 Repository structure
