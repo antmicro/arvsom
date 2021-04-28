@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name arv-som-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/arv-som-footprints)(options "")(descr ""))
+)

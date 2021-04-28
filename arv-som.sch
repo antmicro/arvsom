@@ -68,23 +68,23 @@ F0 "B2B connectors" 50
 F1 "B2B-connectors.sch" 50
 $EndSheet
 $Comp
-L antmicroMechanicalParts:antmicro_logo N1
+L arv-som:antmicro_logo N1
 U 1 1 6199C829
 P 3975 7125
 F 0 "N1" H 4189 7218 50  0000 L CNN
 F 1 "antmicro_logo" H 4189 7127 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_12mm" H 3875 7375 50  0001 C CNN
+F 2 "arv-som-footprints:antmicro-logo_scaled_12mm" H 3875 7375 50  0001 C CNN
 F 3 "" H 3975 7475 50  0001 C CNN
 	1    3975 7125
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:oshw_logo N2
+L arv-som:oshw_logo N2
 U 1 1 6199CA5E
 P 4000 7350
 F 0 "N2" H 4194 7353 50  0000 L CNN
 F 1 "oshw_logo" H 4194 7262 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 4020 7110 50  0001 C CNN
+F 2 "arv-som-footprints:oshw-logo" H 4020 7110 50  0001 C CNN
 F 3 "" H 4000 7350 50  0001 C CNN
 	1    4000 7350
 	1    0    0    -1  
