@@ -117,36 +117,10 @@ Text GLabel 2125 3975 0    50   Input ~ 0
 RPI_GPIO21
 Text GLabel 2125 4075 0    50   Input ~ 0
 VDD2PEN
-Text GLabel 2125 4175 0    50   Input ~ 0
-WIFI_SDIO1_CMD
-Text GLabel 2125 4275 0    50   Input ~ 0
-WIFI_SDIO1_D1
-Text GLabel 2125 4375 0    50   Input ~ 0
-WIFI_SDIO1_D3
-Text GLabel 2125 4475 0    50   Input ~ 0
-BT_WAKE
-Text GLabel 2125 4575 0    50   Input ~ 0
-WIFI_SDIO1_CLK
-Text GLabel 2125 4675 0    50   Input ~ 0
-WIFI_SDIO1_D2
 Text GLabel 2125 4775 0    50   Input ~ 0
 LED
-Text GLabel 2125 4875 0    50   Input ~ 0
-WIFI_SDIO1_D0
 Text GLabel 2125 4975 0    50   Input ~ 0
 PWR_OFF
-Text GLabel 2125 5075 0    50   Input ~ 0
-BT_UART_CTS
-Text GLabel 2125 5175 0    50   Input ~ 0
-BT_UART_RXD
-Text GLabel 2125 5275 0    50   Input ~ 0
-BT_UART_TXD
-Text GLabel 2125 5375 0    50   Input ~ 0
-BT_UART_RTS
-Text GLabel 2125 5475 0    50   Input ~ 0
-WIFI_EN
-Text GLabel 2125 5575 0    50   Input ~ 0
-BT_RSTN
 Text GLabel 2125 5675 0    50   Input ~ 0
 SDIO0_D0
 Text GLabel 2125 5775 0    50   Input ~ 0
@@ -173,10 +147,6 @@ Text GLabel 2125 6775 0    50   Input ~ 0
 I2C0_SDA
 Text GLabel 2125 6875 0    50   Input ~ 0
 I2C0_SCL
-Text GLabel 2125 6975 0    50   Input ~ 0
-DAC_PWML
-Text GLabel 2125 7075 0    50   Input ~ 0
-DAC_PWMR
 Text GLabel 1325 7175 0    50   Input ~ 0
 HDMI_I2STX0
 Text GLabel 1325 7275 0    50   Input ~ 0
@@ -2041,8 +2011,6 @@ Wire Wire Line
 	5625 5075 5050 5075
 Wire Wire Line
 	5025 5275 5625 5275
-Text Notes 1600 6300 2    50   ~ 0
-not on B2B connector?
 $Bitmap
 Pos 1500 10693
 Scale 0.400000
@@ -5942,4 +5910,134 @@ Wire Wire Line
 	12900 6900 13250 6900
 Text Notes 4025 1175 0    50   ~ 0
 TODO: connect resistors before VIC
+Text Notes 1275 4200 0    50   ~ 0
+WIFI_SDIO1_CMD
+Text Notes 1275 4325 0    50   ~ 0
+WIFI_SDIO1_D1
+Text Notes 1275 4425 0    50   ~ 0
+WIFI_SDIO1_D3
+Text Notes 1275 4525 0    50   ~ 0
+BT_WAKE
+Text Notes 1275 4625 0    50   ~ 0
+WIFI_SDIO1_CLK
+Text Notes 1275 4725 0    50   ~ 0
+WIFI_SDIO1_D2
+Text Notes 1275 4925 0    50   ~ 0
+WIFI_SDIO1_D0
+Text Notes 1275 5125 0    50   ~ 0
+BT_UART_CTS
+Text Notes 1275 5225 0    50   ~ 0
+BT_UART_RXD
+Text Notes 1275 5325 0    50   ~ 0
+BT_UART_TXD
+Text Notes 1275 5425 0    50   ~ 0
+BT_UART_RTS
+Text Notes 1275 5525 0    50   ~ 0
+WIFI_EN
+Text Notes 1275 5625 0    50   ~ 0
+BT_RSTN
+NoConn ~ 2125 4175
+NoConn ~ 2125 4275
+NoConn ~ 2125 4375
+NoConn ~ 2125 4475
+NoConn ~ 2125 4575
+NoConn ~ 2125 4675
+NoConn ~ 2125 4875
+NoConn ~ 2125 5075
+NoConn ~ 2125 5175
+NoConn ~ 2125 5275
+NoConn ~ 2125 5375
+NoConn ~ 2125 5475
+NoConn ~ 2125 5575
+Text GLabel 8325 9750 0    50   Input ~ 0
+LED
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 630B1A75
+P 9200 8925
+F 0 "R?" V 9155 8995 60  0000 L CNN
+F 1 "R_1k_0402" H 9200 8775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9400 9125 60  0001 L CNN
+F 3 "" H 9200 8925 50  0001 C CNN
+F 4 "BOURNS" H 9400 9325 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 9400 9225 60  0001 L CNN "MPN"
+F 6 "1k" V 9253 8995 50  0000 L CNN "Val"
+	1    9200 8925
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroLEDIndicationDiscrete:KP-1608CGCK D?
+U 1 1 630B453C
+P 9200 9350
+F 0 "D?" V 9097 9528 60  0000 L CNN
+F 1 "KP-1608CGCK" V 9203 9528 60  0000 L CNN
+F 2 "antmicro-footprints:LED_0603" H 9400 9550 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 9400 9650 60  0001 L CNN
+F 4 "KP-1608CGCK" H 9400 9850 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 9410 9970 60  0001 L CNN "Manufacturer"
+	1    9200 9350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 9075 9200 9150
+Text GLabel 9200 8675 1    50   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	9200 8675 9200 8775
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:BSS138AKA Q?
+U 1 1 631064ED
+P 9200 9650
+F 0 "Q?" H 9308 9703 60  0000 L CNN
+F 1 "BSS138AKA" H 9308 9597 60  0000 L CNN
+F 2 "antmicro-footprints:SOT-23-3" H 9400 9850 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 9400 9950 60  0001 L CNN
+F 4 "BSS138AKAR" H 9400 10150 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 9400 10750 60  0001 L CNN "Manufacturer"
+	1    9200 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 9850 9200 9950
+$Comp
+L power:GND #PWR?
+U 1 1 63136436
+P 9200 9950
+AR Path="/607683D6/63136436" Ref="#PWR?"  Part="1" 
+AR Path="/60805CEC/63136436" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9200 9700 50  0001 C CNN
+F 1 "GND" H 9205 9777 50  0000 C CNN
+F 2 "" H 9200 9950 50  0001 C CNN
+F 3 "" H 9200 9950 50  0001 C CNN
+	1    9200 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 63153957
+P 8650 9750
+F 0 "R?" H 8650 9963 60  0000 C CNN
+F 1 "R_33R_0402" H 8650 9600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8850 9950 60  0001 L CNN
+F 3 "" H 8650 9750 50  0001 C CNN
+F 4 "Vishay" H 8850 10150 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 8850 10050 60  0001 L CNN "MPN"
+F 6 "33R" H 8650 9865 50  0000 C CNN "Val"
+	1    8650 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 9750 8900 9750
+Wire Wire Line
+	8500 9750 8325 9750
+Text Notes 8825 8050 0    118  ~ 24
+ACK LED
+Text Notes 3250 4750 0    50   ~ 0
+TODO:\nadd on/off logic connection\nto PWR_OFF pin
+Text Notes 1325 6975 0    50   ~ 0
+DAC_PWML
+Text Notes 1325 7075 0    50   ~ 0
+DAC_PWMR
+NoConn ~ 2125 6975
+NoConn ~ 2125 7075
 $EndSCHEMATC
