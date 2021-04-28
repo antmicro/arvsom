@@ -133,8 +133,6 @@ Text GLabel 2125 6075 0    50   Input ~ 0
 SDIO0_CMD
 Text GLabel 2125 6175 0    50   Input ~ 0
 SDIO0_CLK
-Text GLabel 2125 6275 0    50   Input ~ 0
-SDIO0_CD
 Text GLabel 2125 6375 0    50   Input ~ 0
 CSI1_PWDN
 Text GLabel 2125 6475 0    50   Input ~ 0
@@ -6157,4 +6155,42 @@ Wire Wire Line
 Connection ~ 1325 6125
 Wire Wire Line
 	1325 6125 1325 6025
+Text GLabel 2125 6275 0    50   Input ~ 0
+SDIO0_CD
+Text GLabel 1700 9000 2    50   Input ~ 0
+SDIO0_CD
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 611FAF4E
+P 1400 9000
+F 0 "R?" H 1400 9305 60  0000 C CNN
+F 1 "R_10k_0402" H 1400 8850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1600 9200 60  0001 L CNN
+F 3 "" H 1400 9000 50  0001 C CNN
+F 4 "VISHAY" H 1600 9400 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 1600 9300 60  0001 L CNN "MPN"
+F 6 "10k" H 1400 9207 50  0000 C CNN "Val"
+F 7 "DNP" H 1400 9116 50  0000 C CNN "Populate"
+	1    1400 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 9000 1700 9000
+Wire Wire Line
+	1250 9000 1025 9000
+Wire Wire Line
+	1025 9000 1025 9175
+$Comp
+L power:GND #PWR?
+U 1 1 6123BF63
+P 1025 9175
+AR Path="/607683D6/6123BF63" Ref="#PWR?"  Part="1" 
+AR Path="/60805CEC/6123BF63" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1025 8925 50  0001 C CNN
+F 1 "GND" H 1030 9002 50  0000 C CNN
+F 2 "" H 1025 9175 50  0001 C CNN
+F 3 "" H 1025 9175 50  0001 C CNN
+	1    1025 9175
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
