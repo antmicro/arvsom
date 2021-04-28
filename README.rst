@@ -4,14 +4,15 @@ ARV System on Module
 
 Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/3dvis.png
+.. figure:: img/arv-som.png
 
 Overview
 --------
 
-This repository contains open hardware design files for an ARV system on module.
-The main purpose of this platform is to to asses feasibility of making a custom SoM that will be pin-compatible with Raspberry Pi Compute Module 4 but will utilise the StarFive VIC7100 IC.
+This repository contains open hardware design files for an ARV System on Module (SoM).
+The SoM utilises the StarFive VIC7100 IC.
 The design files were prepared in KiCad.
+The design is now a work in progress.
 
 Repository structure
 --------------------
@@ -25,15 +26,15 @@ Key Features
 ------------
 
 * StarFive VIC7100 SoC
-* 2x DF40 board-to-board connectors (matching Raspberry Pi Compute Module 4)
+* 2x DF40 board-to-board connectors for baseboard integration
 * HDMI interface
 * Gigabit Ethernet interface
 * USB 2.0 interface
-* 2x MIPI CSI-2 interfaces (2 lanes)
+* 2x 2-lane MIPI CSI-2 interface
 * I2C interface
 * DSI interface (4 lanes)
 * SD/SDIO/eMMC interface
-* 26 RPi GPIOs
+* 26 GPIOs
 * 256Mbit QSPI NOR Flash memory
 * 2x 32Gb LPDDR4 (Micron MT53D1024M32D4DT-053)
 
