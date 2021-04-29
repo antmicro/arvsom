@@ -35,7 +35,7 @@ Key Features
 * SD/SDIO/eMMC interface
 * 26 GPIOs
 * 256Mbit QSPI NOR Flash memory
-* 2x 32Gb LPDDR4 (Micron MT53D1024M32D4DT-053)
+* 2x 4GB LPDDR4
 
 License
 =======
