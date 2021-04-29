@@ -28,7 +28,7 @@ Key Features
 * 2x DF40 board-to-board connectors for baseboard integration
 * HDMI interface
 * Gigabit Ethernet interface
-* USB 2.0 interface
+* USB 3.0 interface
 * 2x MIPI CSI-2 interface (2 lanes each)
 * I2C interface
 * MIPI DSI interface (4 lanes)
