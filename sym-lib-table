@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name arv-som)(type Legacy)(uri ${KIPRJMOD}/lib/arv-som.lib)(options "")(descr ""))
+  (lib (name arvsom)(type Legacy)(uri ${KIPRJMOD}/lib/arvsom.lib)(options "")(descr ""))
 )

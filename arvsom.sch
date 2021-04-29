@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
-Title "ARV System on Module"
+Title "ARVSOM"
 Date ""
 Rev "1.0.0"
 Comp "Antmicro ltd"
@@ -68,23 +68,23 @@ F0 "B2B connectors" 50
 F1 "B2B-connectors.sch" 50
 $EndSheet
 $Comp
-L arv-som:antmicro_logo N1
+L arvsom:antmicro_logo N1
 U 1 1 6199C829
 P 3975 7125
 F 0 "N1" H 4189 7218 50  0000 L CNN
 F 1 "antmicro_logo" H 4189 7127 50  0000 L CNN
-F 2 "arv-som-footprints:antmicro-logo_scaled_12mm" H 3875 7375 50  0001 C CNN
+F 2 "arvsom-footprints:antmicro-logo_scaled_12mm" H 3875 7375 50  0001 C CNN
 F 3 "" H 3975 7475 50  0001 C CNN
 	1    3975 7125
 	1    0    0    -1  
 $EndComp
 $Comp
-L arv-som:oshw_logo N2
+L arvsom:oshw_logo N2
 U 1 1 6199CA5E
 P 4000 7350
 F 0 "N2" H 4194 7353 50  0000 L CNN
 F 1 "oshw_logo" H 4194 7262 50  0000 L CNN
-F 2 "arv-som-footprints:oshw-logo" H 4020 7110 50  0001 C CNN
+F 2 "arvsom-footprints:oshw-logo" H 4020 7110 50  0001 C CNN
 F 3 "" H 4000 7350 50  0001 C CNN
 	1    4000 7350
 	1    0    0    -1  

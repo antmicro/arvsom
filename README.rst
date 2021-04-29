@@ -4,7 +4,7 @@ ARV System on Module
 
 Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/arv-som.png
+.. figure:: img/arvsom.png
 
 Overview
 --------

@@ -14,24 +14,24 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L arv-som:VIC7100 U13
+L arvsom:VIC7100 U13
 U 5 1 613A4303
 P 4200 2250
 F 0 "U13" H 4400 2425 60  0000 L CNN
 F 1 "VIC7100" H 4800 2425 60  0000 L CNN
-F 2 "arv-som-footprints:vic7100" H 4400 2300 60  0001 L CNN
+F 2 "arvsom-footprints:vic7100" H 4400 2300 60  0001 L CNN
 F 3 "" H 4400 2100 60  0001 L CNN
 F 4 "VIC7100" H 5275 2450 50  0001 L CNN "MPN"
 	5    4200 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L arv-som:VIC7100 U13
+L arvsom:VIC7100 U13
 U 6 1 613ABB1B
 P 9575 2250
 F 0 "U13" H 9775 2425 60  0000 L CNN
 F 1 "VIC7100" H 10200 2425 60  0000 L CNN
-F 2 "arv-som-footprints:vic7100" H 9775 2300 60  0001 L CNN
+F 2 "arvsom-footprints:vic7100" H 9775 2300 60  0001 L CNN
 F 3 "" H 9775 2100 60  0001 L CNN
 F 4 "VIC7100" H 10575 2500 50  0001 L CNN "MPN"
 	6    9575 2250
@@ -78,12 +78,12 @@ NoConn ~ 4200 5250
 NoConn ~ 4200 5350
 NoConn ~ 4200 5550
 $Comp
-L arv-som:R_240R_0402 R89
+L arvsom:R_240R_0402 R89
 U 1 1 615EA23C
 P 3900 5850
 F 0 "R89" H 3700 5900 60  0000 C CNN
 F 1 "R_240R_0402" H 3900 5700 60  0001 C CNN
-F 2 "arv-som-footprints:0402-res" H 4100 6050 60  0001 L CNN
+F 2 "arvsom-footprints:0402-res" H 4100 6050 60  0001 L CNN
 F 3 "" H 3900 5850 50  0001 C CNN
 F 4 "PANASONIC" H 4100 6250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ241X" H 4100 6150 60  0001 L CNN "MPN"
@@ -94,12 +94,12 @@ $EndComp
 Wire Wire Line
 	4200 5850 4050 5850
 $Comp
-L arv-som:R_10k_0402 R88
+L arvsom:R_10k_0402 R88
 U 1 1 615F0DBD
 P 3700 5950
 F 0 "R88" H 3500 6000 60  0000 C CNN
 F 1 "R_10k_0402" H 3700 5800 60  0001 C CNN
-F 2 "arv-som-footprints:0402-res" H 3900 6150 60  0001 L CNN
+F 2 "arvsom-footprints:0402-res" H 3900 6150 60  0001 L CNN
 F 3 "" H 3700 5950 50  0001 C CNN
 F 4 "VISHAY" H 3900 6350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3900 6250 60  0001 L CNN "MPN"
@@ -114,7 +114,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 5950 3425 5950
 $Comp
-L arv-som:GND #PWR0222
+L arvsom:GND #PWR0222
 U 1 1 615F7BC0
 P 3425 5850
 F 0 "#PWR0222" H 3425 5600 50  0001 C CNN
@@ -157,45 +157,45 @@ Wire Wire Line
 Wire Wire Line
 	4200 7750 3525 7750
 $Comp
-L arv-som:TP_SMD1MM TP5
+L arvsom:TP_SMD1MM TP5
 U 1 1 61630E41
 P 3225 7150
 F 0 "TP5" V 3225 7075 50  0000 R CNN
 F 1 "TP_SMD1MM" H 3225 7050 50  0001 C CNN
-F 2 "arv-som-footprints:Testpoint_smd_1mm" H 3425 7350 60  0001 L CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 3425 7350 60  0001 L CNN
 F 3 "" H 3425 7450 60  0001 L CNN
 	1    3225 7150
 	-1   0    0    1   
 $EndComp
 $Comp
-L arv-som:TP_SMD1MM TP6
+L arvsom:TP_SMD1MM TP6
 U 1 1 61631802
 P 3325 7150
 F 0 "TP6" V 3325 7075 50  0000 R CNN
 F 1 "TP_SMD1MM" H 3325 7050 50  0001 C CNN
-F 2 "arv-som-footprints:Testpoint_smd_1mm" H 3525 7350 60  0001 L CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 3525 7350 60  0001 L CNN
 F 3 "" H 3525 7450 60  0001 L CNN
 	1    3325 7150
 	-1   0    0    1   
 $EndComp
 $Comp
-L arv-som:TP_SMD1MM TP7
+L arvsom:TP_SMD1MM TP7
 U 1 1 6163202C
 P 3425 7150
 F 0 "TP7" V 3425 7075 50  0000 R CNN
 F 1 "TP_SMD1MM" H 3425 7050 50  0001 C CNN
-F 2 "arv-som-footprints:Testpoint_smd_1mm" H 3625 7350 60  0001 L CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 3625 7350 60  0001 L CNN
 F 3 "" H 3625 7450 60  0001 L CNN
 	1    3425 7150
 	-1   0    0    1   
 $EndComp
 $Comp
-L arv-som:TP_SMD1MM TP8
+L arvsom:TP_SMD1MM TP8
 U 1 1 61632781
 P 3525 7150
 F 0 "TP8" V 3525 7075 50  0000 R CNN
 F 1 "TP_SMD1MM" H 3525 7050 50  0001 C CNN
-F 2 "arv-som-footprints:Testpoint_smd_1mm" H 3725 7350 60  0001 L CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 3725 7350 60  0001 L CNN
 F 3 "" H 3725 7450 60  0001 L CNN
 	1    3525 7150
 	-1   0    0    1   
@@ -439,12 +439,12 @@ NoConn ~ 9575 5250
 NoConn ~ 9575 5350
 NoConn ~ 9575 5550
 $Comp
-L arv-som:R_240R_0402 R91
+L arvsom:R_240R_0402 R91
 U 1 1 6170D5ED
 P 9275 5850
 F 0 "R91" H 9075 5900 60  0000 C CNN
 F 1 "R_240R_0402" H 9275 5700 60  0001 C CNN
-F 2 "arv-som-footprints:0402-res" H 9475 6050 60  0001 L CNN
+F 2 "arvsom-footprints:0402-res" H 9475 6050 60  0001 L CNN
 F 3 "" H 9275 5850 50  0001 C CNN
 F 4 "PANASONIC" H 9475 6250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ241X" H 9475 6150 60  0001 L CNN "MPN"
@@ -455,12 +455,12 @@ $EndComp
 Wire Wire Line
 	9575 5850 9425 5850
 $Comp
-L arv-som:R_10k_0402 R90
+L arvsom:R_10k_0402 R90
 U 1 1 6170D5F7
 P 9075 5950
 F 0 "R90" H 8875 6000 60  0000 C CNN
 F 1 "R_10k_0402" H 9075 5800 60  0001 C CNN
-F 2 "arv-som-footprints:0402-res" H 9275 6150 60  0001 L CNN
+F 2 "arvsom-footprints:0402-res" H 9275 6150 60  0001 L CNN
 F 3 "" H 9075 5950 50  0001 C CNN
 F 4 "VISHAY" H 9275 6350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9275 6250 60  0001 L CNN "MPN"
@@ -475,7 +475,7 @@ Wire Wire Line
 Wire Wire Line
 	8925 5950 8800 5950
 $Comp
-L arv-som:GND #PWR0223
+L arvsom:GND #PWR0223
 U 1 1 6170D600
 P 8800 5850
 F 0 "#PWR0223" H 8800 5600 50  0001 C CNN
@@ -516,45 +516,45 @@ Wire Wire Line
 Wire Wire Line
 	9575 7750 8900 7750
 $Comp
-L arv-som:TP_SMD1MM TP9
+L arvsom:TP_SMD1MM TP9
 U 1 1 6170D617
 P 8600 7150
 F 0 "TP9" V 8600 7075 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8600 7050 50  0001 C CNN
-F 2 "arv-som-footprints:Testpoint_smd_1mm" H 8800 7350 60  0001 L CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 8800 7350 60  0001 L CNN
 F 3 "" H 8800 7450 60  0001 L CNN
 	1    8600 7150
 	-1   0    0    1   
 $EndComp
 $Comp
-L arv-som:TP_SMD1MM TP10
+L arvsom:TP_SMD1MM TP10
 U 1 1 6170D61D
 P 8700 7150
 F 0 "TP10" V 8700 7075 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8700 7050 50  0001 C CNN
-F 2 "arv-som-footprints:Testpoint_smd_1mm" H 8900 7350 60  0001 L CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 8900 7350 60  0001 L CNN
 F 3 "" H 8900 7450 60  0001 L CNN
 	1    8700 7150
 	-1   0    0    1   
 $EndComp
 $Comp
-L arv-som:TP_SMD1MM TP11
+L arvsom:TP_SMD1MM TP11
 U 1 1 6170D623
 P 8800 7150
 F 0 "TP11" V 8800 7075 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8800 7050 50  0001 C CNN
-F 2 "arv-som-footprints:Testpoint_smd_1mm" H 9000 7350 60  0001 L CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 9000 7350 60  0001 L CNN
 F 3 "" H 9000 7450 60  0001 L CNN
 	1    8800 7150
 	-1   0    0    1   
 $EndComp
 $Comp
-L arv-som:TP_SMD1MM TP12
+L arvsom:TP_SMD1MM TP12
 U 1 1 6170D629
 P 8900 7150
 F 0 "TP12" V 8900 7075 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8900 7050 50  0001 C CNN
-F 2 "arv-som-footprints:Testpoint_smd_1mm" H 9100 7350 60  0001 L CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 9100 7350 60  0001 L CNN
 F 3 "" H 9100 7450 60  0001 L CNN
 	1    8900 7150
 	-1   0    0    1   
