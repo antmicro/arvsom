@@ -26,16 +26,16 @@ Key Features
 
 * StarFive 71x0 SoC (7100 in the current revision until 7110 becomes available)
 * 2x DF40 board-to-board connectors for baseboard integration
-* HDMI interface
-* Gigabit Ethernet interface
-* USB 3.0 interface
-* 2x MIPI CSI-2 interface (2 lanes each)
-* I2C interface
-* MIPI DSI interface (4 lanes)
-* SD/SDIO/eMMC interface
+* HDMI
+* Gigabit Ethernet
+* USB 3.0
+* 2x MIPI CSI-2 (2 lanes each)
+* I2C
+* MIPI DSI (4 lanes)
+* SD/SDIO/eMMC
 * 26 GPIOs
-* 256Mbit QSPI NOR Flash memory
-* 2x 4GB LPDDR4
+* 32MB QSPI NOR Flash memory
+* 8GB LPDDR4 (2x 4GB)
 
 License
 =======
