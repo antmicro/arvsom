@@ -26,7 +26,7 @@ RGMII_RXD1
 Text GLabel 9850 8550 0    50   UnSpc ~ 0
 RGMII_RXCLK
 Text GLabel 10825 8000 1    50   Input ~ 0
-VCC3V3
+VCC_3V3
 Text GLabel 9850 8650 0    50   UnSpc ~ 0
 LED_MODE
 Text GLabel 9850 8750 0    50   UnSpc ~ 0
@@ -52,7 +52,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 8975 3150 9050
 Text GLabel 1750 8700 1    50   Input ~ 0
-VCC1V2
+VCC_1V2
 Wire Wire Line
 	3400 9425 3400 9350
 Wire Wire Line
@@ -304,7 +304,7 @@ Connection ~ 3475 2400
 Wire Wire Line
 	3475 2400 3225 2400
 Text GLabel 1725 1725 1    50   Input ~ 0
-VCC1V2
+VCC_1V2
 Wire Wire Line
 	9700 3000 9700 2775
 Connection ~ 2700 3725
@@ -355,9 +355,9 @@ Wire Wire Line
 Wire Wire Line
 	1725 2400 1725 2525
 Text GLabel 1750 5175 1    50   Input ~ 0
-VCC3V3
+VCC_3V3
 Text GLabel 1725 3475 1    50   Input ~ 0
-VCC3V3
+VCC_3V3
 Wire Wire Line
 	2700 4225 2950 4225
 Connection ~ 2950 4225
@@ -374,7 +374,7 @@ Connection ~ 1750 5325
 Text Notes 1675 4750 0    118  ~ 24
 DVDDH decoupling
 Text GLabel 9200 2650 1    50   Input ~ 0
-VCC3V3
+VCC_3V3
 Wire Wire Line
 	9200 2650 9200 2775
 Connection ~ 9200 2775
@@ -398,7 +398,7 @@ Wire Wire Line
 Text Notes 1900 1450 0    118  ~ 24
 DVDDL decoupling
 Text GLabel 9900 2650 1    50   Input ~ 0
-VCC1V2
+VCC_1V2
 Wire Wire Line
 	9900 2650 9900 2775
 Connection ~ 9900 2775
@@ -483,7 +483,7 @@ Pull up resistors
 Text Notes 1750 6550 0    118  ~ 24
 AVDDL_PLL decoupling
 Text GLabel 1750 7050 1    50   Input ~ 0
-VCC1V2
+VCC_1V2
 Wire Wire Line
 	3050 7275 3300 7275
 Wire Wire Line
