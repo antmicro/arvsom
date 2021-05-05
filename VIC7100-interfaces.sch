@@ -15,18 +15,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L arvsom:VIC7100 U13
-U 7 1 617DF04A
-P 8975 1350
-F 0 "U13" H 10006 -652 60  0000 L CNN
-F 1 "VIC7100" H 10006 -758 60  0000 L CNN
-F 2 "arvsom-footprints:vic7100" H 9175 1400 60  0001 L CNN
-F 3 "" H 11225 1050 60  0001 L CNN
-F 4 "VIC7100" H 10006 -856 50  0000 L CNN "MPN"
-	7    8975 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L arvsom:VIC7100 U13
 U 9 1 61811424
 P 2125 1275
 F 0 "U13" H 3256 -2327 60  0000 L CNN
@@ -53,107 +41,43 @@ Wire Wire Line
 	2125 8575 2125 8475
 Text GLabel 1850 8275 0    50   Input ~ 0
 VCC_3V3
-Text GLabel 2125 1275 0    50   Input ~ 0
-RPI_GPIO2
-Text GLabel 2125 1375 0    50   Input ~ 0
-RPI_GPIO3
-Text GLabel 2125 1475 0    50   Input ~ 0
-RPI_GPIO4
-Text Notes 3325 1300 0    50   ~ 0
-X2C_TX_CLK
-Text Notes 3325 1400 0    50   ~ 0
-X2C_TX_RST
-Text Notes 3325 1500 0    50   ~ 0
-X2C_TX_SEND
-Text GLabel 2125 1575 0    50   Input ~ 0
-RPI_GPIO17
-Text GLabel 2125 1675 0    50   Input ~ 0
-RPI_GPIO27
-Text GLabel 2125 1775 0    50   Input ~ 0
-RPI_GPIO22
-Text GLabel 2125 1875 0    50   Input ~ 0
-RPI_GPIO11
-Text GLabel 2125 1975 0    50   Input ~ 0
-RPI_GPIO25
-Text GLabel 2125 2075 0    50   Input ~ 0
-RPI_GPIO18
-Text GLabel 2125 2175 0    50   Input ~ 0
-RPI_GPIO23
-Text GLabel 2125 2275 0    50   Input ~ 0
-RPI_GPIO24
-Text GLabel 2125 2375 0    50   Input ~ 0
-RPI_GPIO10
-Text GLabel 2125 2475 0    50   Input ~ 0
-RPI_GPIO9
-Text GLabel 2125 2575 0    50   Input ~ 0
-RPI_GPIO15
-Text GLabel 2125 2675 0    50   Input ~ 0
-RPI_GPIO14
-Text GLabel 2125 2775 0    50   Input ~ 0
-RPI_GPIO8
-Text GLabel 2125 2875 0    50   Input ~ 0
-RPI_GPIO7
-Text GLabel 2125 2975 0    50   Input ~ 0
-RPI_ID_SC
-Text GLabel 2125 3075 0    50   Input ~ 0
-RPI_ID_SD
-Text GLabel 2125 3175 0    50   Input ~ 0
-RPI_GPIO5
-Text GLabel 2125 3275 0    50   Input ~ 0
-RPI_GPIO6
-Text GLabel 2125 3375 0    50   Input ~ 0
-RPI_GPIO13
-Text GLabel 2125 3475 0    50   Input ~ 0
-RPI_GPIO19
-Text GLabel 2125 3575 0    50   Input ~ 0
-RPI_GPIO26
-Text GLabel 2125 3675 0    50   Input ~ 0
-RPI_GPIO12
-Text GLabel 2125 3775 0    50   Input ~ 0
-RPI_GPIO16
-Text GLabel 2125 3875 0    50   Input ~ 0
-RPI_GPIO20
-Text GLabel 2125 3975 0    50   Input ~ 0
-RPI_GPIO21
-Text GLabel 2125 4075 0    50   Input ~ 0
+Text GLabel 2125 6875 0    50   Input ~ 0
 VDD2PEN
-Text GLabel 2125 4775 0    50   Input ~ 0
-LED
-Text GLabel 2125 4975 0    50   Input ~ 0
-PWR_OFF
-Text GLabel 2125 5675 0    50   Input ~ 0
-SDIO0_D0
-Text GLabel 2125 5775 0    50   Input ~ 0
-SDIO0_D1
-Text GLabel 2125 5875 0    50   Input ~ 0
-SDIO0_D2
-Text GLabel 2125 5975 0    50   Input ~ 0
-SDIO0_D3
-Text GLabel 2125 6075 0    50   Input ~ 0
-SDIO0_CMD
+Text GLabel 2125 5575 0    50   Input ~ 0
+GP43_LED
 Text GLabel 2125 6175 0    50   Input ~ 0
-SDIO0_CLK
+SDIO0_D0
+Text GLabel 2125 6275 0    50   Input ~ 0
+SDIO0_D1
 Text GLabel 2125 6375 0    50   Input ~ 0
-CSI1_PWDN
+SDIO0_D2
 Text GLabel 2125 6475 0    50   Input ~ 0
-CSI0_PWDN
+SDIO0_D3
 Text GLabel 2125 6575 0    50   Input ~ 0
-I2C2_SDA
+SDIO0_CMD
 Text GLabel 2125 6675 0    50   Input ~ 0
+SDIO0_CLK
+Text GLabel 2125 6975 0    50   Input ~ 0
+CSI1_PWDN
+Text GLabel 2125 7075 0    50   Input ~ 0
+CSI0_PWDN
+Text GLabel 2125 7175 0    50   Input ~ 0
+I2C2_SDA
+Text GLabel 2125 7275 0    50   Input ~ 0
 I2C2_SCL
-Text GLabel 1200 6775 0    50   Input ~ 0
+Text GLabel 2125 7375 0    50   Input ~ 0
 I2C0_SDA
-Text GLabel 1200 6875 0    50   Input ~ 0
+Text GLabel 2125 7475 0    50   Input ~ 0
 I2C0_SCL
-Text GLabel 1325 7175 0    50   Input ~ 0
+Text GLabel 1325 4075 0    50   Input ~ 0
 HDMI_I2STX0
-Text GLabel 1325 7275 0    50   Input ~ 0
+Text GLabel 1325 3975 0    50   Input ~ 0
 HDMI_LRCLK
-Text GLabel 1325 7375 0    50   Input ~ 0
+Text GLabel 1325 3775 0    50   Input ~ 0
 HDMI_12MHZ
-Text GLabel 1325 7475 0    50   Input ~ 0
+Text GLabel 1325 4475 0    50   Input ~ 0
 HDMI_INT
-Text GLabel 1325 7575 0    50   Input ~ 0
+Text GLabel 1325 3875 0    50   Input ~ 0
 HDMI_BCLK
 NoConn ~ 2125 7675
 NoConn ~ 2125 7775
@@ -164,93 +88,93 @@ NoConn ~ 2125 8175
 $Comp
 L arvsom:R_33R_0402 R55
 U 1 1 619E8438
-P 1600 7175
-F 0 "R55" H 1825 7225 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 7025 60  0001 C CNN
-F 2 "arvsom-footprints:0402-res" H 1800 7375 60  0001 L CNN
-F 3 "" H 1600 7175 50  0001 C CNN
-F 4 "Vishay" H 1800 7575 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 7475 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 7175 50  0000 C CNN "Val"
-	1    1600 7175
+P 1600 4075
+F 0 "R55" H 1400 4025 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 3925 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 1800 4275 60  0001 L CNN
+F 3 "" H 1600 4075 50  0001 C CNN
+F 4 "Vishay" H 1800 4475 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 4375 60  0001 L CNN "MPN"
+F 6 "33R" H 1800 4025 50  0000 C CNN "Val"
+	1    1600 4075
 	1    0    0    -1  
 $EndComp
 $Comp
 L arvsom:R_33R_0402 R56
 U 1 1 619EF7E3
-P 1600 7275
-F 0 "R56" H 1825 7325 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 7125 60  0001 C CNN
-F 2 "arvsom-footprints:0402-res" H 1800 7475 60  0001 L CNN
-F 3 "" H 1600 7275 50  0001 C CNN
-F 4 "Vishay" H 1800 7675 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 7575 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 7275 50  0000 C CNN "Val"
-	1    1600 7275
+P 1600 3975
+F 0 "R56" H 1400 3925 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 3825 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 1800 4175 60  0001 L CNN
+F 3 "" H 1600 3975 50  0001 C CNN
+F 4 "Vishay" H 1800 4375 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 4275 60  0001 L CNN "MPN"
+F 6 "33R" H 1800 3925 50  0000 C CNN "Val"
+	1    1600 3975
 	1    0    0    -1  
 $EndComp
 $Comp
 L arvsom:R_33R_0402 R57
 U 1 1 619F3AD5
-P 1600 7375
-F 0 "R57" H 1825 7425 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 7225 60  0001 C CNN
-F 2 "arvsom-footprints:0402-res" H 1800 7575 60  0001 L CNN
-F 3 "" H 1600 7375 50  0001 C CNN
-F 4 "Vishay" H 1800 7775 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 7675 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 7375 50  0000 C CNN "Val"
-	1    1600 7375
+P 1600 3775
+F 0 "R57" H 1400 3725 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 3625 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 1800 3975 60  0001 L CNN
+F 3 "" H 1600 3775 50  0001 C CNN
+F 4 "Vishay" H 1800 4175 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 4075 60  0001 L CNN "MPN"
+F 6 "33R" H 1800 3725 50  0000 C CNN "Val"
+	1    1600 3775
 	1    0    0    -1  
 $EndComp
 $Comp
 L arvsom:R_33R_0402 R58
 U 1 1 619F4460
-P 1600 7475
-F 0 "R58" H 1825 7525 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 7325 60  0001 C CNN
-F 2 "arvsom-footprints:0402-res" H 1800 7675 60  0001 L CNN
-F 3 "" H 1600 7475 50  0001 C CNN
-F 4 "Vishay" H 1800 7875 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 7775 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 7475 50  0000 C CNN "Val"
-	1    1600 7475
+P 1600 4475
+F 0 "R58" H 1400 4525 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 4325 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 1800 4675 60  0001 L CNN
+F 3 "" H 1600 4475 50  0001 C CNN
+F 4 "Vishay" H 1800 4875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 4775 60  0001 L CNN "MPN"
+F 6 "33R" H 1800 4525 50  0000 C CNN "Val"
+	1    1600 4475
 	1    0    0    -1  
 $EndComp
 $Comp
 L arvsom:R_33R_0402 R59
 U 1 1 619F4C47
-P 1600 7575
-F 0 "R59" H 1825 7625 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 7425 60  0001 C CNN
-F 2 "arvsom-footprints:0402-res" H 1800 7775 60  0001 L CNN
-F 3 "" H 1600 7575 50  0001 C CNN
-F 4 "Vishay" H 1800 7975 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 7875 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 7575 50  0000 C CNN "Val"
-	1    1600 7575
+P 1600 3875
+F 0 "R59" H 1400 3825 60  0000 C CNN
+F 1 "R_33R_0402" H 1600 3725 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 1800 4075 60  0001 L CNN
+F 3 "" H 1600 3875 50  0001 C CNN
+F 4 "Vishay" H 1800 4275 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1800 4175 60  0001 L CNN "MPN"
+F 6 "33R" H 1800 3825 50  0000 C CNN "Val"
+	1    1600 3875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1325 7175 1450 7175
+	1325 4075 1450 4075
 Wire Wire Line
-	1750 7175 2125 7175
+	1750 4075 2125 4075
 Wire Wire Line
-	1325 7275 1450 7275
+	1325 3975 1450 3975
 Wire Wire Line
-	1325 7375 1450 7375
+	1325 3775 1450 3775
 Wire Wire Line
-	1325 7475 1450 7475
+	1325 4475 1450 4475
 Wire Wire Line
-	1325 7575 1450 7575
+	1325 3875 1450 3875
 Wire Wire Line
-	1750 7275 2125 7275
+	1750 3975 2125 3975
 Wire Wire Line
-	1750 7375 2125 7375
+	1750 3775 2125 3775
 Wire Wire Line
-	1750 7475 2125 7475
+	1750 4475 2125 4475
 Wire Wire Line
-	1750 7575 2125 7575
+	1750 3875 2125 3875
 $Comp
 L arvsom:VIC7100 U13
 U 10 1 61A45CFC
@@ -842,39 +766,18 @@ Text GLabel 8700 1350 0    50   Input ~ 0
 VCC_0V9
 Wire Wire Line
 	8700 1350 8975 1350
-Wire Wire Line
-	8975 1350 8975 1450
-Connection ~ 8975 1350
-Connection ~ 8975 1450
-Wire Wire Line
-	8975 1450 8975 1550
 Text GLabel 8700 1650 0    50   Input ~ 0
 VCC_1V8
 Wire Wire Line
 	8700 1650 8975 1650
-Wire Wire Line
-	8975 1850 8975 1750
-Connection ~ 8975 1650
-Connection ~ 8975 1750
-Wire Wire Line
-	8975 1750 8975 1650
 Text GLabel 8700 1950 0    50   Input ~ 0
 AVDD3V3_USB
 Wire Wire Line
 	8700 1950 8975 1950
 Wire Wire Line
-	8975 2050 8975 2150
-Connection ~ 8975 2150
-Wire Wire Line
-	8975 2150 8975 2250
-Connection ~ 8975 2250
-Wire Wire Line
-	8975 2250 8975 2350
-Wire Wire Line
 	8975 2050 8800 2050
 Wire Wire Line
 	8800 2050 8800 2150
-Connection ~ 8975 2050
 $Comp
 L arvsom:GND #PWR0214
 U 1 1 6271DEF0
@@ -895,28 +798,20 @@ CDTX_DSI_D1_N
 Text GLabel 8975 2750 0    50   Input ~ 0
 CDTX_DSI_D1_P
 Text GLabel 8975 2850 0    50   Input ~ 0
-CDTX_DSI_D2_N
+CDTX_DSI_CK_N
 Text GLabel 8975 2950 0    50   Input ~ 0
-CDTX_DSI_D2_P
-Text GLabel 8975 3050 0    50   Input ~ 0
-CDTX_DSI_D3_N
-Text GLabel 8975 3150 0    50   Input ~ 0
-CDTX_DSI_D3_P
-Text GLabel 8975 3250 0    50   Input ~ 0
-CDTX_DSI_D4_N
-Text GLabel 8975 3350 0    50   Input ~ 0
-CDTX_DSI_D4_P
-Text GLabel 8975 3450 0    50   Input ~ 0
-CSI2RX_D0_N
-Text GLabel 8975 3550 0    50   Input ~ 0
-CSI2RX_D0_P
+CDTX_DSI_CK_P
 Text GLabel 8975 3650 0    50   Input ~ 0
-CSI2RX_D1_N
+CSI2RX_D0_N
 Text GLabel 8975 3750 0    50   Input ~ 0
-CSI2RX_D1_P
+CSI2RX_D0_P
 Text GLabel 8975 3850 0    50   Input ~ 0
-CSI2RX_CLK_N
+CSI2RX_D1_N
 Text GLabel 8975 3950 0    50   Input ~ 0
+CSI2RX_D1_P
+Text GLabel 8975 3450 0    50   Input ~ 0
+CSI2RX_CLK_N
+Text GLabel 8975 3550 0    50   Input ~ 0
 CSI2RX_CLK_P
 Text GLabel 8975 4050 0    50   Input ~ 0
 CSI1RX_D0_N
@@ -5890,13 +5785,13 @@ Wire Wire Line
 	12575 6900 12900 6900
 Wire Wire Line
 	12900 6900 13250 6900
-Text Notes 1275 4200 0    50   ~ 0
+Text Notes 1275 4225 0    50   ~ 0
 WIFI_SDIO1_CMD
-Text Notes 1275 4325 0    50   ~ 0
+Text Notes 1275 4300 0    50   ~ 0
 WIFI_SDIO1_D1
-Text Notes 1275 4425 0    50   ~ 0
+Text Notes 1275 4375 0    50   ~ 0
 WIFI_SDIO1_D3
-Text Notes 1275 4525 0    50   ~ 0
+Text Notes 1275 5125 0    50   ~ 0
 BT_WAKE
 Text Notes 1275 4625 0    50   ~ 0
 WIFI_SDIO1_CLK
@@ -5904,22 +5799,21 @@ Text Notes 1275 4725 0    50   ~ 0
 WIFI_SDIO1_D2
 Text Notes 1275 4925 0    50   ~ 0
 WIFI_SDIO1_D0
-Text Notes 1275 5125 0    50   ~ 0
-BT_UART_CTS
 Text Notes 1275 5225 0    50   ~ 0
-BT_UART_RXD
+BT_UART_CTS
 Text Notes 1275 5325 0    50   ~ 0
-BT_UART_TXD
+BT_UART_RXD
 Text Notes 1275 5425 0    50   ~ 0
-BT_UART_RTS
+BT_UART_TXD
 Text Notes 1275 5525 0    50   ~ 0
+BT_UART_RTS
+Text Notes 1275 5025 0    50   ~ 0
 WIFI_EN
-Text Notes 1275 5625 0    50   ~ 0
+Text Notes 1275 4825 0    50   ~ 0
 BT_RSTN
 NoConn ~ 2125 4175
 NoConn ~ 2125 4275
 NoConn ~ 2125 4375
-NoConn ~ 2125 4475
 NoConn ~ 2125 4575
 NoConn ~ 2125 4675
 NoConn ~ 2125 4875
@@ -5927,10 +5821,10 @@ NoConn ~ 2125 5075
 NoConn ~ 2125 5175
 NoConn ~ 2125 5275
 NoConn ~ 2125 5375
-NoConn ~ 2125 5475
-NoConn ~ 2125 5575
+NoConn ~ 2125 4975
+NoConn ~ 2125 4775
 Text GLabel 8325 9750 0    50   Input ~ 0
-LED
+GP43_LED
 $Comp
 L arvsom:R_1k_0402 R120
 U 1 1 630B1A75
@@ -6012,14 +5906,10 @@ Wire Wire Line
 	8500 9750 8325 9750
 Text Notes 8825 8050 0    118  ~ 24
 ACK LED
-Text Notes 3250 4750 0    50   ~ 0
-TODO:\nadd on/off logic connection\nto PWR_OFF pin
-Text Notes 1325 6975 0    50   ~ 0
+Text Notes 1375 3625 0    50   ~ 0
 DAC_PWML
-Text Notes 1325 7075 0    50   ~ 0
+Text Notes 1375 3700 0    50   ~ 0
 DAC_PWMR
-NoConn ~ 2125 6975
-NoConn ~ 2125 7075
 Wire Wire Line
 	4725 1300 4975 1300
 Wire Wire Line
@@ -6076,121 +5966,279 @@ Wire Wire Line
 	4725 3900 4975 3900
 Wire Wire Line
 	4725 4000 4975 4000
-Text Notes 8300 4875 0    50   ~ 0
-USB_SSRXA1
-Text Notes 8300 4975 0    50   ~ 0
-USB_SSRXB1
-Text Notes 8300 5075 0    50   ~ 0
-USB_SSRXA2
-Text Notes 8300 5175 0    50   ~ 0
-USB_SSRXB2
-Text Notes 8300 5275 0    50   ~ 0
-USB_SSTXA1
-Text Notes 8300 5375 0    50   ~ 0
-USB_SSTXB1
-Text Notes 8300 5475 0    50   ~ 0
-USB_SSTXA2
-Text Notes 8300 5575 0    50   ~ 0
-USB_SSTXB2
-NoConn ~ 8975 4850
-NoConn ~ 8975 4950
-NoConn ~ 8975 5050
-NoConn ~ 8975 5150
-NoConn ~ 8975 5250
-NoConn ~ 8975 5350
-NoConn ~ 8975 5450
-NoConn ~ 8975 5550
-Text Notes 7950 5675 0    50   ~ 0
-TBD: put PCIe interface here
-Wire Wire Line
-	1200 6775 1325 6775
-Wire Wire Line
-	1200 6875 1450 6875
-Text GLabel 1325 6025 1    50   Input ~ 0
+Text GLabel 2325 9025 2    50   Input ~ 0
 VCC_3V3
-$Comp
-L arvsom:R_2k_0402 R117
-U 1 1 60F0DC97
-P 1325 6375
-F 0 "R117" H 1450 6325 60  0000 L CNN
-F 1 "R_2k_0402" H 1325 6225 60  0001 C CNN
-F 2 "arvsom-footprints:0402-res" H 1525 6575 60  0001 L CNN
-F 3 "" H 1325 6375 50  0001 C CNN
-F 4 "VISHAY" H 1525 6775 60  0001 L CNN "Manufacturer"
-F 5 "CRCW04022K00FKED" H 1525 6675 60  0001 L CNN "MPN"
-F 6 "2k" H 1275 6375 50  0000 L CNN "Val"
-	1    1325 6375
-	0    1    1    0   
-$EndComp
-$Comp
-L arvsom:R_2k_0402 R118
-U 1 1 60F0E5C5
-P 1450 6375
-F 0 "R118" H 1575 6325 60  0000 L CNN
-F 1 "R_2k_0402" H 1450 6225 60  0001 C CNN
-F 2 "arvsom-footprints:0402-res" H 1650 6575 60  0001 L CNN
-F 3 "" H 1450 6375 50  0001 C CNN
-F 4 "VISHAY" H 1650 6775 60  0001 L CNN "Manufacturer"
-F 5 "CRCW04022K00FKED" H 1650 6675 60  0001 L CNN "MPN"
-F 6 "2k" H 1400 6375 50  0000 L CNN "Val"
-	1    1450 6375
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1325 6525 1325 6775
-Connection ~ 1325 6775
-Wire Wire Line
-	1325 6775 2125 6775
-Wire Wire Line
-	1450 6525 1450 6875
-Connection ~ 1450 6875
-Wire Wire Line
-	1450 6875 2125 6875
-Wire Wire Line
-	1325 6225 1325 6125
-Wire Wire Line
-	1325 6125 1450 6125
-Wire Wire Line
-	1450 6125 1450 6225
-Connection ~ 1325 6125
-Wire Wire Line
-	1325 6125 1325 6025
-Text GLabel 2125 6275 0    50   Input ~ 0
-SDIO0_CD
-Text GLabel 1700 9000 2    50   Input ~ 0
-SDIO0_CD
 $Comp
 L arvsom:R_10k_0402 R122
 U 1 1 611FAF4E
-P 1400 9000
-F 0 "R122" H 1400 9305 60  0000 C CNN
-F 1 "R_10k_0402" H 1400 8850 60  0001 C CNN
-F 2 "arvsom-footprints:0402-res" H 1600 9200 60  0001 L CNN
-F 3 "" H 1400 9000 50  0001 C CNN
-F 4 "VISHAY" H 1600 9400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 1600 9300 60  0001 L CNN "MPN"
-F 6 "10k" H 1400 9207 50  0000 C CNN "Val"
-F 7 "DNP" H 1400 9116 50  0000 C CNN "Populate"
-	1    1400 9000
+P 2025 9975
+F 0 "R122" H 1925 9875 60  0000 C CNN
+F 1 "R_10k_0402" H 2025 9825 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 2225 10175 60  0001 L CNN
+F 3 "" H 2025 9975 50  0001 C CNN
+F 4 "VISHAY" H 2225 10375 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2225 10275 60  0001 L CNN "MPN"
+F 6 "10k" H 2175 9875 50  0000 C CNN "Val"
+F 7 "DNP" H 1825 10025 50  0000 C CNN "Populate"
+	1    2025 9975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 9000 1700 9000
+	2175 9975 2325 9975
 Wire Wire Line
-	1250 9000 1025 9000
+	1875 9975 1650 9975
+Text GLabel 2125 1475 0    50   Input ~ 0
+GPIO2
+Text GLabel 2125 1575 0    50   Input ~ 0
+GPIO3
+Text GLabel 2125 1675 0    50   Input ~ 0
+GPIO4
+Text GLabel 2125 2975 0    50   Input ~ 0
+GPIO17
+Text GLabel 2125 3475 0    50   Input ~ 0
+GPIO22
+Text GLabel 2125 2375 0    50   Input ~ 0
+GPIO11
+Text GLabel 2125 3075 0    50   Input ~ 0
+GPIO18
+Text GLabel 2125 3575 0    50   Input ~ 0
+GPIO23
+Text GLabel 2125 3675 0    50   Input ~ 0
+GPIO24
+Text GLabel 2125 2275 0    50   Input ~ 0
+GPIO10
+Text GLabel 2125 2175 0    50   Input ~ 0
+GPIO9
+Text GLabel 2125 2775 0    50   Input ~ 0
+GPIO15
+Text GLabel 2125 2675 0    50   Input ~ 0
+GPIO14
+Text GLabel 2125 2075 0    50   Input ~ 0
+GPIO8
+Text GLabel 2125 1975 0    50   Input ~ 0
+GPIO7
+Text GLabel 2125 1775 0    50   Input ~ 0
+GPIO5
+Text GLabel 2125 1875 0    50   Input ~ 0
+GPIO6
+Text GLabel 2125 2575 0    50   Input ~ 0
+GPIO13
+Text GLabel 2125 3175 0    50   Input ~ 0
+GPIO19
+Text GLabel 2125 2475 0    50   Input ~ 0
+GPIO12
+Text GLabel 2125 2875 0    50   Input ~ 0
+GPIO16
+Text GLabel 2125 3275 0    50   Input ~ 0
+GPIO20
+Text GLabel 2125 3375 0    50   Input ~ 0
+GPIO21
+Text GLabel 2125 1275 0    50   Input ~ 0
+GPIO0
+Text GLabel 2125 1375 0    50   Input ~ 0
+GPIO1
+Text GLabel 2125 5675 0    50   Input ~ 0
+GPIO44
+Text GLabel 2125 5775 0    50   Input ~ 0
+GPIO45
+Text GLabel 2125 5875 0    50   Input ~ 0
+GPIO46
+Text GLabel 2125 5975 0    50   Input ~ 0
+GPIO47
+Text GLabel 2125 6075 0    50   Input ~ 0
+GPIO48
+Text Notes 550  3700 0    50   ~ 0
+Not mapped on B2B
+NoConn ~ 2125 5475
+Text GLabel 2125 6775 0    50   Input ~ 0
+GPIO55_GMAC_RESETN
+Text GLabel 2125 7575 0    50   Input ~ 0
+GPIO63_GMAC_RESETN
+Text GLabel 2325 9975 2    50   Input ~ 0
+GPIO55_GMAC_RESETN
+Text GLabel 2325 9875 2    50   Input ~ 0
+I2C2_SDA
+Text GLabel 2325 9775 2    50   Input ~ 0
+I2C2_SCL
+Text GLabel 2325 9675 2    50   Input ~ 0
+I2C0_SDA
+Text GLabel 2325 9575 2    50   Input ~ 0
+I2C0_SCL
 Wire Wire Line
-	1025 9000 1025 9175
+	2325 9025 2175 9025
+Wire Wire Line
+	1625 9025 1625 9175
+Wire Wire Line
+	1800 9175 1800 9025
+Connection ~ 1800 9025
+Wire Wire Line
+	1800 9025 1625 9025
+Wire Wire Line
+	2000 9175 2000 9025
+Connection ~ 2000 9025
+Wire Wire Line
+	2000 9025 1800 9025
+Wire Wire Line
+	2175 9175 2175 9025
+Connection ~ 2175 9025
+Wire Wire Line
+	2175 9025 2000 9025
+Wire Wire Line
+	2325 9575 1625 9575
+Wire Wire Line
+	2325 9675 1800 9675
+Wire Wire Line
+	2325 9875 2175 9875
+Wire Wire Line
+	1650 9975 1650 10050
 $Comp
 L arvsom:GND #PWR?
 U 1 1 6123BF63
-P 1025 9175
+P 1650 10050
 AR Path="/607683D6/6123BF63" Ref="#PWR?"  Part="1" 
 AR Path="/60805CEC/6123BF63" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 1025 8925 50  0001 C CNN
-F 1 "GND" H 1030 9002 50  0000 C CNN
-F 2 "" H 1025 9175 50  0001 C CNN
-F 3 "" H 1025 9175 50  0001 C CNN
-	1    1025 9175
+F 0 "#PWR0102" H 1650 9800 50  0001 C CNN
+F 1 "GND" H 1655 9877 50  0000 C CNN
+F 2 "" H 1650 10050 50  0001 C CNN
+F 3 "" H 1650 10050 50  0001 C CNN
+	1    1650 10050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1625 9475 1625 9575
+Connection ~ 1625 9575
+Wire Wire Line
+	1625 9575 1525 9575
+Wire Wire Line
+	1800 9475 1800 9675
+Connection ~ 1800 9675
+Wire Wire Line
+	1800 9675 1525 9675
+Wire Wire Line
+	2000 9475 2000 9775
+Wire Wire Line
+	1525 9775 2000 9775
+Connection ~ 2000 9775
+Wire Wire Line
+	2000 9775 2325 9775
+Wire Wire Line
+	2175 9475 2175 9875
+Connection ~ 2175 9875
+Wire Wire Line
+	2175 9875 1525 9875
+Text Notes 550  3625 0    50   ~ 0
+Not mapped on B2B
+$Comp
+L arvsom:R_4k7_0402 R117
+U 1 1 610A07BD
+P 1625 9325
+F 0 "R117" H 1500 9425 60  0000 C CNN
+F 1 "R_4k7_0402" H 1625 9175 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 1825 9525 60  0001 L CNN
+F 3 "" H 1625 9325 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 1825 9725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 1825 9625 60  0001 L CNN "MPN"
+F 6 "4k7" H 1725 9425 50  0000 C CNN "Val"
+	1    1625 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L arvsom:R_4k7_0402 R118
+U 1 1 610A0FB5
+P 1800 9325
+F 0 "R118" H 1675 9425 60  0000 C CNN
+F 1 "R_4k7_0402" H 1800 9175 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 2000 9525 60  0001 L CNN
+F 3 "" H 1800 9325 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2000 9725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 2000 9625 60  0001 L CNN "MPN"
+F 6 "4k7" H 1900 9425 50  0000 C CNN "Val"
+	1    1800 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L arvsom:R_4k7_0402 R?
+U 1 1 610B85F4
+P 2000 9325
+F 0 "R?" H 1875 9425 60  0000 C CNN
+F 1 "R_4k7_0402" H 2000 9175 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 2200 9525 60  0001 L CNN
+F 3 "" H 2000 9325 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2200 9725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 2200 9625 60  0001 L CNN "MPN"
+F 6 "4k7" H 2100 9425 50  0000 C CNN "Val"
+	1    2000 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L arvsom:R_4k7_0402 R?
+U 1 1 610B88A9
+P 2175 9325
+F 0 "R?" H 2050 9425 60  0000 C CNN
+F 1 "R_4k7_0402" H 2175 9175 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 2375 9525 60  0001 L CNN
+F 3 "" H 2175 9325 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2375 9725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 2375 9625 60  0001 L CNN "MPN"
+F 6 "4k7" H 2275 9425 50  0000 C CNN "Val"
+	1    2175 9325
+	0    1    1    0   
+$EndComp
+Connection ~ 8975 2050
+Wire Wire Line
+	8975 2250 8975 2350
+Connection ~ 8975 2250
+Connection ~ 8975 2150
+Wire Wire Line
+	8975 2150 8975 2250
+Wire Wire Line
+	8975 2050 8975 2150
+Connection ~ 8975 1750
+Connection ~ 8975 1650
+Wire Wire Line
+	8975 1750 8975 1650
+Wire Wire Line
+	8975 1850 8975 1750
+Connection ~ 8975 1450
+Connection ~ 8975 1350
+Wire Wire Line
+	8975 1450 8975 1550
+Wire Wire Line
+	8975 1350 8975 1450
+$Comp
+L arvsom:VIC7100 U13
+U 7 1 617DF04A
+P 8975 1350
+F 0 "U13" H 10006 -652 60  0000 L CNN
+F 1 "VIC7100" H 10006 -758 60  0000 L CNN
+F 2 "arvsom-footprints:vic7100" H 9175 1400 60  0001 L CNN
+F 3 "" H 11225 1050 60  0001 L CNN
+F 4 "VIC7100" H 10006 -856 50  0000 L CNN "MPN"
+	7    8975 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 8975 4850 0    50   Input ~ 0
+USB_SSRX1_P
+Text GLabel 8975 4950 0    50   Input ~ 0
+USB_SSRX1_N
+Text GLabel 8975 5250 0    50   Input ~ 0
+USB_SSTX1P
+Text GLabel 8975 5350 0    50   Input ~ 0
+USB_SSTX1N
+Text GLabel 8975 5050 0    50   Input ~ 0
+RES_SSRX2_P
+Text GLabel 8975 5150 0    50   Input ~ 0
+RES_SSRX2_N
+Text GLabel 8975 5450 0    50   Input ~ 0
+RES_SSTX2_P
+Text GLabel 8975 5550 0    50   Input ~ 0
+RES_SSTX2_N
+Text Notes 8025 5100 0    50   ~ 0
+Reserved\n
+Text Notes 8025 5200 0    50   ~ 0
+Reserved\n
+Text Notes 8025 5500 0    50   ~ 0
+Reserved\n
+Text Notes 8025 5600 0    50   ~ 0
+Reserved\n
 $EndSCHEMATC

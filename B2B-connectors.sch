@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3800 2500 3075 2500
+	3800 2500 3350 2500
 Wire Wire Line
-	3800 2600 3075 2600
+	3800 2600 3350 2600
 Wire Wire Line
-	3800 2800 3075 2800
+	3800 2800 3350 2800
 Wire Wire Line
-	3800 2900 3075 2900
+	3800 2900 3350 2900
 Wire Wire Line
 	3800 3100 3350 3100
 Wire Wire Line
@@ -150,17 +150,17 @@ Connection ~ 3700 2700
 Wire Wire Line
 	3700 2700 3700 3000
 Wire Wire Line
-	4800 2500 5400 2500
+	4800 2500 5250 2500
 Wire Wire Line
-	4800 2600 5400 2600
+	4800 2600 5250 2600
 Wire Wire Line
-	4800 2800 5400 2800
+	4800 2800 5250 2800
 Wire Wire Line
-	4800 2900 5400 2900
+	4800 2900 5250 2900
 Wire Wire Line
-	4800 3100 5400 3100
+	4800 3100 5250 3100
 Wire Wire Line
-	4800 3200 5400 3200
+	4800 3200 5250 3200
 Wire Wire Line
 	4800 3500 4900 3500
 Wire Wire Line
@@ -237,28 +237,16 @@ Text GLabel 10775 2325 0    39   Input Italic 0
 PCIE_CLK_nREQ
 Wire Wire Line
 	11225 2725 10775 2725
-Text GLabel 10775 2725 0    39   Input Italic 0
-PCIE_CLK_P
 Wire Wire Line
 	11225 2825 10775 2825
-Text GLabel 10775 2825 0    39   Input Italic 0
-PCIE_CLK_N
 Wire Wire Line
 	11225 3025 10775 3025
-Text GLabel 10775 3025 0    39   Input Italic 0
-PCIE_RX_P
 Wire Wire Line
 	11225 3125 10775 3125
-Text GLabel 10775 3125 0    39   Input Italic 0
-PCIE_RX_N
 Wire Wire Line
 	11225 3325 10775 3325
-Text GLabel 10775 3325 0    39   Input Italic 0
-PCIE_TX_P
 Wire Wire Line
 	11225 3425 10775 3425
-Text GLabel 10775 3425 0    39   Input Italic 0
-PCIE_TX_N
 Wire Wire Line
 	11225 3625 10475 3625
 Wire Wire Line
@@ -330,9 +318,9 @@ Wire Wire Line
 Text GLabel 12675 4725 2    39   Input ~ 0
 HDMI1_CEC
 Wire Wire Line
-	12225 4825 12850 4825
+	12225 4825 12675 4825
 Wire Wire Line
-	12225 4925 12850 4925
+	12225 4925 12675 4925
 Wire Wire Line
 	11225 4525 10775 4525
 Text GLabel 10775 4525 0    39   Input Italic 0
@@ -383,12 +371,8 @@ Wire Wire Line
 	11225 6725 10575 6725
 Wire Wire Line
 	11225 6925 10600 6925
-Text GLabel 10600 6925 0    50   Input ~ 0
-CDTX_DSI_D4_N
 Wire Wire Line
 	11225 7025 10600 7025
-Text GLabel 10600 7025 0    50   Input ~ 0
-CDTX_DSI_D4_P
 Wire Wire Line
 	11225 7225 10525 7225
 Wire Wire Line
@@ -405,36 +389,20 @@ Wire Wire Line
 	12225 5525 12675 5525
 Wire Wire Line
 	12225 5425 12675 5425
-Text GLabel 12675 5725 2    39   Input Italic 0
-DSI0_C_N
 Wire Wire Line
 	12225 6725 12675 6725
-Text GLabel 12675 5825 2    39   Input Italic 0
-DSI0_C_P
 Wire Wire Line
 	12225 6625 12675 6625
-Text GLabel 12675 5125 2    39   Input Italic 0
-DSI1_D0_N
 Wire Wire Line
 	12225 6125 12675 6125
-Text GLabel 12675 5225 2    39   Input Italic 0
-DSI1_D0_P
 Wire Wire Line
 	12225 6025 12675 6025
-Text GLabel 12675 5425 2    39   Input Italic 0
-DSI1_D1_N
 Wire Wire Line
 	12225 6425 12675 6425
-Text GLabel 12675 5525 2    39   Input ~ 0
-DSI1_D1_P
 Wire Wire Line
 	12225 6325 12675 6325
-Text GLabel 12675 6925 2    50   Input ~ 0
-CDTX_DSI_D3_N
 Wire Wire Line
 	12225 7025 12675 7025
-Text GLabel 12675 7025 2    50   Input ~ 0
-CDTX_DSI_D3_P
 Wire Wire Line
 	12225 6925 12675 6925
 Wire Wire Line
@@ -605,7 +573,7 @@ Connection ~ 4900 4500
 Wire Wire Line
 	4900 4500 4900 5000
 Wire Wire Line
-	5250 4900 4800 4900
+	5250 4900 5075 4900
 Connection ~ 4900 5000
 Wire Wire Line
 	4900 5000 4900 5300
@@ -675,15 +643,15 @@ F 3 "" H 12325 7625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3400 5400 3400
-Text Notes 5875 3125 0    50   ~ 0
+	4800 3400 5250 3400
+Text Notes 5700 3125 0    50   ~ 0
 Ethernet_nLED3
-Text Notes 5875 3225 0    50   ~ 0
+Text Notes 5700 3225 0    50   ~ 0
 Ethernet_nLED2
-Text Notes 5875 4950 0    50   ~ 0
-Uart_RXD
-Text Notes 5875 5150 0    50   ~ 0
-Uart_TXD
+Text Notes 5625 4950 0    50   ~ 0
+RPI_GPIO15 / Uart_RXD
+Text Notes 5625 5125 0    50   ~ 0
+RPI_GPIO14 / Uart_TXD
 Text GLabel 3350 5500 0    39   Input Italic 0
 SD_DAT5
 Wire Wire Line
@@ -714,12 +682,8 @@ Text GLabel 5250 7000 2    39   Input Italic 0
 nRPIBOOT
 Wire Wire Line
 	11225 2425 10775 2425
-Text GLabel 10775 2425 0    39   Input Italic 0
-RESERVED
 Wire Wire Line
 	11225 2525 10775 2525
-Text GLabel 10775 2525 0    39   Input Italic 0
-RESERVED
 $Comp
 L arvsom:DF40C-100DP-0.4V(51) J3
 U 1 1 60FEF31E
@@ -750,25 +714,25 @@ F 5 "DF40C-100DP-0.4V(51)" H 11725 7300 50  0001 C CNN "MPN"
 	1    11725 4725
 	-1   0    0    -1  
 $EndComp
-Text GLabel 5400 2600 2    50   Input ~ 0
+Text GLabel 5250 2600 2    50   Input ~ 0
 ETH3_N
-Text GLabel 5400 2500 2    50   Input ~ 0
+Text GLabel 5250 2500 2    50   Input ~ 0
 ETH3_P
-Text GLabel 5400 2800 2    50   Input ~ 0
+Text GLabel 5250 2800 2    50   Input ~ 0
 ETH2_N
-Text GLabel 5400 2900 2    50   Input ~ 0
+Text GLabel 5250 2900 2    50   Input ~ 0
 ETH2_P
-Text GLabel 3075 2800 0    50   Input ~ 0
+Text GLabel 3350 2800 0    50   Input ~ 0
 ETH0_N
-Text GLabel 3075 2900 0    50   Input ~ 0
+Text GLabel 3350 2900 0    50   Input ~ 0
 ETH0_P
-Text GLabel 5400 3100 2    50   Input ~ 0
+Text GLabel 5250 3100 2    50   Input ~ 0
 ETH_LED2
-Text GLabel 5400 3200 2    50   Input ~ 0
+Text GLabel 5250 3200 2    50   Input ~ 0
 ETH_LED1
-Text GLabel 3075 2600 0    50   Input ~ 0
+Text GLabel 3350 2600 0    50   Input ~ 0
 ETH1_N
-Text GLabel 3075 2500 0    50   Input ~ 0
+Text GLabel 3350 2500 0    50   Input ~ 0
 ETH1_P
 Text GLabel 10575 5725 0    50   Input ~ 0
 HDMI_TX2_P
@@ -790,66 +754,10 @@ Text GLabel 10525 7225 0    50   Input ~ 0
 HDMI_DSCL
 Text GLabel 12825 7225 2    50   Input ~ 0
 HDMI_DSDA
-Text GLabel 12850 4925 2    50   Input ~ 0
+Text GLabel 12675 4925 2    50   Input ~ 0
 HDMI_HPD
-Text GLabel 12850 4825 2    50   Input ~ 0
+Text GLabel 12675 4825 2    50   Input ~ 0
 HDMI_CEC
-Text GLabel 3350 5200 0    50   Input ~ 0
-RPI_GPIO2
-Text GLabel 3350 5100 0    50   Input ~ 0
-RPI_GPIO3
-Text GLabel 3350 5000 0    50   Input ~ 0
-RPI_GPIO4
-Text GLabel 3350 4800 0    50   Input ~ 0
-RPI_GPIO17
-Text GLabel 3350 4700 0    50   Input ~ 0
-RPI_GPIO27
-Text GLabel 3350 4600 0    50   Input ~ 0
-RPI_GPIO22
-Text GLabel 3350 4200 0    50   Input ~ 0
-RPI_GPIO11
-Text GLabel 5250 4400 2    50   Input ~ 0
-RPI_GPIO25
-Text GLabel 5250 4800 2    50   Input ~ 0
-RPI_GPIO18
-Text GLabel 5250 4700 2    50   Input ~ 0
-RPI_GPIO23
-Text GLabel 5250 4600 2    50   Input ~ 0
-RPI_GPIO24
-Text GLabel 3350 4500 0    50   Input ~ 0
-RPI_GPIO10
-Text GLabel 3350 4300 0    50   Input ~ 0
-RPI_GPIO9
-Text GLabel 5250 4900 2    50   Input ~ 0
-RPI_GPIO15
-Text GLabel 5250 5100 2    50   Input ~ 0
-RPI_GPIO14
-Text GLabel 5250 4300 2    50   Input ~ 0
-RPI_GPIO8
-Text GLabel 5250 4200 2    50   Input ~ 0
-RPI_GPIO7
-Text GLabel 5250 4100 2    50   Input ~ 0
-RPI_ID_SC
-Text GLabel 3350 4100 0    50   Input ~ 0
-RPI_ID_SD
-Text GLabel 3350 4000 0    50   Input ~ 0
-RPI_GPIO5
-Text GLabel 3350 3800 0    50   Input ~ 0
-RPI_GPIO6
-Text GLabel 3350 3700 0    50   Input ~ 0
-RPI_GPIO13
-Text GLabel 3350 3600 0    50   Input ~ 0
-RPI_GPIO19
-Text GLabel 3350 3500 0    50   Input ~ 0
-RPI_GPIO26
-Text GLabel 5250 3900 2    50   Input ~ 0
-RPI_GPIO12
-Text GLabel 5250 3800 2    50   Input ~ 0
-RPI_GPIO16
-Text GLabel 5250 3700 2    50   Input ~ 0
-RPI_GPIO20
-Text GLabel 5250 3600 2    50   Input ~ 0
-RPI_GPIO21
 Text GLabel 5250 5500 2    50   Input ~ 0
 SDIO0_D0
 Text GLabel 5250 5700 2    50   Input ~ 0
@@ -909,9 +817,9 @@ Text GLabel 10525 4325 0    50   Input ~ 0
 CSI1RX_CLK_P
 Text Notes 2100 3225 0    50   ~ 0
 BCM54210PE PHY \nspecific
-Text Notes 5875 3325 0    50   ~ 0
+Text Notes 5700 3325 0    50   ~ 0
 ETHERNET_nLED1
-Text Notes 5875 3425 0    50   ~ 0
+Text Notes 5700 3425 0    50   ~ 0
 nLED_ACT
 Text Notes 2100 3325 0    50   ~ 0
 Write protection
@@ -941,18 +849,6 @@ Text Notes 2550 6925 0    50   ~ 0
 RUN_PG
 Text Notes 13350 5775 0    50   ~ 0
 DSI0_C_N
-Text GLabel 12675 6725 2    50   Input ~ 0
-CDTX_DSI_D2_P
-Text GLabel 12675 6625 2    50   Input ~ 0
-CDTX_DSI_D2_N
-Text GLabel 12675 6425 2    50   Input ~ 0
-CDTX_DSI_D1_P
-Text GLabel 12675 6325 2    50   Input ~ 0
-CDTX_DSI_D1_N
-Text GLabel 12675 6125 2    50   Input ~ 0
-CDTX_DSI_D0_P
-Text GLabel 12675 6025 2    50   Input ~ 0
-CDTX_DSI_D0_N
 Text Notes 13350 5875 0    50   ~ 0
 DSI0_C_P
 $Bitmap
@@ -4832,18 +4728,18 @@ EndData
 $EndBitmap
 Text Notes 7375 1450 0    118  ~ 24
 B2B connectors
-Text GLabel 5400 3300 2    39   Input Italic 0
+Text GLabel 5250 3300 2    39   Input Italic 0
 ETH_LED1
 Wire Wire Line
-	4800 3300 5400 3300
+	4800 3300 5250 3300
 Text GLabel 3350 3200 0    39   Input Italic 0
 SYNC_OUT
 Text GLabel 3350 3100 0    39   Input Italic 0
 SYNC_IN
 Text Notes 6625 1675 0    79   ~ 0
 Note: signals in cursive are NOT mapped on the SoM
-Text GLabel 5400 3400 2    50   Input ~ 0
-LED
+Text GLabel 5250 3400 2    50   Input ~ 0
+GP43_LED
 Text GLabel 3350 6900 0    50   Input ~ 0
 CTL5
 Text Notes 6625 1800 0    79   ~ 0
@@ -4868,4 +4764,207 @@ Text Notes 9550 6950 0    50   ~ 0
 DSI1_D3_N
 Text Notes 9550 7050 0    50   ~ 0
 DSI1_D3_P
+Text GLabel 5250 3700 2    50   Input ~ 0
+GPIO2
+Text GLabel 3350 3600 0    50   Input ~ 0
+GPIO3
+Text GLabel 5250 3800 2    50   Input ~ 0
+GPIO4
+Text GLabel 5250 4400 2    50   Input ~ 0
+GPIO17
+Text GLabel 3350 4700 0    50   Input ~ 0
+GPIO22
+Text GLabel 5250 4200 2    50   Input ~ 0
+GPIO11
+Text GLabel 3350 4500 0    50   Input ~ 0
+GPIO18
+Text GLabel 5250 4100 2    50   Input ~ 0
+GPIO10
+Text GLabel 3350 4100 0    50   Input ~ 0
+GPIO9
+Text GLabel 5250 4300 2    50   Input ~ 0
+GPIO15
+Text GLabel 5250 5100 2    50   Input ~ 0
+GPIO14
+Text GLabel 3350 4000 0    50   Input ~ 0
+GPIO8
+Text GLabel 5250 3900 2    50   Input ~ 0
+GPIO7
+Text GLabel 3350 3700 0    50   Input ~ 0
+GPIO5
+Text GLabel 3350 3800 0    50   Input ~ 0
+GPIO6
+Text GLabel 5250 4900 2    50   Input ~ 0
+GPIO13
+Text GLabel 5250 4600 2    50   Input ~ 0
+GPIO19
+Text GLabel 3350 4200 0    50   Input ~ 0
+GPIO12
+Text GLabel 3350 4300 0    50   Input ~ 0
+GPIO16
+Text GLabel 3350 4600 0    50   Input ~ 0
+GPIO20
+Text GLabel 5250 4700 2    50   Input ~ 0
+GPIO21
+Text GLabel 5250 3600 2    50   Input ~ 0
+GPIO0
+Text GLabel 3350 3500 0    50   Input ~ 0
+GPIO1
+Text Notes 5625 3625 0    50   ~ 0
+RPI_GPIO21
+Text Notes 5625 3725 0    50   ~ 0
+RPI_GPIO20
+Text Notes 5625 3825 0    50   ~ 0
+RPI_GPIO16
+Text Notes 5625 3925 0    50   ~ 0
+RPI_GPIO12
+Text Notes 2575 3525 0    50   ~ 0
+RPI_GPIO26
+Text Notes 2575 3625 0    50   ~ 0
+RPI_GPIO19
+Text Notes 2575 3725 0    50   ~ 0
+RPI_GPIO13
+Text Notes 2575 3825 0    50   ~ 0
+RPI_GPIO06
+Text Notes 2550 4050 0    50   ~ 0
+RPI_GPIO05
+Text Notes 2550 4150 0    50   ~ 0
+RPI_ID_SD
+Text Notes 2550 4250 0    50   ~ 0
+RPI_GPIO11
+Text Notes 2550 4350 0    50   ~ 0
+RPI_GPIO09
+Text Notes 2550 4550 0    50   ~ 0
+RPI_GPIO10
+Text Notes 5625 4150 0    50   ~ 0
+RPI_ID_SC
+Text Notes 5625 4250 0    50   ~ 0
+RPI_GPIO07
+Text Notes 5625 4350 0    50   ~ 0
+RPI_GPIO08
+Text Notes 5625 4450 0    50   ~ 0
+RPI_GPIO25
+Text GLabel 3350 4800 0    50   Input ~ 0
+GPIO44
+Text Notes 2550 4650 0    50   ~ 0
+RPI_GPIO22
+Text Notes 2550 4750 0    50   ~ 0
+RPI_GPIO27
+Text Notes 2550 4850 0    50   ~ 0
+RPI_GPIO17
+Text GLabel 5250 4800 2    50   Input ~ 0
+GPIO45
+Text Notes 5625 4650 0    50   ~ 0
+RPI_GPIO24
+Text Notes 5625 4750 0    50   ~ 0
+RPI_GPIO23
+Text Notes 5625 4850 0    50   ~ 0
+RPI_GPIO18
+Wire Wire Line
+	5075 4900 5075 2400
+Connection ~ 5075 4900
+Wire Wire Line
+	5075 4900 4800 4900
+$Comp
+L arvsom:R_100k_0402 R?
+U 1 1 60AFC161
+P 5075 2250
+F 0 "R?" V 5030 2320 60  0000 L CNN
+F 1 "R_100k_0402" H 5075 2100 60  0001 C CNN
+F 2 "arvsom-footprints:0402-res" H 5275 2450 60  0001 L CNN
+F 3 "" H 5075 2250 50  0001 C CNN
+F 4 "VISHAY" H 5275 2650 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 5275 2550 60  0001 L CNN "MPN"
+F 6 "100k" V 5128 2320 50  0000 L CNN "Val"
+	1    5075 2250
+	0    1    1    0   
+$EndComp
+Text GLabel 5075 2025 1    50   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	5075 2100 5075 2025
+Text GLabel 3350 5000 0    50   Input ~ 0
+GPIO46
+Text GLabel 3350 5100 0    50   Input ~ 0
+GPIO47
+Text GLabel 3350 5200 0    50   Input ~ 0
+GPIO48
+Text Notes 2550 5050 0    50   ~ 0
+RPI_GPIO04
+Text Notes 2550 5150 0    50   ~ 0
+RPI_GPIO03
+Text Notes 2550 5250 0    50   ~ 0
+RPI_GPIO02
+Text GLabel 10775 3025 0    50   Input ~ 0
+USB_SSRX1_P
+Text GLabel 10775 3125 0    50   Input ~ 0
+USB_SSRX1_N
+Text GLabel 10775 3325 0    50   Input ~ 0
+USB_SSTX1P
+Text GLabel 10775 3425 0    50   Input ~ 0
+USB_SSTX1N
+Text GLabel 10775 2425 0    50   Input ~ 0
+RES_SSRX2_P
+Text GLabel 10775 2525 0    50   Input ~ 0
+RES_SSRX2_N
+Text GLabel 10775 2725 0    50   Input ~ 0
+RES_SSTX2_P
+Text GLabel 10775 2825 0    50   Input ~ 0
+RES_SSTX2_N
+Text GLabel 12675 5825 2    50   Input ~ 0
+CDTX_DSI_CK_P
+Text GLabel 12675 5725 2    50   Input ~ 0
+CDTX_DSI_CK_N
+Text GLabel 12675 5125 2    50   Input ~ 0
+CDTX_DSI_D0_N
+Text GLabel 12675 5225 2    50   Input ~ 0
+CDTX_DSI_D0_P
+Text GLabel 12675 5425 2    50   Input ~ 0
+CDTX_DSI_D1_N
+Text GLabel 12675 5525 2    50   Input ~ 0
+CDTX_DSI_D1_P
+Text GLabel 12675 6025 2    39   Input Italic 0
+DSI1_D0_N
+Text GLabel 12675 6125 2    39   Input Italic 0
+DSI1_D0_P
+Text GLabel 12675 6325 2    39   Input Italic 0
+DSI1_D1_N
+Text GLabel 12675 6425 2    39   Input ~ 0
+DSI1_D1_P
+Text GLabel 12675 6625 2    39   Input Italic 0
+DSI1_C_N
+Text GLabel 12675 6725 2    39   Input ~ 0
+DSI1_C_P
+Text GLabel 12675 6925 2    39   Input Italic 0
+DSI1_D2_N
+Text GLabel 12675 7025 2    39   Input ~ 0
+DSI1_D2_P
+Text GLabel 10600 6925 0    39   Input Italic 0
+DSI1_D3_N
+Text GLabel 10600 7025 0    39   Input ~ 0
+DSI1_D3_P
+Text Notes 13375 5450 0    50   ~ 0
+DSI0_D1_N
+Text Notes 13375 5550 0    50   ~ 0
+DSI0_D1_P
+Text Notes 13375 5150 0    50   ~ 0
+DSI0_D0_N
+Text Notes 13375 5250 0    50   ~ 0
+DSI0_D0_P
+Text Notes 9675 2450 0    50   ~ 0
+reserved\n
+Text Notes 9675 2550 0    50   ~ 0
+reserved
+Text Notes 9675 2750 0    50   ~ 0
+PCIE_CLK_P
+Text Notes 9675 2825 0    50   ~ 0
+PCIE_CLK_N
+Text Notes 9675 3075 0    50   ~ 0
+PCIE_RX_P
+Text Notes 9675 3150 0    50   ~ 0
+PCIE_RX_N
+Text Notes 9650 3375 0    50   ~ 0
+PCIE_TX_P
+Text Notes 9650 3450 0    50   ~ 0
+PCIE_TX_N
 $EndSCHEMATC

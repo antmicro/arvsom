@@ -1,4 +1,4 @@
-(module CSD86330Q3D (layer F.Cu) (tedit 609129D3)
+(module CSD86330Q3D (layer F.Cu) (tedit 609129AA)
   (fp_text reference REF** (at -0.15 -2.975) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
