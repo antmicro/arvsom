@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABM8G-27.000MHZ-18-D2Y-T
+F http://www.farnell.com/datasheets/2581428.pdf
+$ENDCMP
+#
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag
