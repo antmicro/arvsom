@@ -678,8 +678,6 @@ Text GLabel 5250 6200 2    50   Input ~ 0
 5V0_IN
 Wire Wire Line
 	4800 7000 5250 7000
-Text GLabel 5250 7000 2    39   Input Italic 0
-nRPIBOOT
 Wire Wire Line
 	11225 2425 10775 2425
 Wire Wire Line
@@ -839,13 +837,13 @@ Text Notes 6600 6025 2    50   ~ 0
 force SD if to 1.8V\n
 Text Notes 5800 7225 0    50   ~ 0
 CAM_GPIO
-Text Notes 5800 7025 0    50   ~ 0
-TBD: connect to any free GPIO? (float if not used)
+Text Notes 6050 7025 0    50   ~ 0
+nRPI_BOOT
 Text Notes 5800 7125 0    50   ~ 0
 Power On LED output (AL), needs to be buffered
 Text Notes 5800 7325 0    50   ~ 0
 Drive low to power off
-Text Notes 2550 6925 0    50   ~ 0
+Text Notes 2750 6925 0    50   ~ 0
 RUN_PG
 Text Notes 13350 5775 0    50   ~ 0
 DSI0_C_N
@@ -4967,4 +4965,6 @@ Text Notes 9650 3375 0    50   ~ 0
 PCIE_TX_P
 Text Notes 9650 3450 0    50   ~ 0
 PCIE_TX_N
+Text GLabel 5250 7000 2    50   Input ~ 0
+BOOT_FROM_UARTn
 $EndSCHEMATC
