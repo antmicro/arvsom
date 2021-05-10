@@ -2388,7 +2388,7 @@ DDR1_CKE1
 Text GLabel 10175 7275 0    50   Input ~ 0
 DDR1_CKE0
 Text GLabel 9500 6475 0    50   Input ~ 0
-DDR_CS3
+DDR1_CS3
 Text GLabel 9500 6375 0    50   Input ~ 0
 DDR1_CS2
 Wire Wire Line

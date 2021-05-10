@@ -64,10 +64,6 @@ Text GLabel 4200 4450 0    50   Input ~ 0
 DDR0_CK0_N
 Text GLabel 4200 4550 0    50   Input ~ 0
 DDR0_CK0_P
-Text GLabel 4200 4650 0    50   Input ~ 0
-DDR0_CK1_N
-Text GLabel 4200 4750 0    50   Input ~ 0
-DDR0_CK1_P
 Text GLabel 4200 4150 0    50   Input ~ 0
 DDR0_CKE0
 Text GLabel 4200 4250 0    50   Input ~ 0
@@ -425,9 +421,9 @@ Text GLabel 9575 4450 0    50   Input ~ 0
 DDR1_CK0_N
 Text GLabel 9575 4550 0    50   Input ~ 0
 DDR1_CK0_P
-Text GLabel 9575 4650 0    50   Input ~ 0
-DDR1_CK1_N
 Text GLabel 9575 4750 0    50   Input ~ 0
+DDR1_CK1_N
+Text GLabel 9575 4650 0    50   Input ~ 0
 DDR1_CK1_P
 Text GLabel 9575 4150 0    50   Input ~ 0
 DDR1_CKE0
@@ -4460,4 +4456,8 @@ EndData
 $EndBitmap
 Text Notes 7550 1375 0    118  ~ 24
 VIC7100 DDR
+Text GLabel 4200 4750 0    50   Input ~ 0
+DDR0_CK1_P
+Text GLabel 4200 4650 0    50   Input ~ 0
+DDR0_CK1_N
 $EndSCHEMATC
