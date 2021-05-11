@@ -1075,7 +1075,7 @@ DDR0_DQ07
 Text GLabel 1725 4250 0    50   Input ~ 0
 DDR0_DMI0
 Text GLabel 4050 1850 2    50   Input ~ 0
-DDR0_ODT_0
+DDR0_ODT0
 Text GLabel 3900 3350 2    50   Input ~ 0
 DDR0_DQS1N
 Text GLabel 3900 3250 2    50   Input ~ 0
@@ -1192,7 +1192,7 @@ Wire Wire Line
 	3875 5400 3875 5350
 Connection ~ 3875 5350
 Text GLabel 4575 5825 2    50   Input ~ 0
-DDR0_ODT_1
+DDR0_ODT1
 Wire Wire Line
 	3650 5825 4575 5825
 Text GLabel 4575 5925 2    50   Input ~ 0
@@ -1466,7 +1466,7 @@ DDR1_DQ07
 Text GLabel 9850 4700 0    50   Input ~ 0
 DDR1_DMI0
 Text GLabel 12175 2300 2    50   Input ~ 0
-DDR1_ODT_0
+DDR1_ODT0
 Text GLabel 12025 3800 2    50   Input ~ 0
 DDR1_DQS1N
 Text GLabel 12025 3700 2    50   Input ~ 0
@@ -2309,7 +2309,7 @@ DDR1_RSTN
 Wire Wire Line
 	11775 6175 12275 6175
 Text GLabel 12275 6175 2    50   Input ~ 0
-DDR1_ODT_1
+DDR1_ODT1
 Connection ~ 12000 5700
 Wire Wire Line
 	12000 5750 12000 5700
