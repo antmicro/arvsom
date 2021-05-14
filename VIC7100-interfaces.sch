@@ -187,8 +187,6 @@ F 4 "VIC7100" H 6781 7594 50  0000 L CNN "MPN"
 	10   5650 8600
 	1    0    0    -1  
 $EndComp
-Text GLabel 5325 10175 1    50   Input ~ 0
-VCC_3V3
 NoConn ~ 5650 8600
 NoConn ~ 5650 8700
 NoConn ~ 5650 8800
@@ -222,8 +220,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 4100 5475 4100
 Connection ~ 5700 4100
-Text GLabel 5475 4100 0    50   Input ~ 0
-VCC_3V3
 Wire Wire Line
 	5700 1300 5275 1300
 Wire Wire Line
@@ -350,8 +346,6 @@ F 4 "VIC7100" H 6756 3569 50  0000 L CNN "MPN"
 $EndComp
 Wire Wire Line
 	5625 7775 5400 7775
-Text GLabel 5400 7775 0    50   Input ~ 0
-VCC_3V3
 Wire Wire Line
 	5625 7775 5625 7875
 Connection ~ 5625 7775
@@ -370,12 +364,8 @@ NoConn ~ 5625 7375
 NoConn ~ 5625 7475
 Text GLabel 5025 5275 0    50   Input ~ 0
 RGMII_TXEN
-Text GLabel 8700 1350 0    50   Input ~ 0
-VCC_0V9
 Wire Wire Line
 	8700 1350 8975 1350
-Text GLabel 8700 1650 0    50   Input ~ 0
-VCC_1V8
 Wire Wire Line
 	8700 1650 8975 1650
 Text GLabel 8700 1950 0    50   Input ~ 0
@@ -816,8 +806,6 @@ Wire Wire Line
 Connection ~ 12850 4800
 Wire Wire Line
 	12850 4800 13200 4800
-Text Notes 11750 4450 1    50   ~ 0
-VDD3318_GMII
 Text GLabel 13625 4325 1    50   Input ~ 0
 VCC_3V3
 Wire Wire Line
@@ -5988,4 +5976,14 @@ Wire Wire Line
 	4725 1400 4925 1400
 Wire Wire Line
 	4725 1500 4925 1500
+Text GLabel 5325 10175 1    50   Input ~ 0
+VCC_3V3
+Text GLabel 5400 7775 0    50   Input ~ 0
+VCC_3V3
+Text GLabel 5475 4100 0    50   Input ~ 0
+VCC_3V3
+Text GLabel 8700 1650 0    50   Input ~ 0
+VCC_1V8
+Text GLabel 8700 1350 0    50   Input ~ 0
+VCC_0V9
 $EndSCHEMATC
