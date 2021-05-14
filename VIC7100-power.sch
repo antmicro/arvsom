@@ -834,21 +834,15 @@ Wire Wire Line
 Wire Wire Line
 	11625 3225 11625 2850
 Connection ~ 11975 3225
-Text GLabel 11625 2850 1    50   Input ~ 0
-VCC_0V9
 Wire Wire Line
 	11975 7325 11825 7325
 Wire Wire Line
 	11825 7325 11825 7150
 Connection ~ 11975 7325
-Text GLabel 11825 7150 1    50   Input ~ 0
-VCC_1V8
 Wire Wire Line
 	14200 2625 14050 2625
 Wire Wire Line
 	14050 2625 14050 2450
-Text GLabel 14050 2450 1    50   Input ~ 0
-VCC_0V9
 Wire Wire Line
 	14200 2725 14050 2725
 Wire Wire Line
@@ -858,8 +852,6 @@ Wire Wire Line
 	14200 2825 13875 2825
 Wire Wire Line
 	13875 2825 13875 2450
-Text GLabel 13875 2450 1    50   Input ~ 0
-VCC_1V1
 Wire Wire Line
 	14200 2925 13875 2925
 Wire Wire Line
@@ -1028,8 +1020,6 @@ Wire Wire Line
 Wire Wire Line
 	13700 5725 13700 5475
 Connection ~ 14200 5725
-Text GLabel 13700 5475 1    50   Input ~ 0
-VCC_1V1
 Text GLabel 1100 1350 1    50   Input ~ 0
 VCC_0V9
 $Comp
@@ -6772,4 +6762,14 @@ Wire Wire Line
 	10925 10825 10925 10900
 Text Notes 7475 1175 0    118  ~ 24
 VIC7100 power
+Text GLabel 11625 2850 1    50   Input ~ 0
+VCC_0V9
+Text GLabel 13700 5475 1    50   Input ~ 0
+VCC_1V1
+Text GLabel 11825 7150 1    50   Input ~ 0
+VCC_1V8
+Text GLabel 13875 2450 1    50   Input ~ 0
+VCC_1V1
+Text GLabel 14050 2450 1    50   Input ~ 0
+VCC_0V9
 $EndSCHEMATC
