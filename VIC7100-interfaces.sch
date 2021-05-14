@@ -5896,15 +5896,15 @@ $EndComp
 $Comp
 L arvsom:4x33R_0201_array R64
 U 1 1 60A9EF05
-P 5125 3300
-F 0 "R64" H 4825 3750 60  0000 C CNN
-F 1 "4x33R_0201_array" H 5100 3881 60  0001 C CNN
-F 2 "arvsom-footprints:EXB18V" H 4925 4050 60  0001 L CNN
-F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 4925 4050 60  0001 L CNN
-F 4 "EXB-18V330JX" H 4925 4250 60  0001 L CNN "MPN"
-F 5 "Panasonic" H 4925 4150 60  0001 L CNN "Manufacturer"
-	1    5125 3300
-	1    0    0    -1  
+P 5075 3300
+F 0 "R64" H 4775 3750 60  0000 C CNN
+F 1 "4x33R_0201_array" H 5050 3881 60  0001 C CNN
+F 2 "arvsom-footprints:EXB18V" H 4875 4050 60  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 4875 4050 60  0001 L CNN
+F 4 "EXB-18V330JX" H 4875 4250 60  0001 L CNN "MPN"
+F 5 "Panasonic" H 4875 4150 60  0001 L CNN "Manufacturer"
+	1    5075 3300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L arvsom:4x33R_0201_array R65

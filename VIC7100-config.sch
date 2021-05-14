@@ -5248,15 +5248,15 @@ Wire Wire Line
 $Comp
 L arvsom:4x33R_0201_array R22
 U 1 1 609DE671
-P 12225 6625
-F 0 "R22" H 12125 6575 60  0000 C CNN
-F 1 "4x33R_0201_array" H 12000 6475 60  0000 C CNN
-F 2 "arvsom-footprints:EXB18V" H 12025 7375 60  0001 L CNN
-F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 12025 7375 60  0001 L CNN
-F 4 "EXB-18V330JX" H 12025 7575 60  0001 L CNN "MPN"
-F 5 "Panasonic" H 12025 7475 60  0001 L CNN "Manufacturer"
-	1    12225 6625
-	1    0    0    -1  
+P 12175 6625
+F 0 "R22" H 12075 6575 60  0000 C CNN
+F 1 "4x33R_0201_array" H 11950 6475 60  0000 C CNN
+F 2 "arvsom-footprints:EXB18V" H 11975 7375 60  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 11975 7375 60  0001 L CNN
+F 4 "EXB-18V330JX" H 11975 7575 60  0001 L CNN "MPN"
+F 5 "Panasonic" H 11975 7475 60  0001 L CNN "Manufacturer"
+	1    12175 6625
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	11825 6225 12025 6225
