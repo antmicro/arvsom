@@ -1,6 +1,23 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroResistorsmisc_R_0R_0201
+#
+DEF antmicroResistorsmisc_R_0R_0201 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistorsmisc_R_0R_0201" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0201-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW02010000Z0ED" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # arvsom_0.47uH_10.5A
 #
 DEF arvsom_0.47uH_10.5A L 0 40 Y Y 1 F N
@@ -337,24 +354,6 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# arvsom_C_100n_0402
-#
-DEF arvsom_C_100n_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "arvsom_C_100n_0402" 0 -150 60 H I C CNN
-F2 "arvsom-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
-F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
-F6 "100n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # arvsom_C_100n_0402_16V
 #
 DEF arvsom_C_100n_0402_16V C 0 0 Y Y 1 F N
@@ -391,15 +390,15 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# arvsom_C_10n_0402
+# arvsom_C_10n_0201
 #
-DEF arvsom_C_10n_0402 C 0 0 Y Y 1 F N
+DEF arvsom_C_10n_0201 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "arvsom_C_10n_0402" 0 -150 60 H I C CNN
-F2 "arvsom-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "arvsom_C_10n_0201" 0 -150 60 H I C CNN
+F2 "arvsom-footprints:0201-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
-F5 "04025G103ZAT2A" 200 300 60 H I L CNN "MPN"
+F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
+F5 "GRM033R70J103KA01D" 200 300 60 H I L CNN "MPN"
 F6 "10n" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
@@ -571,15 +570,15 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# arvsom_C_470n_0402
+# arvsom_C_470n_0201
 #
-DEF arvsom_C_470n_0402 C 0 0 Y Y 1 F N
+DEF arvsom_C_470n_0201 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "arvsom_C_470n_0402" 0 -150 60 H I C CNN
-F2 "arvsom-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "arvsom_C_470n_0201" 0 -150 60 H I C CNN
+F2 "arvsom-footprints:0201-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
-F5 "C1005X5R1E474M050BB" 200 300 60 H I L CNN "MPN"
+F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
+F5 "CC0201KRX5R5BB474" 200 300 60 H I L CNN "MPN"
 F6 "470n" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
@@ -792,7 +791,7 @@ ENDDEF
 DEF arvsom_GD25LQ256DWIGR U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
 F1 "arvsom_GD25LQ256DWIGR" 450 0 50 H V C CNN
-F2 "arvsom-footprints:8-WSON-6x5" 0 0 50 H I C CNN
+F2 "antmicro-footprints:GD25Q16CWIG" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "GD25LQ256DWIGR" 0 0 50 H V C CNN "MPN"
 DRAW
@@ -801,10 +800,10 @@ X ~CS 1 -100 -200 100 R 50 50 1 1 I
 X SO/IO1 2 -100 -300 100 R 50 50 1 1 I
 X ~WP~/IO2 3 -100 -400 100 R 50 50 1 1 I
 X VSS 4 -100 -500 100 R 50 50 1 1 I
+X SI/IO0 5 900 -500 100 L 50 50 1 1 I
 X SCLK 6 900 -400 100 L 50 50 1 1 I
 X ~HOLD~/IO3 7 900 -300 100 L 50 50 1 1 I
 X VCC 8 900 -200 100 L 50 50 1 1 I
-X SI/IO0 ~ 900 -500 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1181,6 +1180,23 @@ X ~ K 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# arvsom_R_0R_0201
+#
+DEF arvsom_R_0R_0201 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "arvsom_R_0R_0201" 0 -150 60 H I C CNN
+F2 "arvsom-footprints:0201-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Vishay" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW02010000Z0ED" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # arvsom_R_0R_0402
 #
 DEF arvsom_R_0R_0402 R 0 0 Y Y 1 F N
@@ -1208,6 +1224,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0402100KFKEDHP" 200 300 60 H I L CNN "MPN"
 F6 "100k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# arvsom_R_10k_0201
+#
+DEF arvsom_R_10k_0201 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "arvsom_R_10k_0201" 0 -150 60 H I C CNN
+F2 "arvsom-footprints:0201-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0201FR-0710KL" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -1548,7 +1581,7 @@ ENDDEF
 DEF arvsom_TPS65086100 U 0 40 Y Y 1 F N
 F0 "U" 0 150 50 H V C CNN
 F1 "arvsom_TPS65086100" 250 50 50 H V C CNN
-F2 "arvsom-footprints:QFN50P900X900X80-65N" 1800 50 50 H I C CNN
+F2 "arvsom-footprints:S-PVQFN-N64" 1800 50 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S 0 0 1800 -4050 0 1 0 f
