@@ -786,9 +786,9 @@ Wire Wire Line
 Connection ~ 4800 6300
 Connection ~ 4800 6200
 Text GLabel 12850 2425 2    50   Input ~ 0
-USBDM_N
+USBD_N
 Text GLabel 12850 2525 2    50   Input ~ 0
-USBDP_P
+USBD_P
 Text GLabel 12875 3025 2    50   Input ~ 0
 CSI2RX_D0_N
 Text GLabel 12875 3125 2    50   Input ~ 0
@@ -4727,7 +4727,7 @@ $EndBitmap
 Text Notes 7375 1450 0    118  ~ 24
 B2B connectors
 Text GLabel 5250 3300 2    39   Input Italic 0
-ETH_LED1
+ETHLED1
 Wire Wire Line
 	4800 3300 5250 3300
 Text GLabel 3350 3200 0    39   Input Italic 0

@@ -366,9 +366,9 @@ CSI1RX_CLK_N
 Text GLabel 8975 4550 0    50   Input ~ 0
 CSI1RX_CLK_P
 Text GLabel 8975 4650 0    50   Input ~ 0
-USBDM_N
+USBD_N
 Text GLabel 8975 4750 0    50   Input ~ 0
-USBDP_P
+USBD_P
 Text GLabel 11925 2525 1    50   Input ~ 0
 VCC_3V3
 Wire Wire Line

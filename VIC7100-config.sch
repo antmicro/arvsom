@@ -132,8 +132,6 @@ Text GLabel 6150 3350 0    50   Output ~ 0
 CLK_27M_OUT
 Text GLabel 6150 3450 0    50   Output ~ 0
 QSPI_CLK
-Text GLabel 6150 3550 0    50   Output ~ 0
-QSPI_CSN0
 Text GLabel 6150 3650 0    50   BiDi ~ 0
 QSPI_D0
 Text GLabel 6150 3750 0    50   BiDi ~ 0
@@ -5387,4 +5385,6 @@ F 7 "DNP" H 5475 2825 50  0000 L CNN "Populate"
 	1    5550 2825
 	0    1    1    0   
 $EndComp
+Text GLabel 6150 3550 0    50   Input ~ 0
+QSPI_CS0_N
 $EndSCHEMATC
