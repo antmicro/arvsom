@@ -5085,8 +5085,6 @@ F 5 "OMRON" H 3700 5322 60  0001 L CNN "Manufacturer"
 	1    3500 4850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9575 3775 10175 3775
 $Comp
 L arvsom:CSD86330Q3D U4
 U 1 1 608FB66D
@@ -5126,9 +5124,6 @@ F 5 "CSD86330Q3D" H 9875 4474 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	9300 6075 9575 6075
-Connection ~ 9575 6075
-Wire Wire Line
-	9575 6075 10175 6075
 Connection ~ 10175 6075
 Wire Wire Line
 	10175 6075 10725 6075
@@ -5152,7 +5147,6 @@ Wire Wire Line
 	10725 3775 10175 3775
 Wire Wire Line
 	9575 3775 9275 3775
-Connection ~ 9575 3775
 Connection ~ 9275 3775
 Wire Wire Line
 	9275 3775 9275 3975
