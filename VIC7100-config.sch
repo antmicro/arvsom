@@ -5135,39 +5135,6 @@ Wire Wire Line
 	13900 2650 14175 2650
 Text Notes 13250 1525 0    118  ~ 24
 UART3 (1V8)
-$Comp
-L arvsom:TP_SMD_0_75MM TP19
-U 1 1 60A17308
-P 14275 2750
-F 0 "TP19" V 14275 2625 50  0000 C CNN
-F 1 "TP_SMD_0_75MM" H 14275 2650 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 14475 2950 60  0001 L CNN
-F 3 "" H 14475 3050 60  0001 L CNN
-	1    14275 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L arvsom:TP_SMD_0_75MM TP18
-U 1 1 60A1730E
-P 14275 2650
-F 0 "TP18" V 14275 2525 50  0000 C CNN
-F 1 "TP_SMD_0_75MM" H 14275 2550 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 14475 2850 60  0001 L CNN
-F 3 "" H 14475 2950 60  0001 L CNN
-	1    14275 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L arvsom:TP_SMD_0_75MM TP17
-U 1 1 60A17314
-P 14275 2550
-F 0 "TP17" V 14275 2425 50  0000 C CNN
-F 1 "TP_SMD_0_75MM" H 14275 2450 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 14475 2750 60  0001 L CNN
-F 3 "" H 14475 2850 60  0001 L CNN
-	1    14275 2550
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	14175 2750 14075 2750
 Wire Wire Line
@@ -5387,4 +5354,43 @@ Wire Wire Line
 	11825 6325 12025 6325
 Wire Wire Line
 	11825 6425 12025 6425
+$Comp
+L arvsom:TP_SMD1MM TP?
+U 1 1 60E73BC7
+P 14275 2550
+AR Path="/613A40EE/60E73BC7" Ref="TP?"  Part="1" 
+AR Path="/60805CC6/60E73BC7" Ref="TP17"  Part="1" 
+F 0 "TP17" V 14275 2475 50  0000 R CNN
+F 1 "TP_SMD1MM" H 14275 2450 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 14475 2750 60  0001 L CNN
+F 3 "" H 14475 2850 60  0001 L CNN
+	1    14275 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arvsom:TP_SMD1MM TP?
+U 1 1 60E7D537
+P 14275 2650
+AR Path="/613A40EE/60E7D537" Ref="TP?"  Part="1" 
+AR Path="/60805CC6/60E7D537" Ref="TP18"  Part="1" 
+F 0 "TP18" V 14275 2575 50  0000 R CNN
+F 1 "TP_SMD1MM" H 14275 2550 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 14475 2850 60  0001 L CNN
+F 3 "" H 14475 2950 60  0001 L CNN
+	1    14275 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arvsom:TP_SMD1MM TP?
+U 1 1 60E7D732
+P 14275 2750
+AR Path="/613A40EE/60E7D732" Ref="TP?"  Part="1" 
+AR Path="/60805CC6/60E7D732" Ref="TP19"  Part="1" 
+F 0 "TP19" V 14275 2675 50  0000 R CNN
+F 1 "TP_SMD1MM" H 14275 2650 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_1mm" H 14475 2950 60  0001 L CNN
+F 3 "" H 14475 3050 60  0001 L CNN
+	1    14275 2750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

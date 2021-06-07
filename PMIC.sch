@@ -5073,19 +5073,6 @@ $EndBitmap
 Text Notes 6200 8200 0    118  ~ 24
 5V8 boost regulator
 $Comp
-L arvsom:B3U-3000PM S1
-U 1 1 608A76FB
-P 3500 4850
-F 0 "S1" V 3575 5050 50  0000 C CNN
-F 1 "B3U-3000PM" H 3450 4725 50  0000 C CNN
-F 2 "arvsom-footprints:B3U-3000P" H 3700 5050 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2610940.pdf" H 3700 5150 60  0001 L CNN
-F 4 "B3U-3000PM" H 3696 5243 60  0001 L CNN "MPN"
-F 5 "OMRON" H 3700 5322 60  0001 L CNN "Manufacturer"
-	1    3500 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L arvsom:CSD86330Q3D U4
 U 1 1 608FB66D
 P 9675 3375
@@ -5953,5 +5940,18 @@ F 5 "CRCW02010000Z0ED" H 8700 5975 60  0001 L CNN "MPN"
 F 6 "0R" H 8675 5725 50  0000 C CNN "Val"
 	1    8500 5675
 	1    0    0    -1  
+$EndComp
+$Comp
+L arvsom:B3U-3000PM S1
+U 1 1 608A76FB
+P 3500 4850
+F 0 "S1" V 3575 5050 50  0000 C CNN
+F 1 "B3U-3000PM" H 3450 4725 50  0000 C CNN
+F 2 "arvsom-footprints:B3U-3000P" H 3700 5050 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2610940.pdf" H 3700 5150 60  0001 L CNN
+F 4 "B3U-3000PM" H 3696 5243 60  0001 L CNN "MPN"
+F 5 "OMRON" H 3700 5322 60  0001 L CNN "Manufacturer"
+	1    3500 4850
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC

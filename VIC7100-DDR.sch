@@ -138,50 +138,6 @@ Wire Wire Line
 	4200 7450 3325 7450
 Wire Wire Line
 	4200 7750 3525 7750
-$Comp
-L arvsom:TP_SMD1MM TP5
-U 1 1 61630E41
-P 3225 7150
-F 0 "TP5" V 3225 7075 50  0000 R CNN
-F 1 "TP_SMD1MM" H 3225 7050 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_1mm" H 3425 7350 60  0001 L CNN
-F 3 "" H 3425 7450 60  0001 L CNN
-	1    3225 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L arvsom:TP_SMD1MM TP6
-U 1 1 61631802
-P 3325 7150
-F 0 "TP6" V 3325 7075 50  0000 R CNN
-F 1 "TP_SMD1MM" H 3325 7050 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_1mm" H 3525 7350 60  0001 L CNN
-F 3 "" H 3525 7450 60  0001 L CNN
-	1    3325 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L arvsom:TP_SMD1MM TP7
-U 1 1 6163202C
-P 3425 7150
-F 0 "TP7" V 3425 7075 50  0000 R CNN
-F 1 "TP_SMD1MM" H 3425 7050 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_1mm" H 3625 7350 60  0001 L CNN
-F 3 "" H 3625 7450 60  0001 L CNN
-	1    3425 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L arvsom:TP_SMD1MM TP8
-U 1 1 61632781
-P 3525 7150
-F 0 "TP8" V 3525 7075 50  0000 R CNN
-F 1 "TP_SMD1MM" H 3525 7050 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_1mm" H 3725 7350 60  0001 L CNN
-F 3 "" H 3725 7450 60  0001 L CNN
-	1    3525 7150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3225 7250 3225 7350
 Connection ~ 3225 7350
@@ -483,50 +439,6 @@ Wire Wire Line
 	9575 7450 8700 7450
 Wire Wire Line
 	9575 7750 8900 7750
-$Comp
-L arvsom:TP_SMD1MM TP9
-U 1 1 6170D617
-P 8600 7150
-F 0 "TP9" V 8600 7075 50  0000 R CNN
-F 1 "TP_SMD1MM" H 8600 7050 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_1mm" H 8800 7350 60  0001 L CNN
-F 3 "" H 8800 7450 60  0001 L CNN
-	1    8600 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L arvsom:TP_SMD1MM TP10
-U 1 1 6170D61D
-P 8700 7150
-F 0 "TP10" V 8700 7075 50  0000 R CNN
-F 1 "TP_SMD1MM" H 8700 7050 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_1mm" H 8900 7350 60  0001 L CNN
-F 3 "" H 8900 7450 60  0001 L CNN
-	1    8700 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L arvsom:TP_SMD1MM TP11
-U 1 1 6170D623
-P 8800 7150
-F 0 "TP11" V 8800 7075 50  0000 R CNN
-F 1 "TP_SMD1MM" H 8800 7050 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_1mm" H 9000 7350 60  0001 L CNN
-F 3 "" H 9000 7450 60  0001 L CNN
-	1    8800 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L arvsom:TP_SMD1MM TP12
-U 1 1 6170D629
-P 8900 7150
-F 0 "TP12" V 8900 7075 50  0000 R CNN
-F 1 "TP_SMD1MM" H 8900 7050 50  0001 C CNN
-F 2 "arvsom-footprints:Testpoint_smd_1mm" H 9100 7350 60  0001 L CNN
-F 3 "" H 9100 7450 60  0001 L CNN
-	1    8900 7150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8600 7250 8600 7350
 Connection ~ 8600 7350
@@ -4459,5 +4371,109 @@ F 5 "RC0201FR-0710KL" H 4100 6250 60  0001 L CNN "MPN"
 F 6 "10k" H 4000 5825 50  0000 C CNN "Val"
 	1    3900 5950
 	1    0    0    -1  
+$EndComp
+$Comp
+L arvsom:TP_SMD_0_75MM TP?
+U 1 1 60EABE60
+P 3425 7150
+AR Path="/60805CC6/60EABE60" Ref="TP?"  Part="1" 
+AR Path="/613A40EE/60EABE60" Ref="TP7"  Part="1" 
+F 0 "TP7" V 3425 7025 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 3425 7050 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 3625 7350 60  0001 L CNN
+F 3 "" H 3625 7450 60  0001 L CNN
+	1    3425 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L arvsom:TP_SMD_0_75MM TP?
+U 1 1 60EABE66
+P 3325 7150
+AR Path="/60805CC6/60EABE66" Ref="TP?"  Part="1" 
+AR Path="/613A40EE/60EABE66" Ref="TP6"  Part="1" 
+F 0 "TP6" V 3325 7025 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 3325 7050 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 3525 7350 60  0001 L CNN
+F 3 "" H 3525 7450 60  0001 L CNN
+	1    3325 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L arvsom:TP_SMD_0_75MM TP?
+U 1 1 60EABE6C
+P 3225 7150
+AR Path="/60805CC6/60EABE6C" Ref="TP?"  Part="1" 
+AR Path="/613A40EE/60EABE6C" Ref="TP5"  Part="1" 
+F 0 "TP5" V 3225 7025 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 3225 7050 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 3425 7350 60  0001 L CNN
+F 3 "" H 3425 7450 60  0001 L CNN
+	1    3225 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L arvsom:TP_SMD_0_75MM TP?
+U 1 1 60EAC68C
+P 3525 7150
+AR Path="/60805CC6/60EAC68C" Ref="TP?"  Part="1" 
+AR Path="/613A40EE/60EAC68C" Ref="TP8"  Part="1" 
+F 0 "TP8" V 3525 7025 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 3525 7050 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 3725 7350 60  0001 L CNN
+F 3 "" H 3725 7450 60  0001 L CNN
+	1    3525 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L arvsom:TP_SMD_0_75MM TP?
+U 1 1 60EAF732
+P 8800 7150
+AR Path="/60805CC6/60EAF732" Ref="TP?"  Part="1" 
+AR Path="/613A40EE/60EAF732" Ref="TP11"  Part="1" 
+F 0 "TP11" V 8800 7025 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 8800 7050 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 9000 7350 60  0001 L CNN
+F 3 "" H 9000 7450 60  0001 L CNN
+	1    8800 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L arvsom:TP_SMD_0_75MM TP?
+U 1 1 60EAF738
+P 8700 7150
+AR Path="/60805CC6/60EAF738" Ref="TP?"  Part="1" 
+AR Path="/613A40EE/60EAF738" Ref="TP10"  Part="1" 
+F 0 "TP10" V 8700 7025 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 8700 7050 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 8900 7350 60  0001 L CNN
+F 3 "" H 8900 7450 60  0001 L CNN
+	1    8700 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L arvsom:TP_SMD_0_75MM TP?
+U 1 1 60EAF73E
+P 8600 7150
+AR Path="/60805CC6/60EAF73E" Ref="TP?"  Part="1" 
+AR Path="/613A40EE/60EAF73E" Ref="TP9"  Part="1" 
+F 0 "TP9" V 8600 7025 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 8600 7050 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 8800 7350 60  0001 L CNN
+F 3 "" H 8800 7450 60  0001 L CNN
+	1    8600 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L arvsom:TP_SMD_0_75MM TP?
+U 1 1 60EAF744
+P 8900 7150
+AR Path="/60805CC6/60EAF744" Ref="TP?"  Part="1" 
+AR Path="/613A40EE/60EAF744" Ref="TP12"  Part="1" 
+F 0 "TP12" V 8900 7025 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 8900 7050 50  0001 C CNN
+F 2 "arvsom-footprints:Testpoint_smd_0_75mm" H 9100 7350 60  0001 L CNN
+F 3 "" H 9100 7450 60  0001 L CNN
+	1    8900 7150
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
