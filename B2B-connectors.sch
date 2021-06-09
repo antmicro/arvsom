@@ -675,7 +675,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 6200 5250 6200
 Text GLabel 5250 6200 2    50   Input ~ 0
-5V0_IN
+VCC_5V0
 Wire Wire Line
 	4800 7000 5250 7000
 Wire Wire Line

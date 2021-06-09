@@ -1,4 +1,4 @@
-update=pią, 4 cze 2021, 12:23:30
+update=śro, 9 cze 2021, 13:19:50
 version=1
 last_client=kicad
 [general]
@@ -89,7 +89,7 @@ Name=GND6
 Type=1
 Enabled=1
 [pcbnew/Layer.In6.Cu]
-Name=POWER7
+Name=POWER
 Type=1
 Enabled=1
 [pcbnew/Layer.In7.Cu]
@@ -105,7 +105,7 @@ Name=In9.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In10.Cu]
-Name=GND11
+Name=POWER_IO
 Type=1
 Enabled=1
 [pcbnew/Layer.In11.Cu]
