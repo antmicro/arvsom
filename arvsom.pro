@@ -1,4 +1,4 @@
-update=śro, 9 cze 2021, 13:19:50
+update=pon, 14 cze 2021, 13:57:19
 version=1
 last_client=kicad
 [general]
@@ -250,7 +250,7 @@ ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.4
 uViaDrill=0.2
-dPairWidth=0.13
+dPairWidth=0.1
 dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
