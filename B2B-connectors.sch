@@ -4967,4 +4967,48 @@ Text Notes 9650 3450 0    50   ~ 0
 PCIE_TX_N
 Text GLabel 5250 7000 2    50   Input ~ 0
 BOOT_FROM_UARTn
+$Comp
+L arvsom:PCB_Mount_Hole_2.5 MP1
+U 1 1 60CCB8BB
+P 10650 9800
+F 0 "MP1" H 10858 9846 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5" H 10858 9755 50  0000 L CNN
+F 2 "arvsom-footprints:Mount-hole-M2.5" H 11450 10500 50  0001 C CNN
+F 3 "" H 11600 10600 50  0001 C CNN
+	1    10650 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L arvsom:PCB_Mount_Hole_2.5 MP2
+U 1 1 60CCBC95
+P 10650 10175
+F 0 "MP2" H 10858 10221 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5" H 10858 10130 50  0000 L CNN
+F 2 "arvsom-footprints:Mount-hole-M2.5" H 11450 10875 50  0001 C CNN
+F 3 "" H 11600 10975 50  0001 C CNN
+	1    10650 10175
+	1    0    0    -1  
+$EndComp
+$Comp
+L arvsom:PCB_Mount_Hole_2.5 MP3
+U 1 1 60CCBF28
+P 10650 10550
+F 0 "MP3" H 10858 10596 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5" H 10858 10505 50  0000 L CNN
+F 2 "arvsom-footprints:Mount-hole-M2.5" H 11450 11250 50  0001 C CNN
+F 3 "" H 11600 11350 50  0001 C CNN
+	1    10650 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L arvsom:PCB_Mount_Hole_2.5 MP4
+U 1 1 60CCC4ED
+P 10650 10925
+F 0 "MP4" H 10858 10971 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5" H 10858 10880 50  0000 L CNN
+F 2 "arvsom-footprints:Mount-hole-M2.5" H 11450 11625 50  0001 C CNN
+F 3 "" H 11600 11725 50  0001 C CNN
+	1    10650 10925
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
