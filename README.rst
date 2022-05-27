@@ -4,6 +4,9 @@ ARVSOM - Antmicro RISC-V System on Module
 
 Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 
+.. image:: https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square
+      :target: https://opensource.antmicro.com/projects/arvsom
+
 .. figure:: img/arvsom.png
 
 Overview
